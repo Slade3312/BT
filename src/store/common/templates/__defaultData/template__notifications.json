@@ -1,0 +1,22 @@
+{
+  "CampaignSavedDraft": {
+    "title": {
+      "content": "Ваша кампания сохранена в черновиках",
+      "type": "string"
+    },
+    "description": {
+      "content": "Вы всегда можете продолжить заполнение кампании в разделе <a href=\"/my-campaigns/\">«Мои кампании»</Link>",
+      "type": "html"
+    }
+},
+  "PushAudienceChanged": {
+    "title": {
+      "content": "Ваша аудитория изменилась",
+      "type": "string"
+    },
+    "description": {
+      "content": "Теперь для данного канала включает только пользователей операционной системы Android: {formattedAudience} человек",
+      "type": "html"
+    }
+  }
+}

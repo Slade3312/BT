@@ -1,0 +1,29 @@
+@import "styles/constants.pcss";
+
+.container {
+  position: relative;
+  background-color: #000;
+  height: 45px;
+  z-index: 3;
+  display: flex;
+}
+
+.component {
+  max-width: var(--contentLength);
+  margin: 0 auto;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex: 1 0 100%;
+}
+
+.mobile {
+  height: 25px;
+}
+
+.part {
+  display: flex;
+  margin-left: auto;
+
+  & + & { margin-left: 10px; }
+}

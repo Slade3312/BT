@@ -1,0 +1,69 @@
+{
+  "id": "exampleCampaign",
+  "user": 444,
+  "company": 23,
+  "name": "Тестовый отчёт",
+  "description": null,
+  "selection": {
+    "id": 294,
+    "type": "segmentation",
+    "description": null,
+    "audience": 2258 ,
+    "data": {
+      "age_cat": ["0"],
+      "job_search_ind": "true",
+      "subgroup": ["dog_owners_ind"]
+    }
+  },
+  "custom_segments": {
+    "site": {
+      "id": 798,
+      "campaign": 3942,
+      "data": {
+        "files": [{
+          "file": "some_other_file.csv",
+          "id": "cheburek kek",
+          "items_count": 19,
+          "type": "csv"
+        }],
+        "sites": ["google.com", "apple.ru"]
+      }
+    },
+    "phone": {
+      "id": 423,
+      "campaign": 3942,
+      "data": {
+        "incoming": true,
+        "files": [{
+          "file": "polkan.xlsx",
+          "id": "polkan",
+          "items_count": 28,
+          "type": "xlsx"
+        }],
+        "numbers": ["9689054387", "9037648723", "9670009911"]
+      }
+    }
+  },
+  "orders": [
+    {
+      "id": 798,
+      "files": [],
+      "budget": 30700,
+      "date_start": "2020-03-23",
+      "date_end": "2042-12-30",
+      "data": { "quantityMax": 2289, "quantityMin": 2289 },
+      "event_count_min": 600,
+      "event_count_max": 0,
+      "adv_id": "882b54eee36d45fd9ae10d2ebdf72ef1",
+      "status": "Отклонён",
+      "status_id": 0,
+      "date_updated": "2019-09-30T16:30:08.292520",
+      "channel_type": "Фокус",
+      "channel_uid": "focus",
+      "campaign": 338
+    }
+  ],
+  "status": "Черновик",
+  "status_id": 6,
+  "create_date": null
+}

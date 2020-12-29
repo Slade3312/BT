@@ -1,0 +1,44 @@
+.component {
+  position: fixed;
+  bottom: 115px;
+  right: 25px;
+  z-index: 20;
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+  transition: 400ms ease transform;
+  margin-bottom: 5px;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+.enter {
+  max-height: 0;
+  opacity: 0;
+  transform: scale(0.1) translateY(-50px);
+  transform-origin: right bottom;
+}
+
+.enter.enterActive {
+  max-height: 200px;
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  transition: opacity 300ms ease-in, max-height 500ms ease, 0.5s ease transform;
+}
+
+.exit {
+  max-height: 200px;
+  opacity: 1;
+  transform: scale(1) translateX(0);
+}
+
+.exit.exitActive {
+  max-height: 0;
+  opacity: 0;
+  transform: translateX(50%);
+  transition: opacity 200ms ease-in, max-height 300ms ease 200ms, transform 500ms ease-out;
+}

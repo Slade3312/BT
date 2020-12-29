@@ -1,0 +1,18 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    track: {{.Values.track}}
+  name: {{ template "app.fullname" . }}
+spec:
+  ports:
+  - name: "http-{{ template "app.name" . }}-port"
+    port: {{.Values.port.svc}}
+    protocol: TCP
+    targetPort: {{.Values.port.pod}}
+  selector:
+    app: {{ template "app.fullname" . }}
+    track: {{.Values.track}}
+  sessionAffinity: None
+  type: ClusterIP

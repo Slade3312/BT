@@ -1,0 +1,40 @@
+@import 'styles/constants.pcss';
+
+.component {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  min-width: 263px;
+  padding: 23px 5px 23px 23px;
+  border: 2px solid rgba(40, 40, 40, 0.2);
+  margin-right: 10px;
+  text-align: left;
+
+  &.selected {
+    border-color: #f7c441;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.textGroup {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.label {
+  font: var(--mainFont);
+  white-space: pre-line;
+}
+
+.description {
+  display: inline-block;
+  max-width: 236px;
+  font-size: 13px;
+  color: rgba(40, 40, 40, 0.5);
+  font-family: Arial, sans-serif;
+}

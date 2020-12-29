@@ -1,0 +1,62 @@
+@import "styles/constants.pcss";
+
+.container {
+  position: absolute;
+  z-index: 2;
+  top: 100%;
+  max-height: calc(43px * 6 + 1px);
+  min-width: 100%;
+  left: 0;
+  overflow: auto;
+  margin-top: -1px;
+  border-radius: 0 0 3px 3px;
+  background: #fff;
+  border-top: 1px solid var(--borderColor);
+  box-shadow: 0 4px 3px -4px color(#000 a(25%));
+  -webkit-overflow-scrolling: touch;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  _overflow: hidden;
+  transition: border-color 0.15s;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 5px 20px 5px 10px;
+  min-height: 42px;
+  background: #fff;
+  margin-top: -1px;
+
+  &.compact {
+    white-space: normal;
+  }
+
+  &.dropdown {
+    border: 1px solid rgba(170, 170, 170, 0.45);
+    background: #fff;
+
+    &:last-child { border-radius: 0 0 3px 3px; }
+    & + & { margin-top: -1px; }
+
+    &:not(.selected):hover {
+      z-index: 2;
+      transition: none;
+      border-color: #f9c872;
+      box-shadow: inset 0 0 0 1px #f9c872;
+    }
+  }
+}
+
+.labelContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  font-size: 13px;
+  line-height: 17px;
+  color: rgba(40, 40, 40, 0.5);
+}

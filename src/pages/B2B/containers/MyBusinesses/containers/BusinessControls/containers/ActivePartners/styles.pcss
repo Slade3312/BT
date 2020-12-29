@@ -1,0 +1,147 @@
+@import "styles/constants.pcss";
+
+.holder {
+    margin-top: 10px;
+}
+
+.item {
+    font-size: 17px;
+    font-family: var(--mainFontFamily);
+    padding: 20px 0;
+    
+    width: 100%;
+}
+
+.applied {
+    position: relative;
+    padding-left: 20px;
+    &:before {
+        content: '';
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        position: absolute;
+        display: block;
+        background: #8FE598;
+        top: 28px;
+        left: 1px;
+    }
+}
+
+.awaiting {
+    position: relative;
+    padding-left: 20px;
+    &:before {
+        content: '';
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        position: absolute;
+        display: block;
+        background: #88A3E8;
+        top: 28px;
+        left: 1px;
+    }
+}
+
+.scroll {
+    height: calc(100% - 600px);
+}
+
+.rejected {
+    position: relative;
+    padding-left: 20px;
+    &:before {
+        content: '';
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        position: absolute;
+        display: block;
+        background: #FFA5A5;
+        top: 28px;
+        left: 1px;
+    }
+}
+
+.itemWrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.badgeHolder {
+    display: flex;
+    align-items: center;
+}
+
+.badge {
+    background: #FFDC7D;
+    font-family: var(--mainFontFamily);
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 2px 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .1);
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    background: #c4c4c4;
+    border-radius: 50%;
+}
+
+.itemsList {
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.name {
+    font-size: 21px;
+    font-family: var(--mainFontFamily);
+    margin-left: 10px;
+}
+
+.infoHolder {
+    display: flex;
+}
+
+.actionName {
+    display: flex;
+    font-size: 17px;
+    font-family: var(--mainFontFamily);
+    margin: 10px 0;
+}
+
+.actionDescription {
+    color: #939393;
+    font-size: 17px;
+    font-family: var(--mainFontFamily);
+    margin: 10px 0;
+}
+
+.date {
+    color: #939393;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.requestList {
+    height: 0;
+    overflow: hidden;
+}
+
+.activeList {
+    height: auto;
+}
+
+.arrow {
+    transition: 0.2s ease;
+}
+
+.openedArrow {
+    transform: rotate(180deg);
+}

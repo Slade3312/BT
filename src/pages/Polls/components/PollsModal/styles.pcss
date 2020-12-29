@@ -1,0 +1,144 @@
+@import "styles/constants.pcss";
+
+.popup {
+  padding: 144px 123px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 41px;
+}
+
+.title,
+.description {
+  color: #1e1e22;
+  white-space: pre-wrap;
+}
+
+.description {
+  margin-top: 31px;
+  margin-bottom: 40px;
+  font-size: 21px;
+  white-space: pre-line;
+}
+
+.textArea {
+  height: 155px;
+  width: 350px;
+
+  & textarea {
+    resize: none;
+  }
+
+  & div {
+    text-align: right;
+  }
+}
+
+.button {
+  margin-top: 31px;
+  height: 42px;
+  width: 267px;
+  font-size: 17px;
+}
+
+.buttonPromo {
+  height: 42px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.promoInput {
+  width: 208px;
+  text-align: left;
+}
+
+.promoApplied {
+  margin-top: 10px;
+  color: green;
+  position: absolute;
+  bottom: -21px;
+  left: 211px;
+
+  text-align: left;
+  font-style: italic;
+}
+
+.inputRow {
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.inputRowPromo {
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+  max-width: 100%;
+  margin-bottom: 5px;
+  align-items: baseline;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.label {
+  flex-shrink: 0;
+  font-family: var(--mainFontFamily);
+  font-size: 17px;
+  margin-right: 15px;
+}
+
+.totalTitle {
+  font-family: var(--mainFontFamily);
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.oldPrice {
+  position: relative;
+  color: #acacac;
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    border: 1px solid rgb(244 67 54 / 50%);
+    top: 11px;
+    transform: rotate(8deg);
+  }
+}
+
+.withoutTaxes {
+  color: #acacac;
+}
+
+.totalWrapper {
+  margin: 50px auto auto;
+  width: fit-content;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 350px;
+  height: 75px;
+}
+
+.labelPromo {
+  flex-shrink: 0;
+  font-family: var(--mainFontFamily);
+  font-size: 17px;
+  margin-right: 45px;
+}

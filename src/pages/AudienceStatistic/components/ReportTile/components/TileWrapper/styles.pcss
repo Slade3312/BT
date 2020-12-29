@@ -1,0 +1,21 @@
+@import "styles/constants.pcss";
+
+.component {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  height: 66px;
+  background: white;
+  font: var(--mainFont);
+  font-size: 21px;
+
+  &.bright {
+    background: #fff4d3;
+  }
+
+  &.compact {
+    height: 36px;
+    background: none;
+    font-size: 17px;
+  }
+}

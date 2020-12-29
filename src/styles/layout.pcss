@@ -1,0 +1,84 @@
+@import "styles/constants.pcss";
+
+:root {
+  --wrapper: {
+    width: var(--max-width);
+    max-width: 100%;
+    margin: 0 auto 10px;
+  };
+
+  --main: {
+    background: #fff;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
+
+    @media (--tablet) {
+      border-radius: 4px;
+    }
+  }
+}
+
+.layout {
+  @apply --wrapper;
+
+  padding: 0 var(--padding-mobile);
+
+  @media (--tablet) {
+    margin-bottom: 40px;
+    padding: 0 var(--padding-tablet);
+  }
+}
+
+.mainBlock {
+  @apply --main;
+}
+
+.content {
+  padding: calc(var(--padding-mobile-full) - var(--padding-mobile));
+
+  @media (--tablet) {
+    padding: var(--padding-tablet);
+  }
+}
+
+.contentElastic {
+  padding: var(--padding-mobile) 0;
+
+  @media (--tablet) {
+    padding: var(--padding-tablet) 0;
+  }
+}
+
+.layoutElastic {
+  @apply --wrapper;
+
+  padding: 0;
+
+  @media (--tablet) {
+    margin-bottom: 40px;
+    padding: 0 var(--padding-tablet);
+  }
+
+  & .content {
+    padding-left: var(--padding-mobile-full);
+    padding-right: var(--padding-mobile-full);
+
+    @media (--tablet) {
+      padding: var(--padding-tablet);
+    }
+  }
+}
+
+:global(.fixScroll) {
+  overflow: hidden !important;
+}
+
+:global(.fixScrollIOS) {
+  height: 100vh !important;
+  -webkit-overflow-scrolling: touch;
+
+  & > body {
+    height: 100vh !important;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+}

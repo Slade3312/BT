@@ -1,0 +1,5 @@
+[
+  { "id": 1, "active": true, "name": "Кнопка 1", "button_uid": "btn1" },
+  { "id": 2, "active": true, "name": "Кнопка 2", "button_uid": "btn2" },
+  { "id": 3, "active": true, "name": "Кнопка 3", "button_uid": "btn3" }
+]

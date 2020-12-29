@@ -1,0 +1,82 @@
+@import "styles/constants.pcss";
+
+.component {
+  position: relative;
+  text-align: left;
+  max-width: 100%;
+  height: 44px;
+  background: #fff;
+  font: var(--mainFont);
+  box-shadow: inset 0 2px 1px 0 rgba(0, 0, 0, 0.13);
+  cursor: pointer;
+  user-select: none;
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.stretcher {
+  visibility: hidden;
+  height: 0;
+}
+
+.value {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 34px 0 10px;
+  align-self: stretch;
+  border: 1px solid rgba(170, 170, 170, 0.45);
+  border-radius: 3px;
+  white-space: nowrap;
+
+  span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .opened & {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .empty & { color: color(#282828 alpha(-55%)); }
+
+  &.compact {
+    white-space: normal;
+  }
+}
+
+.fail {
+  border-color: rgba(220, 0, 0, 0.45);
+  box-shadow: inset 0 0 0 1px rgba(220, 0, 0, 0.45);
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transition: transform 0.2s;
+  transform-origin: 50% 50%;
+  color: #505050;
+  right: 11px;
+  margin-top: -2px;
+  pointer-events: none;
+
+  .opened & { transform: rotateX(180deg); }
+}
+
+.input {
+  position: absolute;
+  z-index: -1;
+  width: 1px;
+}
+
+.combinedLeft {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  box-shadow: inset 0 2px 1px 0 rgb(222 222 222);
+}

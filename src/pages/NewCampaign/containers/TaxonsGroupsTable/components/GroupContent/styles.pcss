@@ -1,0 +1,98 @@
+@import "styles/constants.pcss";
+
+.group {
+  padding: 0 10px;
+  margin: 0 -10px;
+  font-family: var(--mainFontFamily);
+  border-top: 1px solid rgba(170, 170, 170, 0.45);
+  cursor: pointer;
+
+  &:first-child {
+    border: 0;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &.disabled {
+    cursor: default;
+  }
+}
+
+.componentIn {
+  display: flex;
+  height: 85px;
+  padding: 0 30px;
+  margin: -1px -30px;
+  transition: all 0.3s ease;
+  align-items: center;
+  position: relative;
+
+  .component:hover & {
+    background: #fff;
+    box-shadow: color(#000 a(0.15)) 0 2px 29px;
+    transition: all 0.05s ease;
+  }
+}
+
+.title {
+  display: flex;
+  flex: 0 0 150px;
+  font-size: 21px;
+  min-width: 165px;
+}
+
+.tabs {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  padding: 20px;
+  overflow: hidden;
+  font-size: 17px;
+  line-height: 25px;
+
+  & span {
+    margin-right: 30px;;
+  }
+}
+
+.expandBtn {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  padding-top: 3px;
+}
+
+.emptyContent {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 4px;
+  flex-grow: 1;
+  font-size: 15px;
+}
+
+.button {
+  display: block;
+  font-size: 17px;
+  padding-right: 10px;
+
+  &::after {
+    content: "›";
+    padding-left: 7px;
+  }
+}
+
+.simpleTab {
+  display: inline-block;
+  margin-right: 15px;
+  height: 30px;
+  white-space: nowrap;
+  font-family: var(--mainFontFamily);
+  font-size: 15px;
+  line-height: 30px;
+  padding: 0 16px;
+  border-radius: 18px;
+  background: var(--ligthSepiaColor);
+}

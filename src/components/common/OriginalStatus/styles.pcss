@@ -1,0 +1,119 @@
+@import "styles/constants.pcss";
+
+.wrapper {
+  position: relative;
+  display: flex;
+  padding: 18px 20px;
+  border-radius: 4px;
+  background: #e6e6e6;
+  font: 13px/1.3846 var(--baseFontFamily);
+  text-align: center;
+
+  @media (--tablet) {
+    font-family: var(--mainFontFamily);
+    font-size: 17px;
+  }
+}
+
+.emoji {
+  height: 50px;
+  margin-right: 20px;
+  flex-shrink: 0;
+
+  img.emojiImage {
+    height: 100%;
+  }
+}
+
+.icon {
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.error {
+  color: #dc0000;
+  background: #fff0f0;
+}
+
+.attention {
+  background: #fef7d0;
+}
+
+.success {
+  color: #fff;
+  background: #8cb785;
+}
+
+.content {
+  width: 100%;
+}
+
+.huge {
+  max-width: none;
+  border-radius: 0;
+  font-size: 21px;
+
+  & .content {
+    max-width: 705px;
+    margin: 0 auto;
+  }
+}
+
+.compact {
+  padding: 10px 15px;
+  font-size: 15px;
+  line-height: 1.35;
+  white-space: inherit;
+
+  &.wide {
+    width: 100%;
+  }
+
+  & .icon {
+    top: -1px;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+}
+
+/*
+.transformer {
+  width: 100%;
+  max-width: none;
+  text-align: center;
+  font-family: var(--mainFontFamily);
+  font-size: 17px;
+
+  @media (--tablet) {
+    width: auto;
+    min-width: 130px;
+    font-size: 15px;
+  }
+}
+
+.centeredText {
+  text-align: center;
+}
+
+.bubble {
+  max-width: none;
+  padding: 0;
+  background: none;
+  font-size: 17px;
+
+  &.withEmoji {
+    padding-left: 55px;
+  }
+
+  & .emoji {
+    left: 20px;
+  }
+}
+*/

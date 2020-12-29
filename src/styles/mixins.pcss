@@ -1,0 +1,11 @@
+@define-mixin wrapperTablet $cols: 12, $gutters: 0, $correction: 0, $width: 1004px, $padding: 44px, $gutter: 44px,
+  $col: 36px {
+  width:
+    calc(
+      $width - ($col * (12 - $cols)) - ($gutter * (11 - ($cols - 1))) - ($padding * 2) - $correction +
+      ($gutters * $gutter)
+    );
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}

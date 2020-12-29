@@ -1,0 +1,80 @@
+@import "styles/layout.pcss";
+@import "styles/mixins.pcss";
+
+.overlay {
+  text-align: center;
+  padding: var(--padding-mobile);
+
+  @media (--tablet) {
+    padding: var(--padding-tablet);
+  }
+}
+
+.component {
+  @mixin wrapperTablet 12;
+
+  animation-name: slideFromTop;
+  animation-duration: 0.5s;
+  z-index: 2;
+  margin-top: 20px;
+  border-radius: 4px;
+  background: #fff;
+  position: relative;
+
+  &.centeredContent {
+    text-align: center;
+  }
+
+  &.wide {
+    width: 100%;
+  }
+
+  &::after {
+    content: '';
+    min-height: inherit;
+    font-size: 0;
+  }
+}
+
+.cross {
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  right: 4px;
+  transition: color 0.15s;
+  color: #979797;
+  border: none;
+  background: none;
+  font-size: 0;
+  cursor: pointer;
+  z-index: 1;
+
+  &:hover {
+    color: #f68b1f;
+  }
+
+  @media (--tablet) {
+    top: 14px;
+    right: 14px;
+  }
+
+  &.noCross {
+    display: none;
+  }
+
+  &.hideCloseButton {
+    visibility: hidden;
+  }
+}
+
+@keyframes slideFromTop {
+  0% {
+    transform: translateY(-100vh);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

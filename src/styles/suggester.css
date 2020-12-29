@@ -1,0 +1,84 @@
+.react-autosuggest__container {
+  position: relative;
+}
+
+.react-autosuggest__input {
+  width: 545px;
+  height: 45px;
+  padding: 10px 35px;
+  font-family: "Officina Serif", serif;
+  font-weight: 300;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+  border: 2px solid #f7c441;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.react-autosuggest__input--open {
+  border-radius: 4px;
+}
+
+.react-autosuggest__suggestions-container {
+  display: block;
+  padding: 0 20px 0 20px;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 51px;
+  width: 545px;
+  max-height: 722px;
+  background-color: #fff;
+  font-family: "Officina Serif", serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid rgba(40, 40, 40, 0.2);
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  z-index: 2;
+  overflow: auto;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  font-family: "Officina Serif", serif;
+  font-size: 15px;
+  line-height: 45px;
+  color: #282828;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #fefaef;
+}
+
+.react-autosuggest__section-container {
+  margin-bottom: 20px;
+}
+
+.react-autosuggest__section-container--first {
+  border-top: 0;
+}
+
+.react-autosuggest__section-title {
+  font-family: "Officina Serif", serif;
+  font-size: 15px;
+  line-height: 45px;
+  color: #777;
+  border-bottom: 1px solid #d4d4d4;
+}

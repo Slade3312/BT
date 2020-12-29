@@ -1,0 +1,24 @@
+doctype html
+html(lang='en')
+  head
+    title Beeline Market Eco
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    if isProduction
+      link(href='/build/bundle.css', rel='stylesheet')
+  body
+    #react-container
+    script(src='/build/bundle.js')
+    if error
+      h2!= '<span>500</span> The following error occured during server rendering<br />\n'
+      pre!= error
+      style.
+        h2 span { font-size: 28px; }
+        body { color: red; padding: 10px 20px; }
+    else
+      noindex
+        script.
+          ReactDOM.render(
+            React.createElement(!{Component}),
+            document.getElementById('react-container')
+          )

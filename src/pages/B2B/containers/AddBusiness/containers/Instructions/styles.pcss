@@ -1,0 +1,127 @@
+@import "styles/constants.pcss";
+
+.header {
+    font-family: var(--mainFontFamily);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.listHolder {
+    display: flex;
+    flex-direction: column;
+    min-height: 316px;
+}
+
+.itemHolder {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.itemTitle {
+    display: flex;
+    font-size: 19px;
+    font-family: var(--mainFontFamily);
+}
+
+.description {
+    display: flex;
+    height: 0;
+    color: #939393;
+    font-size: 17px;
+    font-family: var(--mainFontFamily);
+    overflow: hidden;
+}
+
+.opened {
+    height: auto;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #D4D4D4;
+    border-radius: 50%;
+    margin-right: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dotHolder {
+    position: relative;
+    &:after {
+        content: "";
+        display: block;
+        height: 100%;
+        border-left: 1px solid #D4D4D4;
+        position: absolute;
+        height: calc(100% + 20px);
+        left: 9px;
+        z-index: -1;
+    }
+}
+
+.dotHolder:hover .dot .blackDot,
+.dotHolderLastItem:hover .dot .blackDot {
+    display: flex;
+}
+
+.blackDot {
+    width: 8px;
+    height: 8px;
+    background: #34343B;
+    border-radius: 50%;
+    display: none;
+}
+
+.active {
+    border: 2px solid rgba(247, 196, 65, 0.7);
+    transform: scale(1.5);
+    background: #ffffff;
+    z-index: 1;
+}
+
+.btnHolder {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.backBtn {
+    width: 200px;
+    font-size: 17px;
+    font-family: var(--mainFontFamily);
+    display: flex;
+    color: rgba(40, 40, 40, .5);
+    align-items: center;
+    justify-content: center;
+}
+
+.backBtnText {
+    position: relative;
+    left: 5px;
+    top: 1px;
+    cursor: pointer;
+}
+
+.container {
+    width: 436px;
+}
+
+.pageContainer {
+    display: flex;
+    width: 1034px;
+    margin: 0 auto;
+    padding: 20px 30px 20px;
+    box-sizing: content-box;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.img {
+    height: 410;
+    display: flex;
+    width: 510;
+}

@@ -1,0 +1,228 @@
+{
+  "id": 5149,
+  "user": 1310,
+  "company": 83,
+  "name": "asdfasdf",
+  "description": null,
+  "selection": {
+    "id": 3880,
+    "type": "segmentation",
+    "description": null,
+    "audience": 50204517,
+    "data": {}
+  },
+  "promo_codes": [
+    {
+      "promo_code": "15836",
+      "promo_type": "particular",
+      "promo_type_id": 1,
+      "promo_code_value": 12.0,
+      "promo_code_value_type": "percent",
+      "promo_code_value_type_id": 0,
+      "date_start": "2020-05-27",
+      "date_end": "2020-05-27",
+      "reusable": false,
+      "context_params": "test",
+      "channels": [
+        {
+          "channel_type": "push",
+          "channel_type_id": 2,
+          "value_type": "процент",
+          "value_type_id": 0,
+          "promo_code_value": 100
+        },
+        {
+          "channel_type": "voice-target",
+          "channel_type_id": 2,
+          "value_type": "процент",
+          "value_type_id": 0,
+          "promo_code_value": 50
+        },
+        {
+          "channel_type": "target-sms",
+          "channel_type_id": 1,
+          "value_type": "money unit",
+          "value_type_id": 1,
+          "promo_code_value": 400
+        },
+        {
+          "channel_type": "focus",
+          "channel_type_id": 1,
+          "value_type": "money unit",
+          "value_type_id": 0,
+          "promo_code_value": 50
+        },
+        {
+          "channel_type": "target-internet",
+          "channel_type_id": 2,
+          "value_type": "процент",
+          "value_type_id": 0,
+          "promo_code_value": 50
+        },
+        {
+          "channel_type": "internet",
+          "channel_type_id": 2,
+          "value_type": "процент",
+          "value_type_id": 0,
+          "promo_code_value": 90
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 11652,
+      "files": [],
+      "industry_docs": [],
+      "budget": 50033,
+      "date_start": null,
+      "date_end": null,
+      "data": {
+        "my_target_banner_status": 7,
+        "my_target_banner_moderation_reasons": [
+          "Основное изображение не подходит, уберите с него текст или уменьшите его, текст не должен занимать более 30% изображения"
+        ]
+      },
+      "links": [],
+      "event_count_min": 0,
+      "event_count_max": null,
+      "adv_id": null,
+      "status": "Модерация",
+      "date_updated": "2020-08-13T12:38:56.421401",
+      "is_empty": false,
+      "is_active": true,
+      "save_without_auto_report": false,
+      "is_moderation_passed": false,
+      "order_segment_id": null,
+      "channel_type": "target-internet",
+      "campaign": 5149,
+      "status_id": 7,
+      "channel_uid": "target-internet"
+    },
+    {
+      "id": 11651,
+      "files": [],
+      "industry_docs": [],
+      "budget": 40033,
+      "date_start": null,
+      "date_end": null,
+      "data": {},
+      "links": [],
+      "event_count_min": 0,
+      "event_count_max": null,
+      "adv_id": null,
+      "status": "Создан",
+      "date_updated": "2020-08-13T12:30:03.074245",
+      "is_empty": false,
+      "is_active": true,
+      "save_without_auto_report": false,
+      "is_moderation_passed": false,
+      "order_segment_id": null,
+      "channel_type": "Push-уведомления",
+      "campaign": 5149,
+      "status_id": 0,
+      "channel_uid": "push"
+    },
+    {
+      "id": 11650,
+      "files": [
+        {
+          "id": 1755,
+          "file": "http://marketing.kube.vimpelcom.ru/api/v1/client/brandfile/1755/69201B12-9569-41BC-BEFD-2C932DC830BB_1_201_a.jpeg/",
+          "type": "брэнд файл",
+          "name": "69201B12-9569-41BC-BEFD-2C932DC830BB_1_201_a.jpeg",
+          "is_logo": false,
+          "is_square": false,
+          "type_id": 0
+        }
+      ],
+      "industry_docs": [],
+      "budget": 20033,
+      "date_start": null,
+      "date_end": null,
+      "data": {},
+      "links": [],
+      "event_count_min": 0,
+      "event_count_max": null,
+      "adv_id": null,
+      "status": "Создан",
+      "date_updated": "2020-08-13T12:30:03.015480",
+      "is_empty": false,
+      "is_active": true,
+      "save_without_auto_report": false,
+      "is_moderation_passed": false,
+      "order_segment_id": null,
+      "channel_type": "Таргетированная SMS-рассылка",
+      "campaign": 5149,
+      "status_id": 0,
+      "channel_uid": "target-sms"
+    },
+    {
+      "id": 11649,
+      "files": [],
+      "industry_docs": [],
+      "budget": 20002,
+      "date_start": null,
+      "date_end": null,
+      "data": {},
+      "links": [],
+      "event_count_min": 0,
+      "event_count_max": null,
+      "adv_id": null,
+      "status": "Создан",
+      "date_updated": "2020-08-13T12:30:02.996687",
+      "is_empty": false,
+      "is_active": true,
+      "save_without_auto_report": false,
+      "is_moderation_passed": false,
+      "order_segment_id": null,
+      "channel_type": "Таргетированный голосовой обзвон",
+      "campaign": 5149,
+      "status_id": 0,
+      "channel_uid": "voice-target"
+    },
+    {
+      "id": 11648,
+      "files": [],
+      "industry_docs": [],
+      "budget": 50033,
+      "date_start": null,
+      "date_end": null,
+      "data": {},
+      "links": [],
+      "event_count_min": 0,
+      "event_count_max": null,
+      "adv_id": null,
+      "status": "Создан",
+      "date_updated": "2020-08-13T12:30:02.975537",
+      "is_empty": false,
+      "is_active": true,
+      "save_without_auto_report": false,
+      "is_moderation_passed": false,
+      "order_segment_id": null,
+      "channel_type": "Интернет-реклама",
+      "campaign": 5149,
+      "status_id": 0,
+      "channel_uid": "internet"
+    }
+  ],
+  "create_date": "2020-08-13",
+  "custom_segments": {
+    "phone": {
+      "id": 1306,
+      "segment_type": 1,
+      "data": {},
+      "is_active": false,
+      "custom_segment_files": []
+    },
+    "site": {
+      "id": 1305,
+      "segment_type": 0,
+      "data": {},
+      "is_active": false,
+      "custom_segment_files": []
+    }
+  },
+  "status_id": 5,
+  "status": "Модерация"
+}

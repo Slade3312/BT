@@ -1,0 +1,53 @@
+.component {
+  position: relative;
+  display: inline-block;
+  max-width: 180px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35px;
+    height: 100%;
+    background: linear-gradient(270deg, #fff 25%, rgba(255, 255, 255, 0) 90%);
+  }
+
+  &.hasNoGradient {
+    white-space: normal;
+
+    &::after {
+      background: transparent;
+    }
+  }
+}
+
+.draftComponent {
+  position: relative;
+  display: inline-block;
+  max-width: 180px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35px;
+    height: 100%;
+    background: linear-gradient(270deg, #f3eacd 25%, rgba(255, 255, 255, 0) 90%);
+  }
+
+  &.hasNoGradient {
+    white-space: normal;
+
+    &::after {
+      background: transparent;
+    }
+  }
+}

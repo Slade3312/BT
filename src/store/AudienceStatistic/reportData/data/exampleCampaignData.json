@@ -1,0 +1,50 @@
+{
+  "id": "exampleCampaign",
+  "user": 444,
+  "company": 23,
+  "name": "Тестовый отчёт",
+  "description": null,
+  "selection": {
+    "id": 294,
+    "type": "segmentation",
+    "description": null,
+    "audience": 2258,
+    "data": {
+      "age_cat": ["0"],
+      "job_search_ind": "true",
+      "subgroup": ["dog_owners_ind"]
+    }
+  },
+  "orders": [
+    {
+      "id": 798,
+      "files": [
+        {
+          "id": 391,
+          "file": "http://marketing.kube.vimpelcom.ru/api/v1/client/brandfile/391/owl1_YUXnO7Z.png/",
+          "type": "фокус",
+          "type_id": 3
+        }
+      ],
+      "budget": 30700,
+      "date_start": "2020-02-05",
+      "date_end": "2042-12-30",
+      "data": {
+        "quantityMin": 171857,
+        "quantityMax": 171857
+      },
+      "event_count_min": 600,
+      "event_count_max": 0,
+      "adv_id": "882b54eee36d45fd9ae10d2ebdf72ef1",
+      "status": "Отклонён",
+      "status_id": 0,
+      "date_updated": "2019-09-30T16:30:08.292520",
+      "channel_type": "Фокус",
+      "channel_uid": "focus",
+      "campaign": 338
+    }
+  ],
+  "status": "Черновик",
+  "status_id": 6,
+  "create_date": null
+}

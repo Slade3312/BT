@@ -1,0 +1,2 @@
+export const REPORT_FILTER_FORM = 'REPORT_FILTER_FORM';
+

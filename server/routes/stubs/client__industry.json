@@ -1,0 +1,162 @@
+[
+  {
+    "id": 4,
+    "name_eng": "wholesale",
+    "name_ru": "Оптовая торговля"
+  },
+  {
+    "id": 5,
+    "name_eng": "food_beverage",
+    "name_ru": "Рестораны и кафе"
+  },
+  {
+    "id": 6,
+    "name_eng": "media",
+    "name_ru": "Медиа и реклама"
+  },
+  {
+    "id": 7,
+    "name_eng": "production",
+    "name_ru": "Производство"
+  },
+  {
+    "id": 8,
+    "name_eng": "logistics",
+    "name_ru": "Логистика/Перевозки"
+  },
+  {
+    "id": 9,
+    "name_eng": "forestry",
+    "name_ru": "Лесное хозяйство, охота"
+  },
+  {
+    "id": 11,
+    "name_eng": "entertainment",
+    "name_ru": "Культура/Развлечения"
+  },
+  {
+    "id": 12,
+    "name_eng": "telecom",
+    "name_ru": "Связь"
+  },
+  {
+    "id": 13,
+    "name_eng": "other",
+    "name_ru": "Прочая деятельность"
+  },
+  {
+    "id": 14,
+    "name_eng": "medicine",
+    "name_ru": "Медицинские учреждения"
+  },
+  {
+    "id": 15,
+    "name_eng": "building",
+    "name_ru": "Строительство"
+  },
+  {
+    "id": 16,
+    "name_eng": "oil_gas",
+    "name_ru": "Нефтегаз"
+  },
+  {
+    "id": 17,
+    "name_eng": "tourism",
+    "name_ru": "Туризм"
+  },
+  {
+    "id": 18,
+    "name_eng": "car_dealers",
+    "name_ru": "Автодилеры"
+  },
+  {
+    "id": 19,
+    "name_eng": "transportation",
+    "name_ru": "Перевозка пассажиров"
+  },
+  {
+    "id": 20,
+    "name_eng": "sport",
+    "name_ru": "Спорт"
+  },
+  {
+    "id": 21,
+    "name_eng": "publishing",
+    "name_ru": "Издательская деятельность"
+  },
+  {
+    "id": 22,
+    "name_eng": "estate",
+    "name_ru": "Недвижимость"
+  },
+  {
+    "id": 23,
+    "name_eng": "energy",
+    "name_ru": "Энергетика"
+  },
+  {
+    "id": 24,
+    "name_eng": "security",
+    "name_ru": "Охранная деятельность"
+  },
+  {
+    "id": 25,
+    "name_eng": "agriculture",
+    "name_ru": "Агро"
+  },
+  {
+    "id": 26,
+    "name_eng": "law",
+    "name_ru": "Деятельность в области права, включая деятельность коллекторов"
+  },
+  {
+    "id": 27,
+    "name_eng": "finance",
+    "name_ru": "Финансы и кредит"
+  },
+  {
+    "id": 28,
+    "name_eng": "education",
+    "name_ru": "Образование"
+  },
+  {
+    "id": 29,
+    "name_eng": "municipal_services",
+    "name_ru": "ЖКХ"
+  },
+  {
+    "id": 30,
+    "name_eng": "architecture",
+    "name_ru": "Инженерная, проектная, изыскательная и архитектурная деятельность"
+  },
+  {
+    "id": 31,
+    "name_eng": "rent",
+    "name_ru": "Аренда и лизинг оборудования"
+  },
+  {
+    "id": 33,
+    "name_eng": "government",
+    "name_ru": "Гос. органы"
+  },
+  {
+    "id": 34,
+    "name_eng": "fishing",
+    "name_ru": "Рыбная промышленность"
+  },
+  {
+    "id": 3,
+    "name_eng": "it",
+    "name_ru": "Компьютеры, ПО и деятельность в сфере ИТ"
+  },
+  {
+    "id": 32,
+    "name_eng": "mining",
+    "name_ru": "Добыча полезных ископаемых"
+  },
+  {
+    "id": 10,
+    "name_eng": "services",
+    "name_ru": "Услуги"
+  }
+]

@@ -1,0 +1,45 @@
+@import "styles/constants.pcss";
+
+.component {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  max-width: 300px;
+  width: 100%;
+  margin: 15px 0 5px 0;
+  transition: color 0.3s;
+
+  &:hover {
+    color: var(--activeColor);
+  }
+
+  &::after {
+    content: '›';
+    display: block;
+    width: 14px;
+    height: 14px;
+    line-height: 1;
+    font-size: 21px;
+    margin-left: auto;
+    transform: translateY(-5px);
+  }
+
+  &.disabled::after {
+    display: none;
+  }
+}
+
+.link {
+  font-size: 21px;
+  border-bottom: 1px solid #d6d6d6;
+  white-space: pre-line;
+  transition: border-color 0.3s;
+
+  .container:hover & {
+    border-color: var(--activeColor);
+  }
+
+  .disabled & {
+    color: var(--disabledTextColor);
+  }
+}

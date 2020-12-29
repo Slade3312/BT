@@ -1,0 +1,266 @@
+{
+  "MainBanner": {
+    "title": {
+      "content": "Мобильные опросы",
+      "type": "string"
+    },
+    "secondTitle": {
+      "content": "Оставьте заявку и получите скидку 10% на первый заказ.",
+      "type": "string"
+    },
+    "description": {
+      "content": "Если вам нужна помощь с настройками опроса, просто напишите нам, и мы окажем вам помощь с составлением анкеты, построением разрезов, выводами и рекомендациями. Ваш отчет может быть брендирован под цвета вашей компании.",
+      "type": "string"
+    },
+    "button": {
+      "content": "Обратиться к специалисту",
+      "type": "string"
+    },
+    "imgUrl": {
+      "content": "https://static.beeline.ru/upload/images/marketing/poll_banner_01.png",
+      "type": "string"
+    }
+  },
+  "Tariffs": {
+    "title": {
+      "content": "Выберите один из предложенных тарифов и отправьте заявку",
+      "type": "string"
+    }
+  },
+  "TariffCard": {
+    "buttonStart": {
+      "content": "Отправить заявку",
+      "type": "string"
+    },
+    "buttonPrice": {
+      "content": "Посмотреть полный прайс-лист",
+      "type": "string"
+    }
+  },
+  "PollsList": {
+    "header": {
+      "content": "Мои опросы",
+      "type": "string"
+    },
+    "showMoreButton": {
+      "content": "Показать ещё ",
+      "type": "string"
+    },
+    "profile": {
+      "content": "Данные анкеты",
+      "type": "string"
+    },
+    "report": {
+      "content": "Отчёт",
+      "type": "string"
+    }
+  },
+  "RemovePollModal": {
+    "header": {
+      "content": "Удалить опрос?",
+      "type": "string"
+    },
+    "description": {
+      "content": "Опрос перестанет быть доступен, как только вы нажмёте «Удалить».",
+      "type": "string"
+    },
+    "accept": {
+      "content": "Удалить",
+      "type": "string"
+    },
+    "decline": {
+      "content": "Отменить",
+      "type": "string"
+    }
+  },
+  "FiltersPanel": {
+    "textfield": {
+      "content": "Поиск по названию",
+      "type": "string"
+    },
+    "select": {
+      "content": "Статус",
+      "type": "string"
+    },
+    "date": {
+      "content": "Дата",
+      "type": "string"
+    }
+  },
+  "PollsModal": {
+    "title": {
+      "content": "Отправьте информацию о вашем опросе",
+      "type": "string"
+    },
+    "description": {
+      "content": "Заполните, пожалуйста, максимально подробно запрос на проведение опроса",
+      "type": "string"
+    },
+    "placeholder": {
+      "content": "Например:\n\nМы хотели бы обновить меню нашего ресторана и увеличить ассортимент блюд, хотим узнать о предпочтениях клиента",
+      "type": "string"
+    },
+    "button": {
+      "content": "Отправить заявку",
+      "type": "string"
+    },
+    "fieldName": {
+      "content": "Заявка",
+      "type": "string"
+    }
+  },
+  "PollsSuccessModal": {
+    "title": {
+      "content": "Ваш опрос отправлен",
+      "type": "string"
+    },
+    "description": {
+      "content": "Наш сотрудник свяжется с вами для уточнения параметров вашей кампании",
+      "type": "string"
+    },
+    "button": {
+      "content": "Вернуться на главную",
+      "type": "string"
+    }
+  },
+  "PollsFailModal": {
+    "title": {
+      "content": "Что-то пошло не так...",
+      "type": "string"
+    },
+    "description": {
+      "content": "Попробуйте повторить чуть позднее.",
+      "type": "string"
+    },
+    "button": {
+      "content": "Закрыть",
+      "type": "string"
+    }
+  },
+  "AdvisesCards": {
+    "items": [{
+      "icon": {
+        "content": "question",
+        "type": "string"
+      },
+      "button": {
+        "content": "Показать другой совет",
+        "type": "string"
+      },
+      "title": {
+        "content": "Как проходит опрос?",
+        "type": "string"
+      },
+      "description": {
+        "content": "1. Вы отправляете заявку на проведение мобильного опроса.\n\n2. Специалисты Билайн помогают вам сформулировать вопросы анкеты и определить параметры выборки целевой аудитории.\n\n3. Соответствующий вашему профилю клиент получает предложение пройти опрос.\n\n4. Маркетологи-аналитики Билайн собирают данные\n и интерпретируют ответы респондентов.\n\n5. Вы получаете готовый отчет с выводами\n и рекомендациями.",
+        "type": "string"
+      }
+    }]
+  },
+  "QuestionsCard": {
+    "icon": {
+      "content": "question",
+      "type": "string"
+    },
+    "buttonText": {
+      "content": "Показать другой вопрос",
+      "type": "string"
+    },
+    "buttonHref": {
+      "content": "/faq/9",
+      "type": "string"
+    },
+    "title": {
+      "content": "Часто задаваемые вопросы",
+      "type": "string"
+    },
+    "question": {
+      "content": "Зачем мне заказывать опрос через ваш сервис?",
+      "type": "string"
+    },
+    "answer": {
+      "content": "- У нас собственная база респондентов, вам не нужно их искать \n- Мы можем выбрать до 700 настроек таргетинга аудитории\n- Мы подготовим отчет с результатами за 72 часа",
+      "type": "string"
+    }
+  },
+  "TestPoll": {
+    "title": {
+      "content": "Тестовый отчёт «Определение предпочтений\n Клиентов по продуктам питания торговой сети»",
+      "type": "string"
+    },
+    "statement1": {
+      "content": "Вид исследования",
+      "type": "string"
+    },
+    "statement2": {
+      "content": "Метод сбора данных",
+      "type": "string"
+    },
+    "statement3": {
+      "content": "Кол-во респондентов",
+      "type": "string"
+    },
+    "statement4": {
+      "content": "Описание респондентов",
+      "type": "string"
+    },
+    "statement5": {
+      "content": "Статистическая надёжность выводов",
+      "type": "string"
+    },
+    "statement6": {
+      "content": "Погрешность по выборке (1100 анкет)",
+      "type": "string"
+    },
+    "statement7": {
+      "content": "По выборке конкурентов (400 анкет)",
+      "type": "string"
+    },
+    "result1": {
+      "content": "Описательное, количественное",
+      "type": "string"
+    },
+    "result2": {
+      "content": "Размещение таргетированного предложения пройти опрос в мобильном приложении «Мой Билайн»",
+      "type": "string"
+    },
+    "result3": {
+      "content": "1500",
+      "type": "string"
+    },
+    "result4": {
+      "content": "Клиенты торговой сети 1100/Клиенты конкурентов 400",
+      "type": "string"
+    },
+    "result5": {
+      "content": "при 95% доверительном уровне",
+      "type": "string"
+    },
+    "result6": {
+      "content": "±2,5%",
+      "type": "string"
+    },
+    "result7": {
+      "content": "±5,7%",
+      "type": "string"
+    }
+  },
+  "TestChart": {
+    "header": {
+      "content": "Частота посещения торговой сети и посещение ресторана",
+      "type": "string"
+    },
+    "image": {
+      "content": "https://static.beeline.ru/upload/images/marketing/test_poll_2.png",
+      "type": "string"
+    },
+    "button": {
+      "content": "Скачать отчет в PDF",
+      "type": "string"
+    },
+    "file": {
+      "content": "https://static.beeline.ru/upload/images/marketing/demo_report.pdf",
+      "type": "string"
+    }
+  }
+}

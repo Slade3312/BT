@@ -1,0 +1,29 @@
+@import "styles/constants.pcss";
+
+.component {
+  position: relative;
+  user-select: none;
+}
+
+.value {
+  position: relative;
+  cursor: pointer;
+}
+
+.content {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transition: transform 0.2s;
+  transform-origin: 50% 50%;
+  color: var(--borderColor);
+  right: 10px;
+  margin-top: -2px;
+
+  .opened & { transform: rotateX(180deg); }
+}

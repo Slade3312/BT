@@ -1,0 +1,25 @@
+@import "styles/constants.pcss";
+
+.component {
+  display: inline;
+  align-items: center;
+  font: var(--mainFont);
+  line-height: 18px;
+  white-space: pre-wrap;
+}
+
+.field {
+  line-height: 18px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    color: var(--linkHoverColor);
+    border-bottom-color: var(--linkHoverColor);
+    cursor: pointer;
+  }
+}
+
+.wrapper {
+  display: inline;
+  width: 100%;
+}

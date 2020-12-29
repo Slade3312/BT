@@ -1,0 +1,52 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.component {
+  margin-bottom: 37px;
+  min-height: 180px;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.row {
+  margin-bottom: 5px;
+  padding: 0 0 0 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.reloadBtn {
+  margin-left: auto;
+  margin-right: 10px;
+  cursor: pointer;
+  height: 25px;
+}
+
+.reloadTooltip {
+  display: inline-block;
+  position: relative;
+  top: 8px;
+}
+
+.loading {
+  animation: rotation 3s linear infinite;
+  height: 25px;
+  position: relative;
+}
+
+.name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

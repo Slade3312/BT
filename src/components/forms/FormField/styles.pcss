@@ -1,0 +1,48 @@
+@import "styles/constants.pcss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  &.right {
+    flex-flow: row;
+  }
+}
+
+.inline {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.label {
+  margin-bottom: 7px;
+
+  .inline & {
+    order: 99999;
+    margin-left: 14px;
+  }
+
+  &.leftLabel {
+    display: flex;
+    align-items: center;
+    flex-basis: 200px;
+    flex-shrink: 0;
+    padding-bottom: 15px;
+    color: var(--lightGrayLabelColor);
+  }
+}
+
+.base {
+  width: 276px;
+}
+
+.labelContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  font-size: 13px;
+  line-height: 17px;
+  color: rgba(40, 40, 40, 0.5);
+}

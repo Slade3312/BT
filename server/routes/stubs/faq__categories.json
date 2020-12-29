@@ -1,0 +1,129 @@
+[
+    {
+        "url": 2,
+        "category": "Стоимость",
+        "faqs": [
+            {
+                "id": 7,
+                "question": "<p>Стоимость услуг: какова минимальная сумма заказа рекламных услуг?</p>",
+                "answer": "<p>&nbsp;</p>\r\n<ul>\r\n<li>Таргет SMS &ndash; от 13 860 руб. с НДС</li>\r\n<li>Интернет-реклама &ndash; от 15 000 руб. с НДС</li>\r\n<li>Голосовой обзвон &ndash; от 30 000 руб. с НДС (или минимум 600 CTN)</li>\r\n</ul>\r\n<p><a href=\"https://static.beeline.ru/upload/images/marketing/price_sms.pdf\">Тарифы </a>&laquo;<a href=\"https://static.beeline.ru/upload/images/marketing/price_sms.pdf\">Таргетированная SMS-рассылка</a>&raquo;</p>\r\n<p><a href=\"https://static.beeline.ru/upload/images/marketing/price_internet.pdf\">Тарифы </a>&laquo;<a href=\"https://static.beeline.ru/upload/images/marketing/price_internet.pdf\">Интернет-реклама</a>&raquo;</p>\r\n<p><a href=\"https://static.beeline.ru/upload/images/marketing/price-voice2.pdf\">Тарифы &laquo;Голосовой обзвон&raquo;</a></p>"
+            },
+            {
+                "id": 8,
+                "question": "В чем особенности расчета стоимости услуги Таргетированная SMS-рассылка?",
+                "answer": "<p>В интерфейсе автоматически рассчитывается предварительная стоимость по формуле:</p>\r\n<p>Бюджет разделить на стоимость одного SMS-сообщения, где стоимость 1 SMS-сообщение рассчитывается по формуле: 1) Стоимость таргета + 2) 4,29 руб. с НДС.</p>\r\n<p>Калькулятор настроен таким образом, что предварительный расчет строится на средней длине SMS-сообщения, состоящей из 210 символов (или 3-ёх &laquo;сегментов&raquo;).</p>\r\n<p>Под &laquo;сегментом&raquo; в прайс-листе понимается &ndash; 70 символов.</p>\r\n<p>Итоговый счет выставляется менеджером Таргет СМС. Соответственно если текст смс-ки короче 70 символов, он заплатит 1,79 руб. за 1 SMS.</p>"
+            },
+            {
+                "id": 9,
+                "question": "Как происходит расчет за услуги рекламы?",
+                "answer": "<p>После отправки заявки на обработку вы получите счет на оплату. После оплаты счета Билайн информирует о старте рекламной кампании.</p>\r\n<p></p>\r\n<p><strong>Для КА|</strong><strong>LA</strong></p>\r\n<p>Начисления делаются ежемесячно за фактически оказанные услуги рекламы в текущем отчетном периоде (месяце). За каждый канал размещения рекламы (каждый продукт &ndash; таргет смс, таргетированный контакт, интернет-реклама) &ndash; отдельное начисление в счете.</p>"
+            },
+            {
+                "id": 13,
+                "question": "Тестовый вопрос",
+                "answer": "<p>Тестовый ответ на тестовый вопрос</p>\r\n<p><img src=\"/media/uploads/14.png\" alt=\"\" width=\"1440\" height=\"3802\" /></p>\r\n<p>&nbsp;<img src=\"/media/_versions/14_large.png\" alt=\"\" width=\"680\" height=\"1796\" /></p>\r\n<p><img src=\"/media/_versions/14_medium.png\" alt=\"\" width=\"300\" height=\"793\" /></p>\r\n<p><img src=\"/media/_versions/14_small.png\" alt=\"\" width=\"140\" height=\"370\" /></p>\r\n<p><img src=\"/media/uploads/%D0%BA%D0%BE%D1%82%D0%B8%D0%BA.jpg\" alt=\"\" width=\"3000\" height=\"2000\" /></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit enim ut tellus imperdiet, quis tempor nisl euismod. Nulla facilisi. Pellentesque commodo tempus libero, sit amet semper eros imperdiet quis. Cras iaculis consectetur urna vel varius. In quis maximus orci. Fusce tempus ex ut augue fringilla, sed porttitor neque tempus. Donec consectetur nulla eu metus posuere iaculis. Sed hendrerit rutrum sem, vitae ultrices dolor interdum in. Integer in vestibulum enim. Nulla tempus dolor in mauris pretium vehicula. Sed dignissim, ante quis varius gravida, odio ex vehicula metus, sed venenatis justo odio eget velit. Sed id erat at ligula maximus sollicitudin id eget neque. Mauris accumsan arcu sit amet odio volutpat, sed vestibulum metus aliquam. In sodales dapibus arcu et lobortis. Praesent congue mattis magna in eleifend. Phasellus eu facilisis magna, sed rhoncus leo. Mauris mauris justo, sodales et arcu eu, tincidunt convallis arcu. Vivamus sit amet mattis quam, at commodo lectus. Nam id mattis ipsum. Nam non ligula quis nisi tincidunt lobortis eu non purus. Proin eu aliquet sapien. Aliquam elit lectus, scelerisque at urna fermentum, placerat porttitor neque. Phasellus sagittis orci pulvinar, vehicula dui ac, venenatis massa. Etiam euismod sapien ac ex pharetra, at blandit felis dignissim.</p>"
+            },
+            {
+                "id": 14,
+                "question": "Тестовый вопрос2",
+                "answer": "<p><span style=\"font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; text-align: justify;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit enim ut tellus imperdiet, quis tempor nisl euismod. Nulla facilisi. Pellentesque commodo tempus libero, sit amet semper eros imperdiet quis. Cras iaculis consectetur urna vel varius. In quis maximus orci. Fusce tempus ex ut augue fringilla, sed porttitor neque tempus. Donec consectetur nulla eu metus posuere iaculis. Sed hendrerit rutrum sem, vitae ultrices dolor interdum in. Integer in vestibulum enim. Nulla tempus dolor in mauris pretium vehicula. Sed dignissim, ante quis varius gravida, odio ex vehicula metus, sed venenatis justo odio eget velit. Sed id erat at ligula maximus sollicitudin id eget neque. Mauris accumsan arcu sit amet odio volutpat, sed vestibulum metus aliquam.</span></p>\r\n<p><img src=\"/media/_versions/%D0%BA%D0%BE%D1%82%D0%B8%D0%BA_medium.jpg\" alt=\"\" width=\"300\" height=\"200\" />&nbsp;<img src=\"/media/_versions/%D0%BA%D0%BE%D1%82%D0%B8%D0%BA2_medium.jpg\" alt=\"\" width=\"300\" height=\"200\" />&nbsp;<img src=\"/media/_versions/owl1_small.png\" alt=\"\" width=\"140\" height=\"124\" /></p>\r\n<p><span style=\"font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; text-align: justify;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit enim ut tellus imperdiet, quis tempor nisl euismod. Nulla facilisi. Pellentesque commodo tempus libero, sit amet semper eros imperdiet quis. Cras iaculis consectetur urna vel varius. In quis maximus orci. Fusce tempus ex ut augue fringilla, sed porttitor neque tempus. Donec consectetur nulla eu metus posuere iaculis. Sed hendrerit rutrum sem, vitae ultrices dolor interdum in. Integer in vestibulum enim. Nulla tempus dolor in mauris pretium vehicula. Sed dignissim, ante quis varius gravida, odio ex vehicula metus, sed venenatis justo odio eget velit. Sed id erat at ligula maximus sollicitudin id eget neque. Mauris accumsan arcu sit amet odio volutpat, sed vestibulum metus aliquam.</span></p>"
+            }
+        ],
+        "active": true
+    },
+    {
+        "url": 1,
+        "category": "О продукте",
+        "faqs": [
+            {
+                "id": 1,
+                "question": "Что представляет собой продукт Билайн Продвижение?",
+                "answer": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; text-align: justify; line-height: normal;\"><span style=\"font-size: 10.0pt; font-family: 'Verdana',sans-serif;\">Единая экосистема, позволяющая осуществлять поиск новых клиентов по таргетингу и проводить таргетированные рекламные кампании: интернет-рекламу (баннер или контекстная реклама), таргетированную </span><span style=\"font-size: 10.0pt; font-family: 'Verdana',sans-serif; mso-ansi-language: EN-US;\" lang=\"EN-US\">SMS</span><span style=\"font-size: 10.0pt; font-family: 'Verdana',sans-serif;\">-рассылку, таргетированные голосовые звонки.</span></p>"
+            },
+            {
+                "id": 2,
+                "question": "Какие услуги входят в состав Билайн Продвижение?",
+                "answer": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\"><span style=\"font-size: 10.0pt; font-family: 'Verdana',sans-serif;\">В экосистему входят следующие продукты:</span></p>\r\n<ul>\r\n<li><span style=\"font-size: 10.0pt; font-family: 'Verdana',sans-serif;\">Анализ аудитории</span></li>\r\n<li><span style=\"font-size: 10pt; font-family: Verdana, sans-serif;\">Таргетированные </span><span style=\"font-size: 10pt; font-family: Verdana, sans-serif;\" lang=\"EN-US\">SMS</span><span style=\"font-size: 10pt; font-family: Verdana, sans-serif;\">-рассылки</span></li>\r\n<li><span style=\"font-family: Verdana, sans-serif; font-size: 10pt;\">Реклама в интернете</span></li>\r\n<li><span style=\"font-family: Verdana, sans-serif; font-size: 10pt;\">Таргетированные голосовые звонки</span></li>\r\n</ul>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\"><span style=\"font-size: 10.0pt; font-family: 'Verdana',sans-serif;\">&nbsp;</span></p>"
+            },
+            {
+                "id": 3,
+                "question": "<p><span style=\"font-size: 10.0pt; line-height: 107%; font-family: 'Verdana',sans-serif; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: RU; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Что понимается под &laquo;таргетингом&raquo;?</span></p>",
+                "answer": "<p><span style=\"font-size: 10.0pt; line-height: 107%; font-family: 'Verdana',sans-serif; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: RU; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Под Таргетингом понимается согласованная Абонентом с Билайн совокупность критериев таргетирования списка Пользователей Абонента.</span></p>"
+            },
+            {
+                "id": 4,
+                "question": "<p>Что такое выбор аудитории?</p>",
+                "answer": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; text-align: justify; line-height: normal;\"><span style=\"font-size: 10.0pt; font-family: 'Verdana',sans-serif;\">В основе подбора аудитории &mdash; технологии, которые позволяют сформировать выборку из максимально релевантных абонентов. Вы можете выбирать и сегментировать аудиторию по ряду параметров:</span></p>\r\n<ul>\r\n<li><span style=\"font-family: Verdana, sans-serif; font-size: 10pt; text-align: justify;\">География</span></li>\r\n<li><span style=\"font-family: Verdana, sans-serif; font-size: 10pt; text-align: justify;\">Пол и возраст</span></li>\r\n<li><span style=\"font-family: Verdana, sans-serif; font-size: 10pt; text-align: justify;\">Интересы и предпочтения</span></li>\r\n<li><span style=\"font-family: Verdana, sans-serif; font-size: 10pt; text-align: justify;\">Использование гаджетов</span></li>\r\n<li><span style=\"font-family: Verdana, sans-serif; font-size: 10pt; text-align: justify;\">Наличие собственности</span></li>\r\n</ul>\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; text-align: justify; line-height: normal;\"><span style=\"font-size: 10.0pt; font-family: 'Verdana',sans-serif;\">При формировании выборки отображается количество аудитории для контактов, удовлетворяющих выбранным параметрам.&nbsp;</span></p>"
+            },
+            {
+                "id": 5,
+                "question": "Что такое канал коммуникации?",
+                "answer": "Выберите один или несколько из имеющихся каналов коммуникации, с помощью которого будет осуществляться рекламная кампания: интернет-реклама (контекстная/соц.сети, баннерная), СМС-информирование, Голосовой таргетированный обзвон. Определите сроки (дату и время) начала запуска кампании и её окончание."
+            },
+            {
+                "id": 6,
+                "question": "Как начать работу с сервисом?",
+                "answer": "Нажмите &laquo;Создать кампанию&raquo; в левом верхнем углу панели личного кабинета, выберите аудиторию и канал, заполните брифы и отправьте заявку.\r\n\r\n \r\n\r\nОплатите вашу кампанию по счету. После поступления денежных средств мы запустим  вашу рекламную кампанию."
+            }
+        ],
+        "active": true
+    },
+    {
+        "url": 3,
+        "category": "Поддержка",
+        "faqs": [
+            {
+                "id": 10,
+                "question": "Как получить консультацию по продукту?",
+                "answer": "<p>Задать вопрос можно по бесплатному номеру <strong>8&nbsp;800&nbsp;600 62 62</strong> или направить письмо на <a href=\"mailto:assistant@beeline.ru\">assistant@beeline.ru</a></p>\r\n<p>Консультация по телефону -&nbsp; в режиме реального времени. По письму мы свяжемся с вами в течение рабочего дня и ответим на все вопросы</p>"
+            },
+            {
+                "id": 11,
+                "question": "Что делать, если вы хотите отключить услугу/ перестать пользоваться?",
+                "answer": "<p>Вы использует услугу по мере необходимости. Абонентская плата по услуге отсутствует, поэтому при отсутствии использования с вас ничего не взимается.</p>"
+            }
+        ],
+        "active": true
+    },
+    {
+        "url": 4,
+        "category": "Выбор аудитории",
+        "faqs": [],
+        "active": true
+    },
+    {
+        "url": 5,
+        "category": "Каналы коммуникации",
+        "faqs": [],
+        "active": true
+    },
+    {
+        "url": 6,
+        "category": "Статусы кампаний",
+        "faqs": [],
+        "active": true
+    },
+    {
+        "url": 7,
+        "category": "Анализ эффективности и отчеты",
+        "faqs": [],
+        "active": true
+    },
+    {
+        "url": 8,
+        "category": "Юридические вопросы",
+        "faqs": [
+            {
+                "id": 12,
+                "question": "Нужно ли получать согласия на рассылку сообщений от потенциальных клиентов?",
+                "answer": "<p>Вам не нужно получать разрешение от клиентов - Билайн уже получил согласие клиентов.</p>"
+            },
+            {
+                "id": 15,
+                "question": "Оферта",
+                "answer": "<iframe frameborder=\"0\" src=\"/offer.html\" title=\"offer\" style=\"width: 100%;height: 600px;\"/>"
+            }
+        ],
+        "active": true
+    }
+]

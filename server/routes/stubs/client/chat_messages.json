@@ -1,0 +1,165 @@
+{
+  "count": 42,
+  "next": "http://localhost:8000/api/v1/client/chat_messages/?limit=10&offset=10",
+  "previous": null,
+  "results": [
+    {
+      "id": 125,
+      "sender_name": "Александр",
+      "company": 24,
+      "files": [
+        {
+          "relative_path": "https://assets.cicerone.co.uk/filestore/productImages/sampleroutephotos/_w1200_h1200/578_SP.jpg"
+        },
+        {
+          "relative_path": "https://assets.cicerone.co.uk/filestore/productImages/sampleroutephotos/_w1200_h1200/578_SP.jpg"
+        },
+        {
+          "relative_path": "https://assets.cicerone.co.uk/filestore/productImages/sampleroutephotos/_w1200_h1200/578_SP.jpg"
+        },
+        {
+          "relative_path": "https://assets.cicerone.co.uk/filestore/productImages/sampleroutephotos/_w1200_h1200/578_SP.jpg"
+        },
+        {
+          "relative_path": "https://assets.cicerone.co.uk/filestore/productImages/sampleroutephotos/_w1200_h1200/578_SP.jpg"
+        },
+        {
+          "relative_path": "https://file-examples.com/wp-content/uploads/2017/02/file-sample_100kB.doc"
+        },
+        {
+          "relative_path": "https://file-examples.com/wp-content/uploads/2017/02/file-samplefile-samplefile-samplefile-samplefile-samplefile-samplefile-samplefile-samplefile-sample_100kB.csv"
+        }
+      ],
+      "date_time_message": "2020-06-15T12:33:13.319235",
+      "is_system_message": false,
+      "message": "Helll",
+      "operator_message": true,
+      "dialog": 1,
+      "sender": 380
+    },
+    {
+      "id": 124,
+      "sender_name": "Александр",
+      "company": 24,
+      "files": [],
+      "date_time_message": "2020-06-15T12:31:14.115264",
+      "is_system_message": false,
+      "message": "09 gg",
+      "operator_message": false,
+      "dialog": 1,
+      "sender": 380
+    },
+    {
+      "id": 121,
+      "sender_name": "Александр",
+      "company": 24,
+      "files": [],
+      "date_time_message": "2020-06-15T12:23:50.056680",
+      "is_system_message": false,
+      "message": "Самое новое сообщение",
+      "operator_message": false,
+      "dialog": 1,
+      "sender": 380
+    },
+    {
+      "id": 120,
+      "sender_name": "Эдуард",
+      "company": 24,
+      "files": [],
+      "date_time_message": "2020-06-15T12:12:45.547244",
+      "is_system_message": false,
+      "message": "ываываываываываывыа",
+      "operator_message": true,
+      "dialog": 1,
+      "sender": 1249
+    },
+    {
+      "id": 119,
+      "sender_name": "Александр",
+      "company": 24,
+      "files": [],
+      "date_time_message": "2020-06-15T12:08:33.256497",
+      "is_system_message": false,
+      "message": "Новый чат появился",
+      "operator_message": false,
+      "dialog": 1,
+      "sender": 380
+    },
+    {
+      "id": 116,
+      "sender_name": "Александр",
+      "company": 24,
+      "files": [],
+      "date_time_message": "2020-06-11T18:39:48.633620",
+      "is_system_message": false,
+      "message": "Поймай меня!",
+      "operator_message": false,
+      "dialog": 1,
+      "sender": 380
+    },
+    {
+      "id": 115,
+      "sender_name": "Эдуард",
+      "company": 24,
+      "files": [],
+      "date_time_message": "2020-06-11T18:38:30.387130",
+      "is_system_message": false,
+      "message": "пожалуйста работай!",
+      "operator_message": true,
+      "dialog": 1,
+      "sender": 1249
+    },
+    {
+      "id": 114,
+      "sender_name": "Александр",
+      "company": 24,
+      "files": [],
+      "date_time_message": "2020-06-11T18:13:45.146156",
+      "is_system_message": false,
+      "message": "Создайте мне рекламную кампанию по моему описанию!",
+      "operator_message": false,
+      "dialog": 1,
+      "sender": 380
+    },
+    {
+      "id": 113,
+      "sender_name": "Эдуард",
+      "company": 24,
+      "files": [],
+      "date_time_message": "2020-06-11T18:08:29.870209",
+      "is_system_message": false,
+      "message": "И вот я пишу тебе!",
+      "operator_message": true,
+      "dialog": 1,
+      "sender": 1249
+    },
+    {
+      "id": 112,
+      "sender_name": "Эдуард",
+      "company": 24,
+      "files": [],
+      "date_time_message": "2020-06-11T18:07:53.693132",
+      "is_system_message": false,
+      "message": "Так оно приходит! Ура!",
+      "operator_message": true,
+      "dialog": 1,
+      "sender": 1249
+    },
+    {
+      "id": 1253,
+      "sender_name": "Александр",
+      "company": 24,
+      "files": [
+        {
+          "relative_path": "https://assets.cicerone.co.uk/filestore/productImages/sampleroutephotos/_w1200_h1200/578_SP.jpg"
+        }
+      ],
+      "date_time_message": "2020-06-15T12:33:13.319235",
+      "is_system_message": true,
+      "message": "Сейчас все менеджеры очень заняты работой, скоро подключимся к вам.",
+      "operator_message": false,
+      "dialog": 1,
+      "sender": 380
+    }
+  ]
+}

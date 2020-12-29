@@ -1,0 +1,29 @@
+@import "styles/constants.pcss";
+
+.component {
+  font: var(--baseFieldFont);
+  color: var(--baseColor);
+  white-space: pre-line;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  color: var(--baseColor);
+
+  .secondary & {
+    color: var(--secondColor);
+  }
+
+  .big & {
+    font: var(--bigFieldFont);
+  }
+
+  .small & {
+    font-size: var(--smallFontSize);
+  }
+
+  .bold & {
+    font-size: var(--bigFontSize);
+  }
+}

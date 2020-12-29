@@ -1,0 +1,9 @@
+<svg width="30" height="12" viewBox="0 0 30 12" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow" transform="translate(0, -780)" stroke="currentColor">
+            <path d="M29.762,786.472 L0.827,786.472" />
+            <path d="M7.103,791.676 L0.82,786.474" />
+            <path d="M7.103,781.267 L0.82,786.469" />
+        </g>
+    </g>
+</svg>

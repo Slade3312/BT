@@ -1,0 +1,75 @@
+@import "styles/constants.pcss";
+
+.wrapper {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.content {
+  position: relative;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-family: var(--mainFontFamily);
+  font-size: 15px;
+  padding: 0 16px;
+  border-radius: 18px;
+  cursor: pointer;
+
+  &:not(.active, .mobile):hover {
+    background: var(--ligthSepiaColor);
+  }
+
+  &.active {
+    background: var(--ligthSepiaColor);
+    cursor: default;
+  }
+
+  &.clickable {
+    cursor: pointer;
+  }
+
+  &.isInBlackList {
+    background: rgba(255, 0, 0, 0.1);
+    border: 1px solid #ff0000;
+  }
+}
+
+.crossContainer {
+  width: 20px;
+}
+
+.crossIcon {
+  width: 7px;
+  height: 7px;
+  color: #787878;
+}
+
+.cross {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 36px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  cursor: pointer;
+
+  &:hover {
+    & .crossIcon {
+      color: var(--activeColor);
+    }
+  }
+}
+
+.label {
+  max-width: 250px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+  .small & {
+    max-width: 200px;
+  }
+}

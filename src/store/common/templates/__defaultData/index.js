@@ -1,0 +1,10 @@
+export { default as commonDefault } from './template_common.json';
+export { default as dashboardDefault } from './template__dashboard.json';
+export { default as userInfoDefault } from './template__userInfo.json';
+export { default as myCampaignsDefault } from './template_myCampaigns.json';
+export { default as newCampaignsDefault } from './template_newCampaign.json';
+export { default as audienceStatisticDefault } from './template_audienceStatistic.json';
+export { default as errorsDefault } from './template_error.json';
+export { default as notificationsDefault } from './template__notifications.json';
+export { default as popupsDefault } from './template__popups.json';
+// export { default as pollsDefault } from './template__polls.json';

@@ -1,0 +1,81 @@
+@import "styles/constants.pcss";
+
+.holder {
+  background-color: var(--sunBannerBgColor);
+  padding: 30px;
+}
+
+.whiteHolder {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.title {
+  margin-bottom: 60px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.extraMargin {
+  margin-bottom: 80px;
+}
+
+.firstCell {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.secondCell {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.description {
+  font-size: 21px;
+  font-family: var(--mainFontFamily);
+  line-height: 33px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.reportImage {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 70px;
+}
+
+.buttonHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.downloadLink {
+  padding: 5px 15px 5px 20px;
+  font-size: 17px;
+  font-family: var(--mainFontFamily);
+  line-height: 1.47;
+  color: var(--baseColor);
+  text-decoration: none;
+  border: none;
+  border-radius: 2px;
+  background-color: var(--sunBannerBgColor);
+
+  &:hover {
+    color: var(--baseColor);
+    background-color: #ffba00;
+    transition: background 0.3s ease-in;
+  }
+}

@@ -1,0 +1,69 @@
+@import "styles/constants.pcss";
+
+.component {
+  color: var(--baseColor);
+}
+
+.column-control {
+  display: flex;
+  align-items: center;
+}
+
+.column-files {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.fileContainer {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.fileName {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  font: var(--mainFont);
+  font-size: var(--baseFontSize);
+  word-break: break-all;
+  white-space: normal;
+}
+
+.removeButton {
+  position: relative;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  padding: 0;
+  border: none;
+  color: #787878;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  color: #000;
+}
+
+.crossIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.buttonIcon {
+  position: relative;
+  max-width: 21px;
+  max-height: 21px;
+  margin-right: 8px;
+}
+
+.text {
+  vertical-align: top;
+}

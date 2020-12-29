@@ -1,0 +1,86 @@
+{
+    "PrepareOrderStep":{
+        "subtitle": {
+            "content": "Подготовка отчёта",
+            "type": "string"
+        },
+        "replacement":{
+            "content": "Загрузить другой файл",
+            "type": "string"
+        },
+        "description": {
+            "content":"Чтобы выборка была репрезентативной, в базе должно быть от 300 номеров Билайн.",
+            "type": "html"
+        },
+        "setReportTitle": {
+            "content": "Задайте название отчёта",
+            "type": "string"
+        },
+        "setReportDescription": {
+            "content": "Чтобы легко найти этот отчёт, придумайте простое название.",
+            "type": "html"
+        },
+        "input": {
+            "content": "Первый отчёт",
+            "type": "string"
+        },
+        "button": {
+            "content": "Создать отчёт",
+            "type": "string"
+        }
+    },
+    "ErrorCalculateCost":{
+        "icon": {
+            "content": "step-icon-types-fail",
+            "type": "string"
+        },
+        "title": {
+            "content": "В базе недостаточно данных",
+            "type": "string"
+        },
+        "subtitle": {
+            "content": "Расширьте базу номеров до 300 абонентов Билайн",
+            "type": "string"
+        },
+        "button": {
+            "content": "Загрузить новый файл",
+            "type": "string"
+        },
+        "infoText": {
+            "content": "или свяжитесь с менеджером",
+            "type": "html"
+        },
+        "phone": {
+            "content": "8 800 600 62 62",
+            "type": "string"
+        }
+    },
+    "AudienceTooManyRequests":{
+        "title": {
+            "content": "Вы достигли лимита по количеству отчетов в день.",
+            "type": "string"
+        },
+        "subtitle": {
+            "content": "В течение одного дня можно сформировать не более трех бесплатных отчетов.<br/>Завтра лимит восстановится и вы сможете получить новый отчет.",
+            "type": "html"
+        }
+    },
+    "FeedbackPopup": {
+        "title": {
+            "content": "Ваш вопрос",
+            "type": "string"
+        },
+        "description": {
+            "content":"Задайте ваш вопрос и мы поможем вам в течение суток.",
+            "type": "html"
+        },
+        "input": {
+            "content": "Ваш вопрос",
+            "type": "string"
+        },
+        "button": {
+            "content": "Отправить вопрос",
+            "type": "string"
+        }
+    }
+}

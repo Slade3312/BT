@@ -1,0 +1,29 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  background: #ffdc7d;
+  border-radius: 100%;
+  user-select: none;
+  transition: 0.2s ease transform;
+
+  &.clickable {
+    cursor: pointer;
+  }
+
+  &.active {
+    transform: rotate(-180deg);
+  }
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
+  margin-bottom: 6px;
+  border: 0 solid #282828;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  transform: rotate(135deg);
+}

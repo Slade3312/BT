@@ -1,0 +1,32 @@
+@import "styles/constants.pcss";
+
+.container {
+  height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.link {
+  position: relative;
+  font-size: 17px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: -16px;
+    width: 5px;
+    height: 5px;
+    border: 0 solid var(--baseColor);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    transform: rotate(45deg);
+    transition: color 0.2s ease-out;
+  }
+
+  &:hover::after {
+    border-color: var(--mainColor);
+  }
+}

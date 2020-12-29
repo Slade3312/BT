@@ -1,0 +1,23 @@
+.component {
+  position: relative;
+  user-select: none;
+  opacity: 0.8;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.transparent {
+  color: rgba(0, 0, 0, 0);
+}
+
+.strikethrough {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 10%;
+  height: 100%;
+  width: 100%;
+  border-top: 1px solid red;
+  transform: rotateZ(15deg) translateY(50%);
+  transform-origin: 50% 0;
+}

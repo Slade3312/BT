@@ -1,0 +1,33 @@
+@import "styles/constants.pcss";
+
+.component {
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox {
+  margin-right: 12px;
+}
+
+.label {
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+
+  .inactive & {
+    color: var(--secondColor);
+  }
+}
+
+.tooltip {
+  display: flex;
+  align-items: center;
+}

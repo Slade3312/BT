@@ -1,0 +1,21 @@
+@import "styles/constants.pcss";
+
+.content {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 39px;
+}
+
+.button {
+  width: 180px;
+  height: 39px;
+
+  /* !important set important due to order-class problems in building */
+  background-color: #fff !important;
+
+  &:hover {
+    background-color: var(--activeColor) !important;
+  }
+}

@@ -1,0 +1,47 @@
+@import "styles/constants.pcss";
+
+.business {
+    background: linear-gradient(to left, #D4D4D4 65%, #FAC12B 25%)
+}
+
+.partnership {
+    background: linear-gradient(to left, #FAC12B 48%, #D4D4D4 52%)
+}
+
+.sidebar {
+    width: 348px;
+}
+
+.container {
+    position: relative;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    max-width: 348px;
+    width: 100%;
+    height: calc(100vh - 121px);
+    overflow: auto;
+}
+
+.navPanel {
+    display: flex;
+    justify-content: space-around;
+    padding: 37px 0 23px;
+}
+
+.navItem {
+    font-family: var(--mainFontFamily);
+    font-size: 17px;
+    cursor: pointer;
+    color: rgba(40, 40, 40, 0.5);
+}
+
+.active {
+    color: #282828
+}
+
+.navLine {
+    height: 2px;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+}

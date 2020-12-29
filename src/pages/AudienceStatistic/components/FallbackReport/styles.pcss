@@ -1,0 +1,24 @@
+@import "styles/constants.pcss";
+
+.component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.preloader {
+  position: static;
+  transform: none;
+}
+
+.infoText {
+  margin-left: 20px;
+  font-family: var(--mainFontFamily);
+  color: var(--baseColor);
+  font-size: 17px;
+
+  &::after {
+    content: "..";
+  }
+}

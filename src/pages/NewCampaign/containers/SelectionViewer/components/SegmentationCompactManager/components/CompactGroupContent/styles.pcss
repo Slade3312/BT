@@ -1,0 +1,55 @@
+@import "styles/constants.pcss";
+
+.group {
+  font-family: var(--mainFontFamily);
+  border-top: 1px solid rgba(170, 170, 170, 0.45);
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.title {
+  font-size: 21px;
+  margin: 25px 0 10px 0;
+  position: relative;
+}
+
+.row {
+  padding-bottom: 20px;
+
+  &:not(:first-child) {
+    padding-top: 15px;
+  }
+}
+
+.subTitleWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.subTitle {
+  font-size: 17px;
+}
+
+.link {
+  font-family: var(--mainFontFamily);
+  margin-left: 15px;
+  font-size: var(--smallFontSize);
+  text-decoration: none;
+  line-height: 1.2;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  opacity: 0.5;
+
+  &.disabled {
+    opacity: 0.3;
+    cursor: default;
+    pointer-events: none;
+  }
+}
+.cell {
+  text-align: left;
+  padding-top: 15px;
+}
+

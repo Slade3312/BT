@@ -1,0 +1,456 @@
+{
+  "MainBanner": {
+    "title": {
+      "content": "Узнайте свою аудиторию",
+      "type": "html"
+    },
+    "pricePrefix": {
+      "type": "string",
+      "content": "от"
+    },
+    "price": {
+      "type": "string",
+      "content": 5900
+    },
+    "background": {
+      "type": "string",
+      "content": "https://static.beeline.ru/upload/images/marketing/banner_01.png"
+    },
+    "description": {
+      "content": "Составим детальный анализ вашей аудитории по 16 параметрам на основе больших данных Билайн: пол, возраст, интересы, уровень дохода.\n\nВаша прибыль вырастет, когда вы будете точно знать, кто покупает ваши товары, и учитывать их вкусы.",
+      "type": "string"
+    },
+    "button": {
+      "content": "Подробнее",
+      "type": "string"
+    },
+    "buttonUrl": {
+      "content": "/polls/",
+      "type": "string"
+    }
+  },
+  "MainAdviceHeading": {
+    "title": {
+      "content": "Создать рекламную кампанию",
+      "type": "string"
+    }
+  },
+  "SuggestRunWidget": {
+    "firstCardTitle": {
+      "content": "Запустить кампанию самому",
+      "type": "string"
+    },
+    "createCampaignUrl": {
+      "content": "/new-campaign/?channels=target-sms,target-internet,voice-target,internet,push&reset=true",
+      "type": "string"
+    },
+    "firstCardButtonTitle": {
+      "content": "Запустить",
+      "type": "string"
+    },
+    "secondCardTitledButton": {
+      "content": "Обратиться за помощью\nк менеджеру",
+      "type": "string"
+    },
+    "secondCardIcon": {
+      "content": "https://static.beeline.ru/upload/images/marketing/icons/bell.svg",
+      "type": "string"
+    }
+  },
+  "AdviceHeadingCampaignGoals": {
+    "title": {
+      "content": "Если нужна помощь в выборе рекламного канала",
+      "type": "string"
+    },
+    "description": {
+      "content": "Укажите цель рекламной кампании — посоветуем канал продвижения. Это удобно, если не знаете, какая реклама лучше сработает в вашем случае.",
+      "type": "string"
+    }
+  },
+  "AdviceHeadingCampaignOrders": {
+    "title": {
+      "content": "Если выбираете рекламный канал самостоятельно",
+      "type": "string"
+    },
+    "description": {
+      "content": "Выберите продвижение в интернете, SMS-рассылки или голосовой обзвон — либо все сразу. Бюджет на рекламную кампанию — от\n7 500 ₽. Чем больше бюджет, тем больше возможностей.",
+      "type": "string"
+    }
+  },
+  "GoalsStackCover": {
+    "title": {
+      "content": "Выберите задачу, которая стоит перед вашим бизнесом",
+      "type": "string"
+    }
+  },
+  "GoalsStack": {
+    "items": [
+      {
+        "id": "audience",
+        "iconUrl": {
+          "content": "https://static.beeline.ru/upload/images/marketing/logo_01.png",
+          "type": "string"
+        },
+        "title": { "content": "Привлечь новых клиентов", "type": "string" },
+        "description": {
+          "content": "Выйти на новую аудиторию, предложить ей свои продукты и расширить клиентскую базу.",
+          "type": "string"
+        },
+        "href": {
+          "content": "/new-campaign/?channels=target-sms",
+          "type": "string"
+        },
+        "price": {
+          "content": 5000,
+          "type": "string"
+        },
+        "pricePrefix": {
+          "content": "от",
+          "type": "string"
+        }
+      },
+      {
+        "id": "sales",
+        "iconUrl": {
+          "content": "https://static.beeline.ru/upload/images/marketing/logo_02.png",
+          "type": "string"
+        },
+        "title": { "content": "Удержать клиентов", "type": "string" },
+        "description": {
+          "content": "Рассказать своей аудитории об акциях, скидках или программах лояльности, чтобы совершать больше повторных продаж.",
+          "type": "string"
+        },
+        "href": { "content": "/new-campaign/?channels=target-sms,internet", "type": "string" },
+        "price": {
+          "content": 6000,
+          "type": "string"
+        },
+        "pricePrefix": {
+          "content": "от",
+          "type": "string"
+        }
+      },
+      {
+        "id": "awareness",
+        "iconUrl": { "content": "https://static.beeline.ru/upload/images/marketing/logo_03.png", "type": "string" },
+        "title": {
+          "content": "Увеличить узнаваемость компании или бренда",
+          "type": "string"
+        },
+        "description": {
+          "content": "Рассказать о бренде и охватить как можно больше пользователей, чтобы увеличить узнаваемость.",
+          "type": "string"
+        },
+        "href": { "content": "/new-campaign/?channels=target-sms,internet,voice-target", "type": "string" },
+        "price": {
+          "content": 7000,
+          "type": "string"
+        },
+        "pricePrefix": {
+          "content": "от",
+          "type": "string"
+        }
+      }
+    ]
+  },
+  "ChannelsCards": {
+    "items": [
+      {
+        "id": "internet",
+        "title": {
+          "content": "Интернет-реклама под ключ",
+          "type": "string"
+        },
+        "price": {
+          "content": 20000,
+          "type": "string"
+        },
+        "pricePrefix": {
+          "content": "от",
+          "type": "string"
+        },
+        "description": {
+          "content": "Таргетированная реклама в соцсетях, контекстная и баннерная реклама. Выбирайте все каналы или только те, которые лучше воспринимает ваша аудитория.",
+          "type": "string"
+        },
+        "buttonText": {
+          "content": "Запустить рекламу",
+          "type": "string"
+        },
+        "buttonColor": {
+          "content": "#ffdc7d",
+          "type": "string"
+        },
+        "href": { "content": "/new-campaign/?channels=internet", "type": "string" }
+      },
+      {
+        "id": "target-sms",
+        "title": {
+          "content": "Таргетированные\n SMS-рассылки",
+          "type": "string"
+        },
+        "price": {
+          "content": 13860,
+          "type": "string"
+        },
+        "pricePrefix": {
+          "content": "от",
+          "type": "string"
+        },
+        "description": {
+          "content": "Рекламные рассылки с возможностью точного выбора аудитории. Расскажите об акциях или пригласите в магазин тех, кто проходит мимо или регулярно заходит в соседнее кафе на обед.",
+          "type": "string"
+        },
+        "buttonText": {
+          "content": "Запустить рассылку",
+          "type": "string"
+        },
+        "buttonColor": {
+          "content": "#ffdc7d",
+          "type": "string"
+        },
+        "href": { "content": "/new-campaign/?channels=target-sms", "type": "string" }
+      },
+      {
+        "id": "voice-target",
+        "title": {
+          "content": "Таргетированные голосовые звонки",
+          "type": "string"
+        },
+        "price": {
+          "content": 20000,
+          "type": "string"
+        },
+        "pricePrefix": {
+          "content": "от",
+          "type": "string"
+        },
+        "description": {
+          "content": "Таргетированная реклама в соцсетях, контекстная и баннерная реклама. Выбирайте все каналы или только те, которые лучше воспринимает ваша аудитория."
+        },
+        "buttonText": {
+          "content": "Начать обзвон",
+          "type": "string"
+        },
+        "buttonColor": {
+          "content": "#ffdc7d",
+          "type": "string"
+        },
+        "tooltip": {
+          "content": "«Как работает услуга «Таргетированные голосовые звонки»?\n\n 1. Вы или ваши сотрудники звоните на номер Билайн, подключенный к услуге. Еще он называется номером доступа.\n\n 2. Следуя инструкции автоответчика (IVR), вводите короткий номер из базы. Вызов адресуется потенциальному клиенту, соответствующему выбранным характеристикам.\n\n Доступ к базе вы получите после оплаты заказа. Звонить можно с любых мобильных или фиксированных номеров»\n\n",
+          "type": "string"
+        },
+        "href": { "content": "/new-campaign/?channels=voice-target", "type": "string" }
+      },
+      {
+        "id": "allChannels",
+        "title": {
+          "content": "Все рекламные каналы сразу",
+          "type": "string"
+        },
+        "description": {
+          "content": "Таргетированная реклама в соцсетях, контекстная и баннерная реклама. Выбирайте все каналы или только те, которые лучше воспринимает ваша аудитория.",
+          "type": "string"
+        },
+        "buttonText": {
+          "content": "Начать комплексное продвижение",
+          "type": "string"
+        },
+        "buttonColor": {
+          "content": "#fff",
+          "type": "string"
+        },
+        "backgroundColor": {
+          "content": "#ffdc7d",
+          "type": "string"
+        },
+        "href": {
+          "content": "/new-campaign/",
+          "type": "string"
+        }
+      }
+    ]
+  },
+  "AudienceTextBanner": {
+    "title": {
+      "content": "Бесплатный анализ аудитории",
+      "type": "string"
+    },
+    "description": {
+      "content": "Загрузите телефонные номера ваших клиентов и\n получите отчёт по 17 параметрам. Узнавайте пол,\n возраст, интересы, уровень дохода и другую\n информацию о покупателях на основании «больших\n данных» Билайн.",
+      "type": "string"
+    },
+    "button": {
+      "content": "Получить бесплатный отчёт",
+      "type": "string"
+    },
+    "href": "/audience-statistic/",
+    "textContent": {
+      "content": "Изучайте тренды и поведение своих клиентов, чтобы понимать, в каком направлении развивать бизнес:\n какие добавить услуги, как выстроить программу лояльности, где лучше открывать новые точки и так далее.",
+      "type": "string"
+    },
+    "backgroundColor": "#FFDC7D"
+  },
+  "PollsTextBanner": {
+    "title": {
+      "content": "Проводите мобильные опросы на регулярной основе и всегда будьте впереди конкурентов",
+      "type": "string"
+    },
+    "button": {
+      "content": "Создать опрос",
+      "type": "string"
+    },
+    "href": "/polls/",
+    "textContent": {
+      "content": "Мы всегда поможем Вам с формулировками и составлением анкеты, если Вам понадобится наша помощь. Итоги опроса мы пришлем Вам в виде аналитического отчета с выводами и рекомендациями.",
+      "type": "string"
+    },
+    "backgroundColor": "#D8D8D8"
+  },
+  "SideMenuList": [
+    {
+      "slug": {
+        "content": "user_profile",
+        "type": "string"
+      },
+      "title": {
+        "content": "Мой профиль",
+        "type": "string"
+      },
+      "href": {
+        "content": "/user-info/",
+        "type": "string"
+      },
+      "icon": {
+        "content": "<svg width=\"17\" height=\"19\" viewBox=\"0 0 17 19\" fill=\"none\"><path d=\"M16.1111 17.9999V16.111C16.1111 15.1091 15.7131 14.1482 15.0046 13.4397C14.2962 12.7313 13.3353 12.3333 12.3333 12.3333H4.77778C3.77585 12.3333 2.81496 12.7313 2.10649 13.4397C1.39801 14.1482 1 15.1091 1 16.111V17.9999\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M8.55561 8.55556C10.642 8.55556 12.3334 6.86419 12.3334 4.77778C12.3334 2.69137 10.642 1 8.55561 1C6.4692 1 4.77783 2.69137 4.77783 4.77778C4.77783 6.86419 6.4692 8.55556 8.55561 8.55556Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>",
+        "type": "html"
+      }
+    },
+    {
+      "slug": {
+        "content": "audience_statistic",
+        "type": "string"
+      },
+      "title": {
+        "content": "Анализ аудитории",
+        "type": "string"
+      },
+      "bonusMessage": {
+        "content": "Бесплатно",
+        "type": "string"
+      },
+      "href": { "content": "/audience-statistic/", "type": "string" },
+      "icon": {
+        "content": "<svg width=\"21\" height=\"21\" viewBox=\"0 0 21 21\" fill=\"none\"><path d=\"M0.875 10.5C0.875 10.5 4.375 3.5 10.5 3.5C16.625 3.5 20.125 10.5 20.125 10.5C20.125 10.5 16.625 17.5 10.5 17.5C4.375 17.5 0.875 10.5 0.875 10.5Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M10.5 13.125C11.9497 13.125 13.125 11.9497 13.125 10.5C13.125 9.05025 11.9497 7.875 10.5 7.875C9.05025 7.875 7.875 9.05025 7.875 10.5C7.875 11.9497 9.05025 13.125 10.5 13.125Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>",
+        "type": "html"
+      }
+    },
+    {
+      "slug": {
+        "content": "polls",
+        "type": "string"
+      },
+      "title": {
+        "content": "Мобильные опросы",
+        "type": "string"
+      },
+      "href": { "content": "/polls/", "type": "string" },
+      "icon": {
+        "content": "<svg width=\"16\" height=\"18\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14.7665 1.43262H1V16.4326H14.7665V1.43262Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-miterlimit=\"10\" stroke-linejoin=\"round\"/>\n<path d=\"M4.46777 7.25098V13.3898\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"/>\n<path d=\"M7.88281 4.31519V13.3899\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"/>\n<path d=\"M11.2979 9.76025V13.3901\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"/>\n</svg>",
+        "type": "html"
+      }
+    },
+    {
+      "slug": { "content": "create", "type": "string" },
+      "title": { "content": "Создать кампанию", "type": "string" },
+      "href": {
+        "content": "/new-campaign/",
+        "type": "string"
+      },
+      "icon": {
+        "content": "<svg width=\"19\" height=\"19\" viewBox=\"0 0 19 19\" fill=\"none\"><path d=\"M9.5 18C14.1944 18 18 14.1944 18 9.5C18 4.80558 14.1944 1 9.5 1C4.80558 1 1 4.80558 1 9.5C1 14.1944 4.80558 18 9.5 18Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M9.5 6.1001V12.9001\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M6.1001 9.5H12.9001\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>",
+        "type": "html"
+      }
+    }
+  ],
+  "Disclaimer": {
+    "text": {
+      "content": "Методика обработки данных для получения критериев сегментирования доступна по <a href=\"https://static.beeline.ru/upload/images/B2b/24365_metodika_obrabotki_dannih.pdf\" target=\"_blank\">ссылке</a>.\nОзнакомьтесь с <a href=\"https://static.beeline.ru/upload/images/marketing/redakcionnaja_politika_beeline.pdf\" target=\"_blank\">редакционной политикой Билайн</a>.",
+      "type": "html"
+    }
+  },
+  "WebinarSubscribe": {
+    "header":{
+      "content": "Бесплатное онлайн-обучение",
+      "type": "string"
+    },
+    "description": {
+      "content": "Билайн.Продвижение — это комплекс решений, который поможет увеличить продажи, даже если у вас нет маркетолога, а вы никогда не запускали рекламу. На занятии вы поймете, как даже с минимальным бюджетом находить новых клиентов, возвращать и удерживать текущих. Узнаете тонкости маркетинга, чтобы продаватьеще больше — например, в какое время лучше запускать рекламу. И самое главное — сможете рассказать о своем бизнесе и поставленных целях. А наши эксперты подскажут, как их достичь.",
+      "type": "string"
+    },
+    "speakersTitle": {
+      "content": "Приглашённые спикеры:",
+      "type": "string"
+    },
+    "speakersList": [
+      {
+        "photo": {
+          "content": "https://static.beeline.ru/upload/contents/20909/speaker_Nazarov_2.jpg",
+          "type": "string"
+        },
+        "name": {
+          "content": "Олег Назаров",
+          "type": "string"
+        },
+        "description": {
+          "content": "20 лет помогает бизнесу внедрять эффективные digital-механики. Создавал первые в России CPA-сети и платформы автоматических закупок медиа-рекламы.",
+          "type": "string"
+        }
+      },
+      {
+        "photo": {
+          "content": "https://static.beeline.ru/upload/contents/20909/Maria_Popova.jpg",
+          "type": "string"
+        },
+        "name": {
+          "content": "Мария Попова",
+          "type": "string"
+        },
+        "description": {
+          "content": "Руководитель канала онлайн-обучения «Технологии успеха Билайн Бизнес»",
+          "type": "string"
+        }
+      }
+    ]
+  },
+  "ContactForm": {
+    "title": {
+      "content": "Зарегистрируйтесь для <span>бесплатного</span> участия",
+      "type": "html"
+    },
+    "name": {
+      "content": "Имя и Отчество",
+      "type": "string"
+    },
+    "email": {
+      "content": "Электронная почта",
+      "type": "string"
+    },
+    "phone": {
+      "content": "8 909 012-34-56",
+      "type": "string"
+    },
+    "privacyPolicy": {
+      "content": "https://static.beeline.ru/upload/images/business/2019-10-15_Soglasie.pdf",
+      "type": "string"
+    },
+    "policyText": {
+      "content": "Я согласен на обработку моих персональных данных",
+      "type": "string"
+    },
+    "button": {
+      "content": "Записаться",
+      "type": "string"
+    }
+  }
+}

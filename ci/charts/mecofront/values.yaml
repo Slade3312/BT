@@ -1,0 +1,64 @@
+name: mecofront
+# Docker image vars
+image: 
+  repository: meco-docker.kube.vimpelcom.ru/mecofront
+  tag: latest
+# Secret for pull image
+  pullSecrets: registrykey
+  pullPolicy: IfNotPresent
+
+# Stage label
+track: develop
+
+# Number of pod replicas
+deployment:
+  replicas: 1
+  strategy: RollingUpdate
+  revisionHistoryLimit: 3
+
+# Container, Service port change if different
+port: 
+  pod: 80
+  svc: 80
+
+# Pod limits 
+resources:
+  limits:
+    cpu: 1
+    memory: 512Mi
+  requests:
+    cpu: 50m
+    memory: 100Mi
+
+# Pod liveness, readiness probes, initial delay and period in seconds
+health:
+  livenessProbe:
+    httpGet:
+      path: /healthz
+      port: 80
+    initialDelaySeconds: 15
+    periodSeconds: 20
+  readinessProbe:
+    httpGet:
+      path: /healthz
+      port: 80
+    initialDelaySeconds: 10
+    periodSeconds: 10
+
+# ingress host
+#host: testspaceapp.beeline.ru
+
+# PV for media
+persistentVolume:
+  enabled: false
+
+#servicename: uley-static
+
+serviceport: 80
+
+nginxconf:
+  rootpath: /static/
+  corsregexp:
+    - '~^(https?:\/\/*.vimpelcom\.ru)$'
+    - '~^(https?:\/\/*.beeline\.ru)$'
+  #  - '~^(http?:\/\/localhost:3000)$'

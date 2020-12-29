@@ -1,0 +1,69 @@
+@import "styles/constants.pcss";
+
+html {
+  color: #282828;
+  font: var(--baseFont);
+  font-family: var(--baseFontFamily);
+
+  /* font aliasing for officina to look good */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* removes tap delay, but disables double tap zoom */
+  touch-action: manipulation;
+}
+
+body {
+  margin: 0;
+  background: #f0f0f0;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+iframe {
+  max-width: 100%;
+  border: none;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+  font-size: 0;
+  overflow: hidden;
+}
+
+input {
+  &::-ms-clear,
+  &::-ms-reveal {
+    display: none;
+  }
+
+  &::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+  }
+}
+
+a {
+  color: var(--baseColor);
+  transition: color 0.3s;
+
+  &:hover {
+    color: var(--mainColor);
+  }
+}

@@ -1,0 +1,1082 @@
+{
+  "count": 25,
+  "next": "http://localhost:8080/api/v1/client/campaigns/?channel_type=3&limit=2&offset=0",
+  "previous": null,
+  "results": [
+    {
+      "id": 5232,
+      "user": 981,
+      "company": 43,
+      "name": "MyTarget 19/08-003",
+      "description": null,
+      "selection": {
+        "id": 3948,
+        "type": "segmentation",
+        "description": null,
+        "audience": 50204517,
+        "data": {}
+      },
+      "orders": [
+        {
+          "id": 12063,
+          "files": [
+            {
+              "id": 2216,
+              "file": "http://marketing.kube.vimpelcom.ru/api/v1/client/brandfile/2216/Сочинение-на-тему-Природа-900x500_BcdpOZY.jpeg/",
+              "type": "брэнд файл",
+              "name": "Сочинение-на-тему-Природа-900x500_BcdpOZY.jpeg",
+              "is_logo": false,
+              "is_square": false,
+              "file_path": "/media/brand_files/%D0%A1%D0%BE%D1%87%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D1%82%D0%B5%D0%BC%D1%83-%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0-900x500_BcdpOZY.jpeg",
+              "type_id": 0
+            },
+            {
+              "id": 2214,
+              "file": "http://marketing.kube.vimpelcom.ru/api/v1/client/brandfile/2214/Сочинение-на-тему-Природа-900x500_vIWYjjo.jpeg/",
+              "type": "брэнд файл",
+              "name": "Сочинение-на-тему-Природа-900x500_vIWYjjo.jpeg",
+              "is_logo": true,
+              "is_square": false,
+              "file_path": "/media/brand_files/%D0%A1%D0%BE%D1%87%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D1%82%D0%B5%D0%BC%D1%83-%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0-900x500_vIWYjjo.jpeg",
+              "type_id": 0
+            },
+            {
+              "id": 2215,
+              "file": "http://marketing.kube.vimpelcom.ru/api/v1/client/brandfile/2215/Сочинение-на-тему-Природа-900x500_9ssDWF5.jpeg/",
+              "type": "брэнд файл",
+              "name": "Сочинение-на-тему-Природа-900x500_9ssDWF5.jpeg",
+              "is_logo": false,
+              "is_square": true,
+              "file_path": "/media/brand_files/%D0%A1%D0%BE%D1%87%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D1%82%D0%B5%D0%BC%D1%83-%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0-900x500_9ssDWF5.jpeg",
+              "type_id": 0
+            }
+          ],
+          "industry_docs": [],
+          "budget": 20000,
+          "date_start": "2020-08-31",
+          "date_end": "2020-12-09",
+          "data": {
+            "url": "http://beeline.ru/UATBUSINESS54C299D291A441F4B1770E51D33762AB=true",
+            "utm": true,
+            "text": "Описаниедлододлодлодлодло\nавы ыва авы авы ав авы ва \nыва выа ыва ваы вааывлоивыалорвы алор",
+            "title": "Заголовок",
+            "button": 1,
+            "mobile": true,
+            "desktop": true,
+            "industry": 2,
+            "creatives": [
+              2214,
+              2216,
+              2215
+            ],
+            "auto_start": false,
+            "client_info": "описание",
+            "chosenTariff": 2,
+            "change_fields": {}
+          },
+          "links": [],
+          "event_count_min": 100409,
+          "event_count_max": 0,
+          "adv_id": "765626996aaa4375bacea1396f07360d",
+          "status": "В прогрессе",
+          "date_updated": "2020-08-19T10:42:21.455759",
+          "is_empty": false,
+          "is_active": true,
+          "save_without_auto_report": false,
+          "is_moderation_passed": false,
+          "order_segment_id": null,
+          "moderation_comment": "Всё хорошо",
+          "channel_type": "Таргетированная реклама в социальных сетях",
+          "campaign": 5232,
+          "status_id": 7,
+          "channel_uid": "target-internet"
+        },
+        {
+          "id": 11651,
+          "files": [],
+          "industry_docs": [],
+          "budget": 40033,
+          "date_start": null,
+          "date_end": null,
+          "data": {},
+          "links": [],
+          "event_count_min": 0,
+          "event_count_max": null,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-08-13T12:30:03.074245",
+          "is_empty": false,
+          "is_active": true,
+          "save_without_auto_report": false,
+          "is_moderation_passed": false,
+          "order_segment_id": null,
+          "channel_type": "Push-уведомления",
+          "campaign": 5149,
+          "status_id": 0,
+          "channel_uid": "push"
+        }
+      ],
+      "status": "На согласовании",
+      "create_date": "2020-08-19",
+      "custom_segments": {
+        "phone": {
+          "id": 1472,
+          "segment_type": 1,
+          "data": {},
+          "is_active": false,
+          "custom_segment_files": []
+        },
+        "site": {
+          "id": 1471,
+          "segment_type": 0,
+          "data": {},
+          "is_active": false,
+          "custom_segment_files": []
+        }
+      },
+      "promo_codes": [],
+      "status_id": 1
+    },
+    {
+      "id": 5149,
+      "user": 1310,
+      "company": 83,
+      "name": "asdfasdf",
+      "description": null,
+      "selection": {
+        "id": 3880,
+        "type": "segmentation",
+        "description": null,
+        "audience": 50204517,
+        "data": {}
+      },
+      "orders": [
+        {
+          "id": 11652,
+          "files": [],
+          "industry_docs": [],
+          "budget": 50033,
+          "date_start": null,
+          "date_end": null,
+          "data": {
+            "my_target_banner_status": 7,
+            "my_target_banner_moderation_reasons": ["Основное изображение не подходит, уберите с него текст или уменьшите его, текст не должен занимать более 30% изображения"]
+          },
+          "links": [],
+          "event_count_min": 0,
+          "event_count_max": null,
+          "adv_id": null,
+          "status": "Модерация",
+          "date_updated": "2020-08-13T12:38:56.421401",
+          "is_empty": false,
+          "is_active": true,
+          "save_without_auto_report": false,
+          "is_moderation_passed": false,
+          "order_segment_id": null,
+          "channel_type": "Таргетированная реклама в социальных сетях",
+          "campaign": 5149,
+          "status_id": 7,
+          "channel_uid": "target-internet"
+        },
+        {
+          "id": 11651,
+          "files": [],
+          "industry_docs": [],
+          "budget": 40033,
+          "date_start": null,
+          "date_end": null,
+          "data": {},
+          "links": [],
+          "event_count_min": 0,
+          "event_count_max": null,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-08-13T12:30:03.074245",
+          "is_empty": false,
+          "is_active": true,
+          "save_without_auto_report": false,
+          "is_moderation_passed": false,
+          "order_segment_id": null,
+          "channel_type": "Push-уведомления",
+          "campaign": 5149,
+          "status_id": 0,
+          "channel_uid": "push"
+        },
+        {
+          "id": 11650,
+          "files": [
+            {
+              "id": 1755,
+              "file": "http://marketing.kube.vimpelcom.ru/api/v1/client/brandfile/1755/69201B12-9569-41BC-BEFD-2C932DC830BB_1_201_a.jpeg/",
+              "type": "брэнд файл",
+              "name": "69201B12-9569-41BC-BEFD-2C932DC830BB_1_201_a.jpeg",
+              "is_logo": false,
+              "is_square": false,
+              "type_id": 0
+            }
+          ],
+          "industry_docs": [],
+          "budget": 20033,
+          "date_start": null,
+          "date_end": null,
+          "data": {},
+          "links": [],
+          "event_count_min": 0,
+          "event_count_max": null,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-08-13T12:30:03.015480",
+          "is_empty": false,
+          "is_active": true,
+          "save_without_auto_report": false,
+          "is_moderation_passed": false,
+          "order_segment_id": null,
+          "channel_type": "Таргетированная SMS-рассылка",
+          "campaign": 5149,
+          "status_id": 0,
+          "channel_uid": "target-sms"
+        },
+        {
+          "id": 11649,
+          "files": [],
+          "industry_docs": [],
+          "budget": 20002,
+          "date_start": null,
+          "date_end": null,
+          "data": {},
+          "links": [],
+          "event_count_min": 0,
+          "event_count_max": null,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-08-13T12:30:02.996687",
+          "is_empty": false,
+          "is_active": true,
+          "save_without_auto_report": false,
+          "is_moderation_passed": false,
+          "order_segment_id": null,
+          "channel_type": "Таргетированный голосовой обзвон",
+          "campaign": 5149,
+          "status_id": 0,
+          "channel_uid": "voice-target"
+        },
+        {
+          "id": 11648,
+          "files": [],
+          "industry_docs": [],
+          "budget": 50033,
+          "date_start": null,
+          "date_end": null,
+          "data": {},
+          "links": [],
+          "event_count_min": 0,
+          "event_count_max": null,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-08-13T12:30:02.975537",
+          "is_empty": true,
+          "is_active": true,
+          "save_without_auto_report": false,
+          "is_moderation_passed": false,
+          "order_segment_id": null,
+          "channel_type": "Интернет-реклама",
+          "campaign": 5149,
+          "status_id": 0,
+          "channel_uid": "internet"
+        }
+      ],
+      "create_date": "2020-08-13",
+      "custom_segments": {
+        "phone": {
+          "id": 1306,
+          "segment_type": 1,
+          "data": {},
+          "is_active": false,
+          "custom_segment_files": []
+        },
+        "site": {
+          "id": 1305,
+          "segment_type": 0,
+          "data": {},
+          "is_active": false,
+          "custom_segment_files": []
+        }
+      },
+      "status_id": 8,
+      "status": "Модерация"
+    },
+    {
+      "id":3792,
+      "user":981,
+      "company":43,
+      "name":"Новый опрос",
+      "description":null,
+      "selection":null,
+      "orders":[
+        {
+          "id":5741,
+          "files":[
+
+          ],
+          "budget":10000,
+          "date_start":null,
+          "date_end":null,
+          "data":{
+            "comment":"",
+            "tariff_uid":"0"
+          },
+          "links":[
+
+          ],
+          "event_count_min":0,
+          "event_count_max":null,
+          "adv_id":null,
+          "status":"Создан",
+          "date_updated":"2020-05-25T07:38:14.702754",
+          "is_empty":false,
+          "is_active":true,
+          "order_segment_id":null,
+          "channel_type":"Мобильные опросы",
+          "campaign":3792,
+          "status_id":0,
+          "channel_uid":"poll"
+        }
+      ],
+      "status":"Создан",
+      "create_date":"2020-05-25",
+      "status_id":0
+    },
+    {
+      "id":3791,
+      "user":981,
+      "company":43,
+      "name":"Новый опрос",
+      "description":null,
+      "selection":null,
+      "orders":[
+        {
+          "id":5736,
+          "files":[
+
+          ],
+          "budget":100000,
+          "date_start":null,
+          "date_end":null,
+          "data":{
+            "comment":"",
+            "tariff_uid":"1"
+          },
+          "links":[
+
+          ],
+          "event_count_min":0,
+          "event_count_max":null,
+          "adv_id":null,
+          "status":"Создан",
+          "date_updated":"2020-05-25T07:33:11.969720",
+          "is_empty":false,
+          "is_active":true,
+          "order_segment_id":null,
+          "channel_type":"Мобильные опросы",
+          "campaign":3791,
+          "status_id":0,
+          "channel_uid":"poll"
+        }
+      ],
+      "status":"Создан",
+      "create_date":"2020-05-25",
+      "status_id":0
+    },
+    {
+      "id":3790,
+      "user":981,
+      "company":43,
+      "name":"Новый опрос",
+      "description":null,
+      "selection":null,
+      "orders":[
+        {
+          "id":5731,
+          "files":[
+
+          ],
+          "budget":10000,
+          "date_start":null,
+          "date_end":null,
+          "data":{
+            "comment":"",
+            "tariff_uid":"0"
+          },
+          "links":[
+
+          ],
+          "event_count_min":0,
+          "event_count_max":null,
+          "adv_id":null,
+          "status":"Создан",
+          "date_updated":"2020-05-25T07:27:30.654197",
+          "is_empty":false,
+          "is_active":true,
+          "order_segment_id":null,
+          "channel_type":"Мобильные опросы",
+          "campaign":3790,
+          "status_id":0,
+          "channel_uid":"poll"
+        }
+      ],
+      "status":"Создан",
+      "create_date":"2020-05-25",
+      "status_id":0
+    },
+    {
+      "id":3771,
+      "user":981,
+      "company":43,
+      "name":"Новый опрос2343434",
+      "description":null,
+      "selection":null,
+      "orders":[
+        {
+          "id":5654,
+          "files":[
+            {
+              "id":1518,
+              "file":"http://marketing.kube.vimpelcom.ru/api/v1/client/brandfile/1518/Offer-2020-05-21_YfZEg5U.xlsx/",
+              "type":"отчёт",
+              "name":"Offer-2020-05-21_YfZEg5U.xlsx",
+              "type_id":1
+            },
+            {
+              "id":1519,
+              "file":"http://marketing.kube.vimpelcom.ru/api/v1/client/brandfile/1519/Offer-2020-05-21_eC92I4I.xlsx/",
+              "type":"анкета",
+              "name":"Offer-2020-05-21_eC92I4I.xlsx",
+              "type_id":4
+            }
+          ],
+          "budget":null,
+          "date_start":null,
+          "date_end":null,
+          "data":{
+            "comment":"ggggggggggggggggg"
+          },
+          "links":[
+
+          ],
+          "event_count_min":0,
+          "event_count_max":null,
+          "adv_id":null,
+          "status":"Завершен",
+          "date_updated":"2020-05-22T14:46:37.789528",
+          "is_empty":false,
+          "is_active":true,
+          "order_segment_id":null,
+          "channel_type":"Мобильные опросы",
+          "campaign":3771,
+          "status_id":5,
+          "channel_uid":"poll"
+        }
+      ],
+      "status":"Завершен",
+      "create_date":"2020-05-22",
+      "status_id":7
+    },
+    {
+      "id": 3046,
+      "user": 981,
+      "company": 43,
+      "name": "test-with-draft",
+      "description": null,
+      "selection": {
+        "id": 2435,
+        "type": "segmentation",
+        "description": null,
+        "audience": 5154288,
+        "data": { "any_location": { "38": [] } }
+      },
+      "orders": [
+        {
+          "id": 2919,
+          "budget": 7500,
+          "date_start": null,
+          "date_end": null,
+          "data": {},
+          "links": [],
+          "event_count_min": 0,
+          "event_count_max": null,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-04-08T14:25:08.665700",
+          "is_empty": true,
+          "order_segment_id": null,
+          "channel_type": "Таргетированная SMS-рассылка",
+          "campaign": 3046,
+          "status_id": 5,
+          "channel_uid": "push"
+        },
+        {
+          "id": 2915,
+          "files": [
+            {
+              "id": 1252,
+              "file": "http://127.0.0.1/api/v1/client/brandfile/1252/фокус-дев2-19.02.2020.pdf/",
+              "type": "брэнд файл",
+              "name": "фокус-дев2-19.02.2020.pdf",
+              "type_id": 0
+            },
+            {
+              "id": 1335,
+              "file": "http://127.0.0.1/api/v1/client/brandfile/1335/Screenshot_2_b2sYbn8_9FLyH8G.png/",
+              "type": "брэнд файл",
+              "name": "Screenshot_2_b2sYbn8_9FLyH8G.png",
+              "type_id": 1
+            }
+          ],
+          "budget": 7500,
+          "date_start": null,
+          "date_end": null,
+          "data": {},
+          "links": [],
+          "event_count_min": 0,
+          "event_count_max": null,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-04-08T14:25:08.665700",
+          "is_empty": true,
+          "order_segment_id": null,
+          "channel_type": "Таргетированная SMS-рассылка",
+          "campaign": 3046,
+          "status_id": 0,
+          "channel_uid": "target-sms"
+        },
+        {
+          "id": 2916,
+          "files": [],
+          "budget": 20000,
+          "date_start": "2020-04-18",
+          "date_end": "2020-05-18",
+          "data": {
+            "tools": [{ "id": 2, "budget": 30000 }, { "id": 8, "budget": 10000 }],
+            "addInfo": "213",
+            "tariffs": [
+              {
+                "id": 961,
+                "cpc": 70,
+                "fee": 0,
+                "name": "Минимум",
+                "leads": 7,
+                "price": 20000,
+                "tools": [
+                  {
+                    "id": 1,
+                    "name": "Google Ads",
+                    "alias": "google",
+                    "type_id": 1,
+                    "position": 0,
+                    "description": "<div>В Google Ads поиске, как и в Я.Директе оплата производится за клики и таргетинг настраивается на заранее подобранные ключевые слова. Аудитория Google<br>отличается большей мобильностью - около 57% используют поиск Google со смартфона. Поэтому этот инструмент больше подходит для тематик, где удобно сразу же позвонить. Поисковая аудитория Google в России более 22 млн. человек.</div>"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Google Ads",
+                    "alias": "google",
+                    "type_id": 2,
+                    "position": 0,
+                    "description": "<div>Google Сеть (КМС) — это система размещения контекстной рекламы, учитывающая тематические и поведенческие факторы при показе объявлений на<br>тематических площадках, которые входят в&nbsp; контекстно- медийную сеть Google (КМС), включая Google, Gmail и YouTube.</div>"
+                  }
+                ],
+                "clicks": 285,
+                "options": [
+                  { "id": 1, "name": "Поддержка по E-Mail 10/5", "alias": "email", "position": 0 },
+                  { "id": 2, "name": "Поддержка по телефону 10/5", "alias": "phone", "position": 0 }
+                ],
+                "mediaplan_id": 408,
+                "additional_services": []
+              },
+              {
+                "id": 962,
+                "cpc": 73.65,
+                "fee": 0,
+                "name": "Оптимум",
+                "leads": 17,
+                "price": 50000,
+                "tools": [
+                  {
+                    "id": 1,
+                    "name": "Google Ads",
+                    "alias": "google",
+                    "type_id": 1,
+                    "position": 0,
+                    "description": "<div>В Google Ads поиске, как и в Я.Директе оплата производится за клики и таргетинг настраивается на заранее подобранные ключевые слова. Аудитория Google<br>отличается большей мобильностью - около 57% используют поиск Google со смартфона. Поэтому этот инструмент больше подходит для тематик, где удобно сразу же позвонить. Поисковая аудитория Google в России более 22 млн. человек.</div>"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Google Ads",
+                    "alias": "google",
+                    "type_id": 2,
+                    "position": 0,
+                    "description": "<div>Google Сеть (КМС) — это система размещения контекстной рекламы, учитывающая тематические и поведенческие факторы при показе объявлений на<br>тематических площадках, которые входят в&nbsp; контекстно- медийную сеть Google (КМС), включая Google, Gmail и YouTube.</div>"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Яндекс.Директ",
+                    "alias": "yandex",
+                    "type_id": 1,
+                    "position": 0,
+                    "description": "<div>Яндекс.Директ поиск универсальный формат рекламы,&nbsp; позволяющий обращаться к пользователю сразу же при возникновении у него потребности. Поисковая аудитория Яндекса более 27 млн. человек. Оплата осуществляется только за клик по вашему объявлению, т.е. переход на сайт.</div>"
+                  },
+                  {
+                    "id": 4,
+                    "name": "Яндекс.Директ",
+                    "alias": "yandex",
+                    "type_id": 2,
+                    "position": 0,
+                    "description": "<div>Яндекс сеть (РСЯ) — это система размещения контекстной рекламы, учитывающая тематические и поведенческие факторы при показе объявлений на тематических площадках, которые входят в рекламную сеть Яндекса.</div>"
+                  },
+                  {
+                    "id": 5,
+                    "name": "ВКонтакте",
+                    "alias": "vk",
+                    "type_id": 3,
+                    "position": 0,
+                    "description": "<div>Вконтакте – самая популярная социальная сеть в Рунете.&nbsp;<br>У этой площадки есть&nbsp; несколько преимуществ для настройки рекламы:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div><ul><li>Много больших сообществ</li><li>Характерные только для ВКонтакте субкультуры</li><li>Аккумулирует практически всю аудиторию соцсетей России</li><li>Охват на уровне федеральных каналов</li><li>Постоянно предлагает пользователям новые форматы контента</li></ul><div><br></div>"
+                  }
+                ],
+                "clicks": 678,
+                "options": [
+                  { "id": 1, "name": "Поддержка по E-Mail 10/5", "alias": "email", "position": 0 },
+                  { "id": 2, "name": "Поддержка по телефону 10/5", "alias": "phone", "position": 0 }
+                ],
+                "mediaplan_id": 408,
+                "additional_services": []
+              },
+              {
+                "id": 963,
+                "cpc": 73.31,
+                "fee": 0,
+                "name": "Премиум",
+                "leads": 25,
+                "price": 80000,
+                "tools": [
+                  {
+                    "id": 1,
+                    "name": "Google Ads",
+                    "alias": "google",
+                    "type_id": 1,
+                    "position": 0,
+                    "description": "<div>В Google Ads поиске, как и в Я.Директе оплата производится за клики и таргетинг настраивается на заранее подобранные ключевые слова. Аудитория Google<br>отличается большей мобильностью - около 57% используют поиск Google со смартфона. Поэтому этот инструмент больше подходит для тематик, где удобно сразу же позвонить. Поисковая аудитория Google в России более 22 млн. человек.</div>"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Google Ads",
+                    "alias": "google",
+                    "type_id": 2,
+                    "position": 0,
+                    "description": "<div>Google Сеть (КМС) — это система размещения контекстной рекламы, учитывающая тематические и поведенческие факторы при показе объявлений на<br>тематических площадках, которые входят в&nbsp; контекстно- медийную сеть Google (КМС), включая Google, Gmail и YouTube.</div>"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Яндекс.Директ",
+                    "alias": "yandex",
+                    "type_id": 1,
+                    "position": 0,
+                    "description": "<div>Яндекс.Директ поиск универсальный формат рекламы,&nbsp; позволяющий обращаться к пользователю сразу же при возникновении у него потребности. Поисковая аудитория Яндекса более 27 млн. человек. Оплата осуществляется только за клик по вашему объявлению, т.е. переход на сайт.</div>"
+                  },
+                  {
+                    "id": 4,
+                    "name": "Яндекс.Директ",
+                    "alias": "yandex",
+                    "type_id": 2,
+                    "position": 0,
+                    "description": "<div>Яндекс сеть (РСЯ) — это система размещения контекстной рекламы, учитывающая тематические и поведенческие факторы при показе объявлений на тематических площадках, которые входят в рекламную сеть Яндекса.</div>"
+                  },
+                  {
+                    "id": 5,
+                    "name": "ВКонтакте",
+                    "alias": "vk",
+                    "type_id": 3,
+                    "position": 0,
+                    "description": "<div>Вконтакте – самая популярная социальная сеть в Рунете.&nbsp;<br>У этой площадки есть&nbsp; несколько преимуществ для настройки рекламы:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div><ul><li>Много больших сообществ</li><li>Характерные только для ВКонтакте субкультуры</li><li>Аккумулирует практически всю аудиторию соцсетей России</li><li>Охват на уровне федеральных каналов</li><li>Постоянно предлагает пользователям новые форматы контента</li></ul><div><br></div>"
+                  },
+                  {
+                    "id": 8,
+                    "name": "myTarget",
+                    "alias": "mytarget",
+                    "type_id": 3,
+                    "position": 0,
+                    "description": "<div>myTarget объединяет в себе продукты Mail.ru Group: Одноклассники, Мой мир и ВКонтакте.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>Преимущества работы с myTarget:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><ul><li>Много очень активных мам</li><li>Аудитория легко вовлекается в контент, хорошее вирусное распространение</li><li>Ядро аудитории – регионы</li><li>Мало брендовых сообществ</li><li>Хорошо развиты инструменты для e-commerce</li><li>Сильный ориентир на прямых клиентов</li></ul><div><br></div><div><br></div>"
+                  },
+                  {
+                    "id": 6,
+                    "name": "Facebook",
+                    "alias": "facebook",
+                    "type_id": 3,
+                    "position": 0,
+                    "description": "<div>Facebook – технологический лидер среди социальных сетей, новшества в сфере интернет-рекламы создаются в нём, а потом уже переходят к другим площадкам.&nbsp;</div><ul><li>Ядро аудитории – города-миллионники</li><li>Аудитория, лояльная международным брендам</li><li>Разнообразие рекламных форматов</li><li>Пользователи активно создают контент сами и читают всё то, что написали друзья</li></ul><div><br></div><div><br></div><div><br></div>"
+                  },
+                  {
+                    "id": 7,
+                    "name": "Instagram",
+                    "alias": "instagram",
+                    "type_id": 3,
+                    "position": 0,
+                    "description": "<div>Instagram сегодня – это ведущая платформа визуального контента. Более 80 миллионов постов публикуется здесь ежедневно.&nbsp;</div><div>Задачи рекламы в Instagram:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><ul><li>Поднять вовлечённость для публикации</li><li>Перенаправлять людей на веб-сайт</li><li>Увеличить количество конверсий на веб-сайте</li><li>Получать установки вашего приложения</li><li>Получать просмотры видео</li></ul><div><br></div><div><br></div><div><br></div>"
+                  }
+                ],
+                "clicks": 1091,
+                "options": [
+                  { "id": 1, "name": "Поддержка по E-Mail 10/5", "alias": "email", "position": 0 },
+                  { "id": 2, "name": "Поддержка по телефону 10/5", "alias": "phone", "position": 0 },
+                  { "id": 3, "name": "Рекомендации по улучшению сайта", "alias": "recommendation", "position": 0 }
+                ],
+                "mediaplan_id": 408,
+                "additional_services": []
+              }
+            ],
+            "industry": 31,
+            "services": "22",
+            "chosenTariff": 962,
+            "mediaplan_id": 408,
+            "mobileVersion": true,
+            "urlAdvertiser": "http://vk.com",
+            "infotech_brief_id": 429
+          },
+          "links": [],
+          "event_count_min": 250,
+          "event_count_max": 556,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-04-08T14:45:07.932238",
+          "is_empty": false,
+          "order_segment_id": null,
+          "channel_type": "Интернет-реклама",
+          "campaign": 3046,
+          "status_id": 0,
+          "channel_uid": "internet"
+        }
+      ],
+      "status": "Черновик",
+      "create_date": "2020-04-08",
+      "status_id": 1
+    },
+    {
+      "id": 3045,
+      "user": 981,
+      "company": 43,
+      "name": "test111",
+      "description": null,
+      "selection": { "id": 2434, "type": "segmentation", "description": null, "audience": 55700688, "data": {} },
+      "orders": [
+        {
+          "id": 2881,
+          "files": [
+            {
+              "id": 1252,
+              "file": "http://127.0.0.1/api/v1/client/brandfile/1252/фокус-дев2-19.02.2020.pdf/",
+              "type": "брэнд файл",
+              "name": "фокус-дев2-19.02.2020.pdf",
+              "type_id": 0
+            },
+            {
+              "id": 1335,
+              "file": "http://127.0.0.1/api/v1/client/brandfile/1335/Screenshot_2_b2sYbn8_9FLyH8G.png/",
+              "type": "брэнд файл",
+              "name": "Screenshot_2_b2sYbn8_9FLyH8G.png",
+              "type_id": 0
+            }
+          ],
+          "budget": 7500,
+          "date_start": null,
+          "date_end": null,
+          "data": {},
+          "links": [],
+          "event_count_min": 0,
+          "event_count_max": null,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-04-08T13:54:45.167787",
+          "is_empty": true,
+          "order_segment_id": null,
+          "channel_type": "Таргетированная SMS-рассылка",
+          "campaign": 3045,
+          "status_id": 0,
+          "channel_uid": "target-sms"
+        },
+        {
+          "id": 2882,
+          "files": [],
+          "budget": 90000,
+          "date_start": "2020-04-26",
+          "date_end": "2020-05-26",
+          "data": {
+            "tools": [
+              { "id": 2, "budget": 10000 },
+              { "id": 8, "budget": 60000 },
+              { "id": 5, "budget": 10000 },
+              { "id": 4, "budget": 10000 }
+            ],
+            "addInfo": "asdfвв",
+            "industry": 31,
+            "services": "dsfsd",
+            "mobileVersion": false,
+            "urlAdvertiser": "http://vk.com"
+          },
+          "links": [],
+          "event_count_min": 1635,
+          "event_count_max": 3456,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-04-08T14:37:04.600406",
+          "is_empty": false,
+          "order_segment_id": null,
+          "channel_type": "Интернет-реклама",
+          "campaign": 3045,
+          "status_id": 0,
+          "channel_uid": "internet"
+        }
+      ],
+      "status": "Черновик",
+      "create_date": "2020-04-08",
+      "status_id": 5
+    },
+    {
+      "id": 3044,
+      "user": 981,
+      "company": 43,
+      "name": "Processed with VSCO with kp1 preset",
+      "description": null,
+      "selection": null,
+      "orders": [],
+      "status": "Черновик",
+      "create_date": "2020-04-08",
+      "status_id": 5
+    },
+    {
+      "id": 3043,
+      "user": 981,
+      "company": 43,
+      "name": "Processed with VSCO with kp1 preset",
+      "description": null,
+      "selection": null,
+      "orders": [],
+      "status": "Черновик",
+      "create_date": "2020-04-07",
+      "status_id": 5
+    },
+    {
+      "id": 3042,
+      "user": 981,
+      "company": 43,
+      "name": "Processed with VSCO with kp1 preset",
+      "description": null,
+      "selection": null,
+      "orders": [],
+      "status": "Черновик",
+      "create_date": "2020-04-07",
+      "status_id": 5
+    },
+    {
+      "id": 3041,
+      "user": 981,
+      "company": 43,
+      "name": "test",
+      "description": null,
+      "selection": { "id": 2433, "type": "segmentation", "description": null, "audience": 55700688, "data": {} },
+      "orders": [
+        {
+          "id": 2880,
+          "files": [
+            {
+              "id": 1252,
+              "file": "http://127.0.0.1/api/v1/client/brandfile/1252/фокус-дев2-19.02.2020.pdf/",
+              "type": "брэнд файл",
+              "name": "фокус-дев2-19.02.2020.pdf",
+              "type_id": 0
+            },
+            {
+              "id": 1335,
+              "file": "http://127.0.0.1/api/v1/client/brandfile/1335/Screenshot_2_b2sYbn8_9FLyH8G.png/",
+              "type": "брэнд файл",
+              "name": "Screenshot_2_b2sYbn8_9FLyH8G.png",
+              "type_id": 0
+            }
+          ],
+          "budget": 7500,
+          "date_start": null,
+          "date_end": null,
+          "data": {},
+          "links": [],
+          "event_count_min": 0,
+          "event_count_max": null,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-04-07T10:28:17.582363",
+          "is_empty": true,
+          "order_segment_id": null,
+          "channel_type": "Таргетированная SMS-рассылка",
+          "campaign": 3041,
+          "status_id": 0,
+          "channel_uid": "target-sms"
+        }
+      ],
+      "status": "Черновик",
+      "create_date": "2020-04-07",
+      "status_id": 5
+    },
+    {
+      "id": 3040,
+      "user": 981,
+      "company": 43,
+      "name": "Processed with VSCO with kp1 preset",
+      "description": null,
+      "selection": null,
+      "orders": [],
+      "status": "Черновик",
+      "create_date": "2020-04-07",
+      "status_id": 5
+    },
+    {
+      "id": 3039,
+      "user": 981,
+      "company": 43,
+      "name": "Processed with VSCO with kp1 preset",
+      "description": null,
+      "selection": { "id": 2432, "type": "segmentation", "description": null, "audience": 55700688, "data": {} },
+      "orders": [
+        {
+          "id": 2879,
+          "files": [
+            {
+              "id": 1252,
+              "file": "http://127.0.0.1/api/v1/client/brandfile/1252/фокус-дев2-19.02.2020.pdf/",
+              "type": "брэнд файл",
+              "name": "фокус-дев2-19.02.2020.pdf",
+              "type_id": 0
+            },
+            {
+              "id": 1335,
+              "file": "http://127.0.0.1/api/v1/client/brandfile/1335/Screenshot_2_b2sYbn8_9FLyH8G.png/",
+              "type": "брэнд файл",
+              "name": "Screenshot_2_b2sYbn8_9FLyH8G.png",
+              "type_id": 0
+            }
+          ],
+          "budget": 7500,
+          "date_start": null,
+          "date_end": null,
+          "data": {},
+          "links": [],
+          "event_count_min": 0,
+          "event_count_max": null,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-04-07T08:53:45.087865",
+          "is_empty": true,
+          "order_segment_id": null,
+          "channel_type": "Таргетированная SMS-рассылка",
+          "campaign": 3039,
+          "status_id": 0,
+          "channel_uid": "target-sms"
+        }
+      ],
+      "status": "Черновик",
+      "create_date": "2020-04-07",
+      "status_id": 5
+    },
+    {
+      "id": 3038,
+      "user": 981,
+      "company": 43,
+      "name": "Processed with VSCO with kp1 preset",
+      "description": null,
+      "selection": { "id": 2431, "type": "segmentation", "description": null, "audience": 55700688, "data": {} },
+      "orders": [
+        {
+          "id": 2878,
+          "files": [
+            {
+              "id": 1252,
+              "file": "http://127.0.0.1/api/v1/client/brandfile/1252/фокус-дев2-19.02.2020.pdf/",
+              "type": "брэнд файл",
+              "name": "фокус-дев2-19.02.2020.pdf",
+              "type_id": 0
+            },
+            {
+              "id": 1335,
+              "file": "http://127.0.0.1/api/v1/client/brandfile/1335/Screenshot_2_b2sYbn8_9FLyH8G.png/",
+              "type": "брэнд файл",
+              "name": "Screenshot_2_b2sYbn8_9FLyH8G.png",
+              "type_id": 0
+            }
+          ],
+          "budget": 7500,
+          "date_start": null,
+          "date_end": null,
+          "data": {},
+          "links": [],
+          "event_count_min": 0,
+          "event_count_max": null,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-04-07T08:51:55.898886",
+          "is_empty": true,
+          "order_segment_id": null,
+          "channel_type": "Таргетированная SMS-рассылка",
+          "campaign": 3038,
+          "status_id": 0,
+          "channel_uid": "target-sms"
+        }
+      ],
+      "status": "Черновик",
+      "create_date": "2020-04-07",
+      "status_id": 5
+    },
+    {
+      "id": 3037,
+      "user": 981,
+      "company": 43,
+      "name": "Processed with VSCO with kp1 preset",
+      "description": null,
+      "selection": { "id": 2430, "type": "segmentation", "description": null, "audience": 55700688, "data": {} },
+      "orders": [
+        {
+          "id": 2877,
+          "files": [
+            {
+              "id": 1252,
+              "file": "http://127.0.0.1/api/v1/client/brandfile/1252/фокус-дев2-19.02.2020.pdf/",
+              "type": "брэнд файл",
+              "name": "фокус-дев2-19.02.2020.pdf",
+              "type_id": 0
+            },
+            {
+              "id": 1335,
+              "file": "http://127.0.0.1/api/v1/client/brandfile/1335/Screenshot_2_b2sYbn8_9FLyH8G.png/",
+              "type": "брэнд файл",
+              "name": "Screenshot_2_b2sYbn8_9FLyH8G.png",
+              "type_id": 0
+            }
+          ],
+          "budget": 7500,
+          "date_start": null,
+          "date_end": null,
+          "data": {},
+          "links": [],
+          "event_count_min": 0,
+          "event_count_max": null,
+          "adv_id": null,
+          "status": "Создан",
+          "date_updated": "2020-04-03T12:09:06.093261",
+          "is_empty": true,
+          "order_segment_id": null,
+          "channel_type": "Таргетированная SMS-рассылка",
+          "campaign": 3037,
+          "status_id": 0,
+          "channel_uid": "target-sms"
+        }
+      ],
+      "status": "Черновик",
+      "create_date": "2020-04-03",
+      "status_id": 5
+    }
+  ]
+}

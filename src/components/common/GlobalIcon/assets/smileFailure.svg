@@ -1,0 +1,31 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 69 69" version="1.1">
+  <defs>
+    <linearGradient x1="50%" y1="100.000118%" x2="50%" y2="0.000117647059%" id="linearGradient-1">
+      <stop stop-color="#FFAC21" offset="0%"></stop>
+      <stop stop-color="#FFD510" offset="64.27%"></stop>
+      <stop stop-color="#FFE708" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g id="Analitics-new" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="n_segm_07-copy-21" transform="translate(-686.000000, -275.000000)">
+      <g id="Group" transform="translate(262.000000, 222.000000)">
+        <g transform="translate(424.000000, 53.000000)">
+          <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="34.3607895" cy="34.3139825" r="34.2982456"></circle>
+          <path d="M48.2846667,47.772614 C45.3539825,43.3094035 40.3040702,40.3621754 34.5653684,40.3621754 C28.5498596,40.3621754 23.2905263,43.6011404 20.4365088,48.4299298" id="Path" stroke="#4E4E4E" stroke-width="1.2"></path>
+          <g transform="translate(16.947368, 21.385965)" id="Path" stroke="#4E4E4E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2">
+            <g>
+              <line x1="0.347421053" y1="0.312719298" x2="10.4315088" y2="10.4081053"></line>
+              <line x1="10.4315088" y1="0.312719298" x2="0.347421053" y2="10.4081053"></line>
+            </g>
+            <g transform="translate(24.210526, 0.000000)">
+              <line x1="0.184807018" y1="0.312719298" x2="10.2688947" y2="10.4081053"></line>
+              <line x1="10.2688947" y1="0.312719298" x2="0.184807018" y2="10.4081053"></line>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

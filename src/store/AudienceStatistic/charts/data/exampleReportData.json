@@ -1,0 +1,1086 @@
+[
+  {
+    "report_setting_id": 80,
+    "group_id": null,
+    "group_name": null,
+    "description": "Пол",
+    "series_name": "Пол",
+    "type": "pie",
+    "total": 17185,
+    "colors": ["#282828", "#8fcbe5"],
+    "legend_data": null,
+    "data": [
+      {
+        "data": [
+          {
+            "name": "Мужчины",
+            "value": "8189"
+          },
+          {
+            "name": "Женщины",
+            "value": "8996"
+          }
+        ],
+        "name": "Пол"
+      }
+    ]
+  },
+  {
+    "report_setting_id": 81,
+    "group_id": 2,
+    "description": "Возраст",
+    "series_name": "Возраст",
+    "type": "simpleBar",
+    "total": 17184,
+    "legend_data": null,
+    "colors": ["#8fcbe5"],
+    "data": [
+      {
+        "data": [
+          {
+            "name": "0-17",
+            "value": "349"
+          },
+          {
+            "name": "18-24",
+            "value": "1290"
+          },
+          {
+            "name": "25-29",
+            "value": "1865"
+          },
+          {
+            "name": "30-34",
+            "value": "3215"
+          },
+          {
+            "name": "35-39",
+            "value": "2546"
+          },
+          {
+            "name": "40-44",
+            "value": "1874"
+          },
+          {
+            "name": "45-49",
+            "value": "1779"
+          },
+          {
+            "name": "50-54",
+            "value": "1309"
+          },
+          {
+            "name": "55-59",
+            "value": "1132"
+          },
+          {
+            "name": "60-64",
+            "value": "689"
+          },
+          {
+            "name": "65 ∞",
+            "value": "1136"
+          }
+        ],
+        "name": "Возраст"
+      }
+    ]
+  },
+  {
+    "report_setting_id": 82,
+    "group_id": null,
+    "group_name": null,
+    "description": "Возраст и пол",
+    "series_name": "Возраст и пол",
+    "type": "doubleBar",
+    "total": 17176,
+    "colors": ["#cf8fe5", "#282828"],
+    "legend_data": null,
+    "data": [
+      {
+        "data": [
+          {
+            "name": "0-17",
+            "value": "207"
+          },
+          {
+            "name": "18-24",
+            "value": "596"
+          },
+          {
+            "name": "25-29",
+            "value": "906"
+          },
+          {
+            "name": "30-34",
+            "value": "1915"
+          },
+          {
+            "name": "35-39",
+            "value": "1432"
+          },
+          {
+            "name": "40-44",
+            "value": "1007"
+          },
+          {
+            "name": "45-49",
+            "value": "966"
+          },
+          {
+            "name": "50-54",
+            "value": "661"
+          },
+          {
+            "name": "55-59",
+            "value": "541"
+          },
+          {
+            "name": "60-64",
+            "value": "324"
+          },
+          {
+            "name": "Более 65",
+            "value": "437"
+          }
+        ],
+        "name": "Женщины"
+      },
+      {
+        "data": [
+          {
+            "name": "0-17",
+            "value": "142"
+          },
+          {
+            "name": "18-24",
+            "value": "693"
+          },
+          {
+            "name": "25-29",
+            "value": "959"
+          },
+          {
+            "name": "30-34",
+            "value": "1299"
+          },
+          {
+            "name": "35-39",
+            "value": "1114"
+          },
+          {
+            "name": "40-44",
+            "value": "867"
+          },
+          {
+            "name": "45-49",
+            "value": "812"
+          },
+          {
+            "name": "50-54",
+            "value": "648"
+          },
+          {
+            "name": "55-59",
+            "value": "588"
+          },
+          {
+            "name": "60-64",
+            "value": "364"
+          },
+          {
+            "name": "Более 65",
+            "value": "698"
+          }
+        ],
+        "name": "Мужчины"
+      }
+    ]
+  },
+  {
+    "report_setting_id": 965,
+    "group_id": null,
+    "group_name": null,
+    "description": "Тип занятости",
+    "series_name": "Тип занятости",
+    "colors": ["#8FCBE5", "#8FA2E5", "#CF8FE5"],
+    "type": "pie",
+    "total": 1363,
+    "legend_data": null,
+    "data": [
+      {
+        "data": [
+          { "name": "Пенсионер", "value": "792" },
+          { "name": "Студент", "value": "516" },
+          { "name": "Школьник", "value": "55" }
+        ],
+        "name": "Тип занятости"
+      }
+    ]
+  },
+  {
+    "report_setting_id": 966,
+    "group_id": null,
+    "group_name": null,
+    "description": "Демография. Наличие детей",
+    "series_name": "Демография. Наличие детей",
+    "colors": ["#cf8fe5", "#282828", "#787878", "#8fa2e5"],
+    "type": "pie",
+    "total": 3330,
+    "legend_data": null,
+    "data": [
+      {
+        "data": [
+          { "name": "0-3", "value": "1665" },
+          { "name": "3-6", "value": "1221" },
+          { "name": "Школьники", "value": "444" }
+        ],
+        "name": "Наличие детей"
+      }
+    ]
+  },
+  {
+    "report_setting_id": 978,
+    "group_id": null,
+    "group_name": null,
+    "description": "Наличие животных",
+    "series_name": "Наличие животных",
+    "colors": ["#282828", "#acdccc", "#ffa5a5", "#e6e6e6"],
+    "type": "pie",
+    "total": 5674,
+    "legend_data": null,
+    "data": [
+      { "data": [
+          { "name": "Кошки", "value": "4006" },
+          { "name": "Собаки", "value": "1668" }
+        ],
+        "name": "Наличие животных"
+      }
+    ]
+  },
+  {
+    "report_setting_id": 967,
+    "group_id": null,
+    "group_name": null,
+    "description": "География",
+    "series_name": "География",
+    "type": "pictorialBar",
+    "total": 17338,
+    "colors": [
+      "#F7C441",
+      "#282828",
+      "#FFDC7D",
+      "#FFAD6F",
+      "#EEE7DF",
+      "#ACDCCC",
+      "#8FA2E5",
+      "#8FCBE5",
+      "#C7E58F",
+      "#FFD56F"
+    ],
+    "legend_data": null,
+    "data": [
+      {
+        "data": [
+          { "name": "Санкт-Петербург", "value": "10431" },
+          { "name": "Тверь", "value": "1409" },
+          { "name": "Москва", "value": "1134" },
+          { "name": "Выборг", "value": "773" },
+          { "name": "Великий Новгород", "value": "653" },
+          { "name": "Псков", "value": "653" },
+          { "name": "Петрозаводск", "value": "618" },
+          { "name": "Великие Луки", "value": "584" },
+          { "name": "Ржев", "value": "567" },
+          { "name": "Клинцы", "value": "516" }
+        ],
+        "name": "География"
+      }
+    ]
+  },
+  {
+    "report_setting_id": 971,
+    "group_id": null,
+    "group_name": null,
+    "description": "Доход",
+    "colors": ["#ffa5a5", "#282828", "#e6e6e6", "#cf8fe5", "#eee7df", "#f6a000", "#787878"],
+    "series_name": "Доход",
+    "type": "simpleBar",
+    "total": 17181,
+    "legend_data": null,
+    "data": [
+      {
+        "data": [
+          { "name": "От 0 до 10", "value": "305" },
+          { "name": "От 10 до 20", "value": "1478" },
+          { "name": "От 20 до 35", "value": "4143" },
+          { "name": "От 35 до 50", "value": "2843" },
+          { "name": "От 50 до 75", "value": "2860" },
+          { "name": "От 75 до 100", "value": "1648" },
+          { "name": "От 100 до 150", "value": "1799" },
+          { "name": "Более 150", "value": "2105" }
+        ],
+        "name": "Доход"
+      }
+    ]
+  },
+  {
+    "report_setting_id": 69,
+    "group_id": 1,
+    "group_name": "Интересы",
+    "colors": ["#cf8fe5", "#282828", "#8fa2e5", "#787878", "#cf8fe5", "#404040"],
+    "description": "Интересы. Финансы",
+    "series_name": "Интересы. Финансы",
+    "type": "tree",
+    "total": 919,
+    "legend_data": null,
+    "data": [
+      {
+        "name": "Финансы",
+        "value": "55",
+        "children": [
+          {
+            "name": "Финансовые продукты",
+            "value": "43"
+          },
+          {
+            "name": "Кредитные карты",
+            "value": "20"
+          },
+          {
+            "name": "Дебетовые карты",
+            "value": "251"
+          },
+          {
+            "name": "Денежные переводы",
+            "value": "134"
+          },
+          {
+            "name": "Микрокредиты",
+            "value": "272"
+          },
+          {
+            "name": "Потребительские кредиты",
+            "value": "45"
+          },
+          {
+            "name": "Вклады",
+            "value": "53"
+          },
+          {
+            "name": "Карты с кэшбэк",
+            "value": "21"
+          },
+          {
+            "name": "Автокредит",
+            "value": "16"
+          },
+          {
+            "name": "Ипотека",
+            "value": "64"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "report_setting_id": 79,
+    "group_id": 1,
+    "group_name": "Интересы",
+    "colors": ["#cf8fe5", "#282828", "#8fa2e5", "#787878", "#cf8fe5", "#404040"],
+    "description": "Интересы. Туризм",
+    "series_name": "Интересы. Туризм",
+    "type": "tree",
+    "total": 1338,
+    "legend_data": null,
+    "data": [
+      {
+        "name": "Туризм",
+        "value": "80",
+        "children": [
+          {
+            "name": "Путешествия",
+            "value": "376"
+          },
+          {
+            "name": "Отдых в санаториях",
+            "value": "259"
+          },
+          {
+            "name": "Отдых в хостелах",
+            "value": "143"
+          },
+          {
+            "name": "Отдых в отелях",
+            "value": "46"
+          },
+          {
+            "name": "Путешествия на самолёте",
+            "value": "70"
+          },
+          {
+            "name": "Путешествия на автобусе",
+            "value": "182"
+          },
+          {
+            "name": "Аренда автомобилей",
+            "value": "122"
+          },
+          {
+            "name": "Ж/Д билеты",
+            "value": "78"
+          },
+          {
+            "name": "Виза и документы",
+            "value": "36"
+          },
+          {
+            "name": "Самостоятельные путешествия",
+            "value": "26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "report_setting_id": 68,
+    "group_id": 1,
+    "group_name": "Интересы",
+    "colors": ["#cf8fe5", "#282828", "#8fa2e5", "#787878", "#cf8fe5", "#404040"],
+    "description": "Интересы. Недвижимость",
+    "series_name": "Интересы. Недвижимость",
+    "type": "tree",
+    "total": 1160,
+    "legend_data": null,
+    "data": [
+      {
+        "name": "Недвижимость",
+        "value": "69",
+        "children": [
+          {
+            "name": "Покупка недвижимости",
+            "value": "49"
+          },
+          {
+            "name": "Покупка коммерческой недвижимости",
+            "value": "17"
+          },
+          {
+            "name": " Покупка загородной недвижимости",
+            "value": "59"
+          },
+          {
+            "name": "Покупка зарубежной недвижимости",
+            "value": "4"
+          },
+          {
+            "name": "Покупка земельного участка",
+            "value": "50"
+          },
+          {
+            "name": "Покупка квартиры в новостройке",
+            "value": "43"
+          },
+          {
+            "name": "Покупка вторички",
+            "value": "212"
+          },
+          {
+            "name": "Поиск квартиры",
+            "value": "243"
+          },
+          {
+            "name": "Аренда коммерческой недвижимости",
+            "value": "62"
+          },
+          {
+            "name": "Аренда квартиры",
+            "value": "174"
+          },
+          {
+            "name": "Аренда загородной недвижимости",
+            "value": "83"
+          },
+          {
+            "name": "Аренда зарубежной недвижимости",
+            "value": "59"
+          },
+          {
+            "name": "Аренда земельного участка",
+            "value": "17"
+          },
+          {
+            "name": "Аренда недвижимости",
+            "value": "39"
+          },
+          {
+            "name": "Покупка элитной недвижимости",
+            "value": "49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "report_setting_id": 70,
+    "group_id": 1,
+    "group_name": "Интересы",
+    "colors": ["#cf8fe5", "#282828", "#8fa2e5", "#787878", "#cf8fe5", "#404040"],
+    "description": "Интересы. Интерес к инвестициям",
+    "series_name": "Интересы. Интерес к инвестициям",
+    "type": "tree",
+    "total": 206,
+    "legend_data": null,
+    "data": [
+      {
+        "name": "Интерес к инвестициям",
+        "value": "12",
+        "children": [
+          {
+            "name": "Нет интереса",
+            "value": "53"
+          },
+          {
+            "name": "Интерес 1-3 мес",
+            "value": "115"
+          },
+          {
+            "name": "Интерес 4-5 мес",
+            "value": "23"
+          },
+          {
+            "name": "Интерес более 6 мес",
+            "value": "15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "report_setting_id": 74,
+    "group_id": 1,
+    "group_name": "Интересы",
+    "colors": ["#cf8fe5", "#282828", "#8fa2e5", "#787878", "#cf8fe5", "#404040"],
+    "description": "Интересы. Спорт",
+    "series_name": "Интересы. Спорт",
+    "type": "tree",
+    "total": 752,
+    "legend_data": null,
+    "data": [
+      {
+        "name": "Спорт",
+        "value": "45",
+        "children": [
+          {
+            "name": "Спортивная одежда и обувь",
+            "value": "578"
+          },
+          {
+            "name": "Интерес к спорту",
+            "value": "174"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "report_setting_id": 71,
+    "group_id": 1,
+    "group_name": "Интересы",
+    "colors": ["#cf8fe5", "#282828", "#8fa2e5", "#787878", "#cf8fe5", "#404040"],
+    "description": "Интересы. Развлечения и отдых",
+    "series_name": "Интересы. Развлечения и отдых",
+    "type": "tree",
+    "total": 921,
+    "legend_data": null,
+    "data": [
+      {
+        "name": "Развлечения",
+        "value": "55",
+        "children": [
+          {
+            "name": "Клубы",
+            "value": "376"
+          },
+          {
+            "name": "Выставки и музеи",
+            "value": "345"
+          },
+          {
+            "name": "Фестивали",
+            "value": "75"
+          },
+          {
+            "name": "Театры",
+            "value": "125"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "report_setting_id": 75,
+    "group_id": 1,
+    "group_name": "Интересы",
+    "colors": ["#cf8fe5", "#282828", "#8fa2e5", "#787878", "#cf8fe5", "#404040"],
+    "description": "Интересы. Техника",
+    "series_name": "Интересы. Техника",
+    "type": "tree",
+    "total": 2261,
+    "legend_data": null,
+    "data": [
+      {
+        "name": "Техника",
+        "value": "135",
+        "children": [
+          {
+            "name": "Техника и электроника",
+            "value": "427"
+          },
+          {
+            "name": "Телевизоры",
+            "value": "376"
+          },
+          {
+            "name": "Стационарные компьютеры",
+            "value": "431"
+          },
+          {
+            "name": "Мобильные телефоны",
+            "value": "144"
+          },
+          {
+            "name": "Планшеты",
+            "value": "125"
+          },
+          {
+            "name": "Фото и видеокамеры",
+            "value": "43"
+          },
+          {
+            "name": "Техника для кухни",
+            "value": "383"
+          },
+          {
+            "name": "Техника для здоровья",
+            "value": "83"
+          },
+          {
+            "name": "Техника для спорта",
+            "value": "17"
+          },
+          {
+            "name": "Игровые приставки",
+            "value": "7"
+          },
+          {
+            "name": "Ноутбуки",
+            "value": "39"
+          },
+          {
+            "name": "Принтеры и сканеры",
+            "value": "50"
+          },
+          {
+            "name": "Умные часы и браслеты",
+            "value": "43"
+          },
+          {
+            "name": "Электронные книги",
+            "value": "50"
+          },
+          {
+            "name": "Навигаторы",
+            "value": "43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "report_setting_id": 72,
+    "group_id": 1,
+    "group_name": "Интересы",
+    "colors": ["#cf8fe5", "#282828", "#8fa2e5", "#787878", "#cf8fe5", "#404040"],
+    "description": "Интересы. Ритейл",
+    "series_name": "Интересы. Ритейл",
+    "type": "tree",
+    "total": 4509,
+    "legend_data": null,
+    "data": [
+      {
+        "name": "Ритейл",
+        "value": "850",
+        "children": [
+          {
+            "name": "Аксессуары",
+            "value": "539"
+          },
+          {
+            "name": "Товары для детей",
+            "value": "1398"
+          },
+          {
+            "name": "Косметика и средства ухода",
+            "value": "1064"
+          },
+          {
+            "name": "Посуда",
+            "value": "539"
+          },
+          {
+            "name": "Бытовая химия",
+            "value": "194"
+          },
+          {
+            "name": "Личная гигиена",
+            "value": "775"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "report_setting_id": 73,
+    "group_id": 1,
+    "group_name": "Интересы",
+    "colors": ["#cf8fe5", "#282828", "#8fa2e5", "#787878", "#cf8fe5", "#404040"],
+    "description": "Интересы. Одежда",
+    "series_name": "Интересы. Одежда",
+    "type": "tree",
+    "total": 2787,
+    "legend_data": null,
+    "data": [
+      {
+        "name": "Одежда и обувь",
+        "value": "557",
+        "children": [
+          {
+            "name": "Детская одежда и обувь",
+            "value": "1207"
+          },
+          {
+            "name": "Нижнее белье",
+            "value": "222"
+          },
+          {
+            "name": "Обувь",
+            "value": "215"
+          },
+          {
+            "name": "Одежда",
+            "value": "555"
+          },
+          {
+            "name": "Одежда и обувь через интернет",
+            "value": "588"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "report_setting_id": 76,
+    "group_id": 1,
+    "group_name": "Интересы",
+    "colors": ["#cf8fe5", "#282828", "#8fa2e5", "#787878", "#cf8fe5", "#404040"],
+    "description": "Интересы. Услуги",
+    "series_name": "Интересы. Услуги",
+    "type": "tree",
+    "total": 1684,
+    "legend_data": null,
+    "data": [
+      {
+        "name": "Услуги",
+        "value": 101,
+        "children": [
+          {
+            "name": "Персональный уход",
+            "value": "692"
+          },
+          {
+            "name": "Обслуживание авто",
+            "value": "222"
+          },
+          {
+            "name": "Интерес к изучению английского языка",
+            "value": "215"
+          },
+          {
+            "name": "Интерес к ремонту",
+            "value": "555"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "report_setting_id": 77,
+    "group_id": 1,
+    "group_name": "Интересы",
+    "colors": ["#cf8fe5", "#282828", "#8fa2e5", "#787878", "#cf8fe5", "#404040"],
+    "description": "Интересы. Рестораны и кафе",
+    "series_name": "Интересы. Рестораны и кафе",
+    "type": "tree",
+    "total": 195,
+    "legend_data": null,
+    "data": [
+      {
+        "name": "Рестораны и кафе",
+        "value": "11",
+        "children": [
+          {
+            "name": "Доставка еды",
+            "value": "125"
+          },
+          {
+            "name": "Посещение ресторанов",
+            "value": "70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "report_setting_id": 78,
+    "group_id": 1,
+    "group_name": "Интересы",
+    "colors": ["#cf8fe5", "#282828", "#8fa2e5", "#787878", "#cf8fe5", "#404040"],
+    "description": "Интересы. Страхование",
+    "series_name": "Интересы. Страхование",
+    "type": "tree",
+    "total": 410,
+    "legend_data": null,
+    "data": [
+      {
+        "name": "Страхование",
+        "value": "24",
+        "children": [
+          {
+            "name": "Автострахование (каско/осаго)",
+            "value": "190"
+          },
+          {
+            "name": "Страхование ВЗР",
+            "value": "107"
+          },
+          {
+            "name": "Страхование недвижимости",
+            "value": "73"
+          },
+          {
+            "name": "Страхование жизни и здоровья",
+            "value": "40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "report_setting_id": 471,
+    "group_id": null,
+    "group_name": null,
+    "description": "Собственность",
+    "series_name": "Собственность",
+    "colors": ["#FFAD6F"],
+    "type": "pictorialBar",
+    "total": 13146,
+    "legend_data": null,
+    "data": [
+      {
+        "data": [
+          { "name": "Наличие дачи", "value": "3710" },
+          { "name": "Наличие автомобиля", "value": "7310" },
+          { "name": "Свой бизнес", "value": "2126" }
+        ],
+        "name": "Собственность"
+      }
+    ]
+  },
+  {
+    "report_setting_id": 3376,
+    "group_id": 100,
+    "group_name": null,
+    "description": "Автомобилисты",
+    "series_name": "Автомобилисты",
+    "type": "tree",
+    "total": 4108,
+    "not_found": 500,
+    "colors": ["#282828", "#80b980", "#787878"],
+    "legend_data": null,
+    "data": [
+      { "name": "Владельцы", "value": "1232" }
+    ]
+  },
+  {
+    "report_setting_id": 3376,
+    "group_id": 100,
+    "group_name": null,
+    "description": "Автомобилисты",
+    "series_name": "Автомобилисты",
+    "type": "tree",
+    "total": 4108,
+    "colors": ["#282828", "#80b980", "#787878"],
+    "legend_data": null,
+    "not_found": 200,
+    "data": [
+      {
+        "name": "Планируют купить",
+        "value": "2875",
+        "children": [
+          { "name": "Новый", "value": "951" },
+          { "name": "БУ", "value": "3157" }
+        ]
+      }
+    ]
+  },
+  {
+    "report_setting_id": 9722,
+    "group_id": null,
+    "group_name": null,
+    "description": "Социальные сети",
+    "series_name": "Социальные сети",
+    "type": "pictorialBar",
+    "total": 31929,
+    "colors": ["#8FA2E5", "#8FCBE5", "#CF8FE5", "#fac12b"],
+    "legend_data": null,
+    "data": [
+      {
+        "data": [
+          { "name": "ВКонтакте", "value": "9043" },
+          { "name": "Одноклассники", "value": "6473" },
+          { "name": "Facebook", "value": "8796" },
+          { "name": "Instagram", "value": "7617" }
+        ],
+        "name": "Социальные сети"
+      }
+    ]
+  },
+  {
+    "report_setting_id": 62,
+    "group_id": null,
+    "group_name": null,
+    "description": "Мессенджеры",
+    "series_name": "Мессенджеры",
+    "type": "pictorialBar",
+    "total": 23854,
+    "colors": ["#80b980", "#f6a000", "#CF8FE5", "#8FCBE5"],
+    "legend_data": null,
+    "data": [
+      {
+        "data": [
+          {
+            "name": "Whatsapp",
+            "value": "11241"
+          },
+          {
+            "name": "Viber",
+            "value": "7786"
+          },
+          {
+            "name": "Telegram",
+            "value": "3946"
+          },
+          {
+            "name": "Skype",
+            "value": "881"
+          }
+        ],
+        "name": "Мессенджеры"
+      }
+    ]
+  },
+  {
+    "report_setting_id": 974,
+    "group_id": null,
+    "group_name": null,
+    "description": "Интернет активность",
+    "series_name": "Интернет активность",
+    "colors": ["#ffa5a5"],
+    "type": "pictorialBar",
+    "total": 55715,
+    "legend_data": null,
+    "data": [
+      {
+        "data": [
+          { "name": "Социальные сети", "value": "11012" },
+          { "name": "Мессенджеры", "value": "11756" },
+          { "name": "Магазины приложений (AppStore, GooglePlay...)", "value": "10682" },
+          { "name": "Онлайн-кинотеатры", "value": "1189" },
+          { "name": "Навигаторы", "value": "3842" },
+          { "name": "Видеохостинги (YouTube, Rutube...)", "value": "10027" },
+          { "name": "Музыкальные сервисы", "value": "7207" }
+        ],
+        "name": "Интернет активность"
+      }
+    ]
+  },
+  {
+    "report_setting_id": 66,
+    "group_id": null,
+    "group_name": null,
+    "description": "Операционные системы",
+    "series_name": "Операционные системы",
+    "colors": ["#cf8fe5", "#282828", "#787878", "#8fa2e5"],
+    "type": "pie",
+    "total": 17183,
+    "legend_data": null,
+    "data": [
+      {
+        "data": [
+          {
+            "name": "iOS",
+            "value": "6283"
+          },
+          {
+            "name": "Android",
+            "value": "8495"
+          },
+          {
+            "name": "Windows",
+            "value": "70"
+          },
+          {
+            "name": "Other",
+            "value": "2335"
+          }
+        ],
+        "name": "Операционные системы"
+      }
+    ]
+  },
+  {
+    "report_setting_id": 67,
+    "group_id": null,
+    "group_name": null,
+    "description": "Тип устройства",
+    "series_name": "Тип устройства",
+    "colors": ["#cf8fe5", "#282828", "#787878", "#8fa2e5"],
+    "type": "pie",
+    "total": 17184,
+    "legend_data": null,
+    "data": [
+      {
+        "data": [
+          {
+            "name": "Смартфон",
+            "value": "16057"
+          },
+          {
+            "name": "Кнопочный телефон",
+            "value": "956"
+          },
+          {
+            "name": "Планшет",
+            "value": "70"
+          },
+          {
+            "name": "Другое",
+            "value": "101"
+          }
+        ],
+        "name": "Тип устройства"
+      }
+    ]
+  }
+]

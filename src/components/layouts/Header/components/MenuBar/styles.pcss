@@ -1,0 +1,26 @@
+@import "styles/constants.pcss";
+
+.container {
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  min-height: 71px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 15px 0 rgba(40, 40, 40, 0.2);
+
+  &.mobile {
+    min-height: 55px;
+    padding: 10px 20px;
+  }
+}
+
+.component {
+  max-width: var(--contentLength);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 0 100%;
+}

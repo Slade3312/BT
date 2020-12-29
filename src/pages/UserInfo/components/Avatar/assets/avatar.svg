@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>User default avatar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+    </defs>
+    <g id="Main-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ADS_WEB-Copy" transform="translate(-118.000000, -277.000000)">
+            <g id="Main" transform="translate(91.000000, 169.000000)">
+                <g id="Oval-2" transform="translate(27.000000, 108.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Oval" fill="#D8D8D8" xlink:href="#path-1"></use>
+                    <ellipse id="Oval" fill="#A2A2A2" mask="url(#mask-2)" cx="29.5454545" cy="19.5454545" rx="10.4545455" ry="13.1818182"></ellipse>
+                    <circle id="Oval-Copy" fill="#A2A2A2" mask="url(#mask-2)" cx="30" cy="52.7272727" r="23.6363636"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

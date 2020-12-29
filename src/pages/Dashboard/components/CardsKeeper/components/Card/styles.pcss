@@ -1,0 +1,68 @@
+@import "styles/constants.pcss";
+
+.titleContainer {
+  margin-bottom: 20px;
+  position: relative;
+  padding-right: 15px;
+}
+
+.title {
+  font-size: 21px;
+  line-height: 27px;
+}
+
+.arrow {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  transform: rotate(-90deg);
+  color: #dbdbdb;
+  width: 9px;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  padding: 30px;
+  font-family: var(--mainFontFamily);
+  background: #fff;
+  text-decoration: none;
+
+  &.link {
+    .title {
+      border-bottom: 1px solid;
+      transition: color 0.2s ease-out;
+    }
+  }
+
+  &:hover {
+    color: inherit;
+
+    &.link {
+      .title,
+      .arrow { color: var(--inProgressGraphicColor); }
+    }
+  }
+}
+
+.icon {
+  width: 74px;
+  min-height: 74px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.filler {
+  flex-grow: 1;
+}
+
+.bottom {
+  border-top: 1px solid rgba(40, 40, 40, 0.1);
+  margin-top: 20px;
+  padding-top: 20px;
+}

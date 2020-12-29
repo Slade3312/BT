@@ -1,0 +1,70 @@
+@import "styles/constants.pcss";
+
+.container {
+  padding: 0 20px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1 0 auto;
+}
+
+.containerIn {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 60px;
+}
+
+.linkText {
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  transition: border-bottom-color 0.4s ease-out;
+}
+
+.component {
+  font: var(--mainFont);
+  text-align: left;
+  display: flex;
+  align-items: stretch;
+
+  &.active .linkText {
+    border-bottom: 2px solid var(--mainColor);
+  }
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  padding: 25px 10px;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--activeColor);
+  }
+
+  &:hover .linkText {
+    border-bottom-color: transparent;
+    transition: none;
+  }
+}
+
+.mobile {
+  & .link {
+    padding-top: 0;
+    font-size: 24px;
+    padding-bottom: 35px;
+
+    .linkText {
+      border-bottom: 1px solid rgba(40, 40, 40, 0.33) !important;
+    }
+
+    &:hover {
+      color: var(--activeColor);
+
+      .linkText {
+        border-color: var(--mainColor) !important;
+      }
+    }
+  }
+}

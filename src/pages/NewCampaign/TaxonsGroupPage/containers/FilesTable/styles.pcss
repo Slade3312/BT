@@ -1,0 +1,56 @@
+.table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tableCol {
+  padding: 15px 0;
+
+  &:nth-child(1) {
+    width: 40%;
+  }
+  &:nth-child(2) {
+    width: 30%;
+  }
+  &:nth-child(3) {
+    width: 30%;
+  }
+}
+
+.bottomCol {
+  padding-top: 10px;
+}
+
+.removeButton {
+  width: 23px;
+  height: 23px;
+  padding: 3px;
+}
+
+.headerLabel {
+  font-weight: normal;
+  text-align: left;
+}
+
+.fileIcon {
+  height: 40px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.fileNameCol {
+  display: flex;
+  align-items: center;
+}
+
+.error {
+  color: rgba(220, 0, 0, 0.8);
+}
+
+.fileName {
+  word-break: break-all;
+  padding-right: 25px;
+}

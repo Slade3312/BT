@@ -1,0 +1,40 @@
+.fileContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.fileName {
+  word-break: break-all;
+
+  .compact & {
+    margin-top: 5px;
+  }
+}
+
+.fileIcon {
+  width: 19px;
+  height: 19px;
+  margin-right: 8px;
+}
+
+.transparent {
+  color: rgba(0, 0, 0, 0.21);
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loaderIcon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(50%);
+  animation: rotating 1.5s linear infinite;
+}

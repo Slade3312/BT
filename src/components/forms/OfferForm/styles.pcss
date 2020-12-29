@@ -1,0 +1,74 @@
+@import "styles/constants.pcss";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.button {
+  width: 267px;
+}
+
+.label {
+  align-self: flex-start;
+  margin-left: 30px;
+  user-select: none;
+}
+
+.contentContainer {
+  width: 675px;
+  height: 300px;
+  margin: 7px 0 15px 0;
+  overflow: scroll;
+  overflow-x: hidden;
+  border: 1px solid rgba(40, 40, 40, 0.2);
+  border-radius: 4px;
+}
+
+.inputRow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 5px;
+  align-items: center;
+  height: 80px;
+  padding: 0 10px;
+  margin: 40px 14px 15px;
+}
+
+.inputRow label {
+  font-family: var(--mainFontFamily);
+  font-size: 17px;
+  margin-right: 15px;
+}
+
+.inputHolder {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 75%;
+}
+
+.labelHolder {
+  margin-bottom: 25px;
+}
+
+ol {
+  counter-reset: item;
+}
+
+ol > li {
+  display: block;
+}
+
+ol > li::before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+}
+
+ul {
+  list-style-type: disc;
+}

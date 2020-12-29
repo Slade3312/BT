@@ -1,0 +1,33 @@
+.component {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 -5px;
+
+  &.isVertical {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .field {
+      margin-right: 0;
+    }
+
+    .row {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.wrapper {
+  padding: 11px 5px 0 5px;
+  position: relative;
+}
+
+.label {
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  right: 0;
+  top: calc(50% - 2px);
+}

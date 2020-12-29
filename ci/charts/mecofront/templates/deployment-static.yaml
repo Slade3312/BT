@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: {{ template "app.fullname" . }}
+    chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
+    release: "{{ .Release.Name }}"
+    heritage: "{{ .Release.Service }}"
+  name: {{ template "app.fullname" . }}
+spec:
+  replicas: {{ .Values.deployment.replicas }}
+  strategy:
+    type: {{ default "RollingUpdate" .Values.deployment.strategy }}
+  revisionHistoryLimit: {{ default 3 .Values.deployment.revisionHistoryLimit }}
+  selector:
+    matchLabels:
+      app: {{ template "app.fullname" . }}
+      track: {{ .Values.track }}
+  template:
+    metadata:
+      labels:
+        app: {{ template "app.fullname" . }}
+        track: {{ .Values.track }}
+    spec:
+      containers:
+      - args:
+        {{- range $v := .Values.args }}
+        - {{ $v }}
+        {{- end }}
+        env:
+        {{- range $k, $v := .Values.env }}
+        - name: {{ $k }}
+          value: {{ quote $v }}
+        {{- end }}
+        image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+        name: {{ template "app.fullname" . }}
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        ports:
+        - containerPort: {{ .Values.port.pod }}
+        resources:
+{{ toYaml .Values.resources | indent 10 }}
+        volumeMounts:
+        - name: nginxconf
+          mountPath: "/etc/nginx/"
+        stdin: true
+        tty: true
+      dnsPolicy: ClusterFirst
+      imagePullSecrets:
+      - name: {{ .Values.image.pullSecrets }}
+      restartPolicy: Always
+      volumes:
+      - name: nginxconf
+        configMap:
+          name: {{ template "app.fullname" . }}

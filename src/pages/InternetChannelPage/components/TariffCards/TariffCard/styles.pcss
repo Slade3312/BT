@@ -1,0 +1,161 @@
+@import "styles/constants.pcss";
+
+.card-container {
+  width: 373px;
+  margin-right: 20px;
+  padding: 24px 32px;
+  background: #fff;
+  font-family: var(--mainFontFamily);
+
+  &:nth-child(3) {
+    margin-right: auto;
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+
+.divider {
+  background: #c4c4c4;
+  width: 100%;
+  height: 1px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-container {
+  display: flex;
+}
+
+.social-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.total-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.total-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-container {
+  margin: 25px 0;
+  margin-bottom: 25px;
+}
+
+.stats-title,
+.social-title,
+.stats-title-unit {
+  color: var(--secondColor);
+  font: var(--baseFieldFont);
+}
+
+.stats-info {
+  display: flex;
+  align-items: center;
+}
+
+.stats-price {
+  color: var(--baseColor);
+  font-size: var(--bigFontSize);
+  margin-right: 10px;
+}
+
+.stats-title-unit {
+  margin-right: 6px;
+}
+
+.section-title {
+  color: var(--baseColor);
+  font: var(--baseFieldFont);
+  margin: 24px 0 20px;
+}
+
+.total-title {
+  color: var(--baseColor);
+  font: var(--baseFieldFont);
+  margin-bottom: 10px;
+}
+
+.total-price-value {
+  font-size: 27px;
+  color: var(--baseColor);
+  line-height: 1;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 4px;
+  background: #f2f2f2;
+  overflow: hidden;
+
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.icons-holder {
+  display: flex;
+  margin-right: 25px;
+}
+
+.total-divider {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.ask-question {
+  font-size: var(--smallFontSize);
+  color: var(--secondColor);
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:focus {
+  outline: #a6c7ff auto 1px;
+  color: var(--activeColor);
+}
+
+.choosen {
+  display: inline-flex;
+  justify-content: center;
+  min-width: 133px;
+  height: 39px;
+  padding: 5px 15px 5px 20px;
+  font-size: 17px;
+  background-color: #80b980;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.choosen-icon {
+  transform: scale(1.3);
+  margin-right: 10px;
+}

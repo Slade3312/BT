@@ -1,0 +1,30 @@
+@import "styles/constants.pcss";
+
+.label {
+  font-size: 13px;
+  font-family: var(--baseFontFamily);
+  color: #787878;
+  white-space: nowrap;
+}
+
+.text {
+  font-size: 21px;
+  line-height: 27px;
+
+  &.warning {
+    color: var(--warningLabelColor);
+  }
+
+  &.success {
+    color: var(--successLabelColor);
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+
+  &.row {
+    flex-flow: row;
+  }
+}

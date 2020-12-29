@@ -1,0 +1,111 @@
+@import "styles/constants.pcss";
+
+.backContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 50px;
+    cursor: pointer;
+}
+
+.backText {
+    color: #939393;
+    padding-left: 8px;
+}
+
+.backIcon {
+    cursor: pointer;
+}
+
+.container {
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.itemName {
+    font-family: var(--mainFontFamily);
+    font-size: 21px;
+    margin-left: 20px;
+}
+
+.listIcon {
+    min-width: 40px;
+    height: 40px;
+    background: #cfcfcf;
+    border-radius: 50%;
+}
+
+.saleDescription {
+    color: #939393;
+    font-size: 17px;
+    font-family: var(--mainFontFamily);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    padding: 30px;
+}
+
+.date {
+    color: #939393;
+    font-size: 13px;
+}
+
+.saleName {
+    margin-top: 20px;
+    font-family: var(--mainFontFamily);
+    font-size: 21px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 30px 0 25px;
+    &:before {
+        content: '';
+        width: 100%;
+        position: absolute;
+        border-bottom: 1px solid #EAEAEA;;
+    }
+    
+}
+
+.handshakeIcon {
+    position: relative;
+    background: #fff;
+    margin: 5px;
+    outline: 7px solid #fff;
+}
+
+.backIconHolder {
+    display: flex;
+    align-items: center;
+}
+
+.btnHolder {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.accept {
+    width: 133px;
+}
+
+.reject {
+    width: 133px;
+    background: rgba(40, 40, 40, 0.1);
+    &:hover {
+        background: rgba(40, 40, 40, 0.3);
+    }
+}

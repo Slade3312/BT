@@ -1,0 +1,54 @@
+@import "styles/constants.pcss";
+
+.content {
+  width: 100%;
+  padding: 80px 105px 100px;
+}
+
+.title {
+  margin: 0 auto;
+}
+
+.description {
+  margin: 20px auto 40px;
+  text-align: center;
+  font-size: 21px;
+  font-family: var(--mainFontFamily);
+  color: var(--baseColor);
+  white-space: pre-line;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.button {
+  width: 175px;
+}
+
+.closeButton {
+  background-color: #dedede;
+}
+
+.closeButton:hover {
+  background-color: #ccc;
+  transition: background-color 0.3s;
+}
+
+.confirmButton {
+  width: 220px;
+  margin-left: 15px;
+}
+
+.questionTextField {
+  width: 585px;
+  margin: 0 auto;
+  text-align: left;
+
+  textarea {
+    height: 180px;
+    resize: none;
+  }
+}

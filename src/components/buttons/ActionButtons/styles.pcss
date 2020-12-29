@@ -1,0 +1,56 @@
+@import "styles/constants.pcss";
+
+.component {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 133px;
+  height: 39px;
+  padding: 5px 15px 5px 20px;
+  font: var(--mainFont);
+  font-size: 17px;
+  line-height: 1.47;
+  color: var(--baseColor);
+  text-decoration: none;
+  border: none;
+  border-radius: 2px;
+  background-color: #ffdc7d;
+  cursor: pointer;
+  transition: background 0.3s ease-out;
+
+  &.light:not(:hover) {
+    background: #fff;
+  }
+
+  &.center {
+    text-align: center;
+  }
+
+  &.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+  &.growing {
+    width: 100%;
+  }
+
+  &:hover {
+    transition: background 0.3s ease-in;
+    background: #ffba00;
+    color: var(--baseColor);
+  }
+}
+
+.text {
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+.iconBefore {
+  margin-right: 10px;
+}

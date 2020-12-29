@@ -1,0 +1,20 @@
+.format {
+  font-size: 24px;
+  margin-right: 4px;
+}
+
+.button {
+  &::after {
+    content: ")";
+  }
+
+  &::before {
+    content: "(";
+  }
+}
+
+.buttonContent {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}

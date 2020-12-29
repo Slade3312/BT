@@ -1,0 +1,38 @@
+.component {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  min-height: calc(100vh - 170px);
+  margin-top: 5px;
+  padding-top: 21px;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+
+.headingWrapper {
+  padding-left: 31px;
+  margin-bottom: 15px;
+}
+
+.exit {
+  opacity: 1;
+  transition: opacity 0.4s linear;
+}
+
+.active-exit {
+  opacity: 0;
+}
+
+.enter {
+  transform: translateX(2000px);
+  transition: transform 0.6s linear;
+}
+
+.active-enter {
+  transform: translateX(0);
+}
+
+.enter-done {
+  transform: translateX(0);
+  transition: transform 0.6s linear;
+}

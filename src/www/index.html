@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-NR7MRW');
+    </script>
+    <!-- End Google Tag Manager -->
+    <title>ПРОдвижение</title>
+
+    <% if (htmlWebpackPlugin.options.isProduction) { %>
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+    <script src="<%= htmlWebpackPlugin.files.chunks.raven.entry %>" type="text/javascript"></script>
+    <script type="text/javascript">
+      Raven.config('https://f6da428eefe242e4a1dfbd582245a154@raven.beeline.ru/46', {
+        environment: '<%= htmlWebpackPlugin.options.environment %>',
+        release: '<%= htmlWebpackPlugin.options.release %>',
+      }).install();
+    </script>
+    <% } %>
+    <% if (htmlWebpackPlugin.options.isProduction) { %>
+    <script src="https://browser.sentry-cdn.com/5.20.1/bundle.min.js"></script>
+    <% } %>
+    <script>
+      Sentry.init({
+        dsn: 'http://df535c21580a4392a6f3ec5e6bb078fc@sentry.kube.vimpelcom.ru/12',
+        environment: '<%= htmlWebpackPlugin.options.environment %>'
+      });
+    </script>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=43c8ca57-5e50-4d09-b675-6792bb128f49&lang=ru_RU" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NR7MRW"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden;"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="notification"></div>
+    <div id="react-container"></div>
+
+    <% for (var chunk in htmlWebpackPlugin.files.chunks) {
+      if (chunk !== 'raven') { %>
+    <script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>" type="text/javascript"></script>
+    <% }} %>
+
+    <script type="text/javascript">
+      ReactDOM.render(
+        React.createElement(MarketEco.pages.App),
+        document.getElementById('react-container')
+      );
+    </script>
+  </body>
+</html>

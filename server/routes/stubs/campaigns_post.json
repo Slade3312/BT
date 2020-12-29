@@ -1,0 +1,133 @@
+{
+  "id": 40,
+  "user": 1,
+  "company": 1,
+  "name": "for_Vasilii",
+  "description": "",
+  "selection": null,
+  "custom_segments": {
+    "site": {
+      "id": 798,
+      "campaign": 3942,
+      "data": {
+        "files": [{
+          "file": "some_other_file.csv",
+          "id": "cheburek kek",
+          "items_count": 19,
+          "type": "csv"
+        }],
+        "sites": ["google.com", "apple.ru"]
+      }
+    },
+    "phone": {
+      "id": 423,
+      "campaign": 3942,
+      "data": {
+        "incoming": true,
+        "files": [{
+          "file": "polkan.xlsx",
+          "id": "polkan",
+          "items_count": 28,
+          "type": "xlsx"
+        }],
+        "numbers": ["9689054387", "9037648723", "9670009911"]
+      }
+    }
+  },
+  "orders": [
+    {
+      "id": 64,
+      "files": [
+        {
+          "id": 197,
+          "file": "http://127.0.0.1/api/v1/client/brandfile/197/image_2019-10-15_17-21-38.png/",
+          "type": "брэнд файл",
+          "name": "image_2019-10-15_17-21-38.png",
+          "type_id": 0
+        }
+      ],
+      "budget": null,
+      "date_start": null,
+      "date_end": null,
+      "data": {},
+      "links": [],
+      "event_count_min": 0,
+      "event_count_max": null,
+      "adv_id": null,
+      "status": "Создан",
+      "date_updated": "2020-04-14T10:02:07.554087",
+      "is_empty": true,
+      "is_active": true,
+      "order_segment_id": null,
+      "channel_type": "Таргетированная SMS-рассылка",
+      "campaign": 40,
+      "status_id": 0,
+      "channel_uid": "target-sms"
+    },
+    {
+      "id": 65,
+      "files": [],
+      "budget": null,
+      "date_start": null,
+      "date_end": null,
+      "data": {},
+      "links": [],
+      "event_count_min": 0,
+      "event_count_max": null,
+      "adv_id": null,
+      "status": "Создан",
+      "date_updated": "2020-04-14T10:02:07.603519",
+      "is_empty": true,
+      "is_active": true,
+      "order_segment_id": null,
+      "channel_type": "Push-уведомления",
+      "campaign": 40,
+      "status_id": 0,
+      "channel_uid": "push"
+    },
+    {
+      "id": 66,
+      "files": [],
+      "budget": null,
+      "date_start": null,
+      "date_end": null,
+      "data": {},
+      "links": [],
+      "event_count_min": 0,
+      "event_count_max": null,
+      "adv_id": null,
+      "status": "Создан",
+      "date_updated": "2020-04-14T10:02:07.620063",
+      "is_empty": true,
+      "order_segment_id": null,
+      "channel_type": "Таргетированный голосовой обзвон",
+      "campaign": 40,
+      "status_id": 0,
+      "channel_uid": "voice-target"
+    },
+    {
+      "id": 67,
+      "files": [],
+      "budget": null,
+      "date_start": null,
+      "date_end": null,
+      "data": {},
+      "links": [],
+      "event_count_min": 0,
+      "event_count_max": null,
+      "adv_id": null,
+      "status": "Создан",
+      "date_updated": "2020-04-14T10:02:07.636342",
+      "is_empty": true,
+      "is_active": true,
+      "order_segment_id": null,
+      "channel_type": "Интернет-реклама",
+      "campaign": 40,
+      "status_id": 0,
+      "channel_uid": "internet"
+    }
+  ],
+  "status": "Черновик",
+  "create_date": "2020-04-14",
+  "status_id": 5
+}

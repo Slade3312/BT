@@ -1,0 +1,50 @@
+.loader {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  padding: 25px;
+}
+
+.spinnerIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  animation: rotate 5s infinite linear;
+  display: inline-block;
+  transform-origin: 100% 50%;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.icon {
+  display: none;
+  height: 100px;
+
+  &.animate {
+    display: block;
+    animation: animate 1s linear;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0.7);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

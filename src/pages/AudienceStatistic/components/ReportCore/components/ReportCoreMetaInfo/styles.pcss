@@ -1,0 +1,19 @@
+@import "styles/constants.pcss";
+
+.textInfo {
+  font-size: 21px;
+  font-family: var(--mainFontFamily);
+}
+
+.coreItem {
+  text-transform: lowercase;
+  padding: 0 3px;
+
+  &::after {
+    content: ',';
+  }
+
+  &:last-child::after {
+    content: none;
+  }
+}

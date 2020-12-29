@@ -1,0 +1,20 @@
+@import "styles/constants.pcss";
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  padding: 30px 30px 10px;
+  flex-grow: 1;
+  border: 3px solid #fff;
+  color: var(--baseColor);
+  background: #fff;
+  font-family: var(--mainFontFamily);
+  cursor: pointer;
+  transition: 0.3s ease border-color;
+
+  &:hover {
+    transition: none;
+    border-color: #f7c441;
+  }
+}

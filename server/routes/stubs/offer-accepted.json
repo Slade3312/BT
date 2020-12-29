@@ -1,0 +1,35 @@
+{
+  "id": 356,
+  "email": "vekduotb@yomail.info",
+  "username": "moraned",
+  "first_name": "Эдуард",
+  "last_name": "Ермолов",
+  "middle_name": "Николаевич",
+  "phone": "+79890890890",
+  "company": {
+    "id": 21,
+    "order_file": [
+      {
+        "id": 110,
+        "file": "http://marketing.kube.vimpelcom.ru/api/v1/client/brandfile/110/image_2019_10_11T21_56_21_954Z_xKVQ9cp.png/"
+      }
+    ],
+    "active": true,
+    "name": "ЗАО Эдуард Николаевич",
+    "status": 1,
+    "business_id": "12323123112312312312778906",
+    "city": null,
+    "website": null,
+    "social_facebook": "",
+    "social_vkontakte": "",
+    "social_instagram": "",
+    "inn": "1234567891",
+    "ban": "123231231",
+    "ctn": "12312312312",
+    "voice_target_client_id": "11",
+    "offer_accepted": true,
+    "offer_accepted_date": "2019-10-15, 14:26:37",
+    "industry": 4
+  },
+  "type": "client"
+}

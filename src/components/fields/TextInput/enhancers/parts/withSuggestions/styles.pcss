@@ -1,0 +1,20 @@
+@import 'styles/constants.pcss';
+
+.container {
+  position: relative;
+}
+
+/**
+ * should work for both input inside a container
+ * and input without a container
+ */
+.inputOpened input,
+input.inputOpened {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.item {
+  margin: 0;
+  padding: 8px 14px;
+}

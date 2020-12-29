@@ -1,0 +1,1496 @@
+{
+  "Sidebar": {
+    "title": {
+      "content": "Создание кампании",
+      "type": "string"
+    }
+  },
+  "SegmentsDisclaimer": {
+    "text": {
+      "content": "Предоставленная заказчиками услуги информация используется в соответствии с требованиями действующего законодательства и исключительно для составления портрета целевой аудитории на основании которого впоследствии осуществляется поиск потенциальных клиентов для заказчиков среди пользователей.",
+      "type": "string"
+    }
+  },
+  "CampaignCommonStep": {
+    "title": {
+      "content": "Название кампании",
+      "type": "string"
+    },
+    "subTitle": {
+      "content": "Придумайте название, по которому вам будет легко отличить рекламную кампанию. Например, «Акция 50%» или «Обзвон по новой линейке кремов».",
+      "type": "string"
+    },
+    "buttonText": {
+      "content": "Выбрать аудиторию",
+      "type": "string"
+    },
+    "menuIcon": {
+      "content": "<svg width=\"19\" height=\"16\" viewBox=\"0 0 19 16\" fill=\"none\"><path d=\"M9.5 1V3\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path><path d=\"M9.5 6V15\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path><rect x=\"1\" y=\"7\" width=\"3\" height=\"3\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"></rect><rect x=\"8\" y=\"3\" width=\"3\" height=\"3\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"></rect><rect x=\"15\" y=\"9\" width=\"3\" height=\"3\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"></rect><path d=\"M2.5 1V6.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path><path d=\"M2.5 10V15\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path><path d=\"M16.5 9V1\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path><path d=\"M16.5 12.5V15\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"></path></svg>",
+      "type": "html"
+    }
+  },
+  "CampaignTaxonsStep": {
+    "title": { "content": "Выбор аудитории", "type": "string" },
+    "subTitle": {
+      "content": "Сделайте настройки вашей целевой аудитории. Чем больше информации о клиентах — тем эффективнее рекламная кампания.",
+      "type": "string"
+    },
+    "buttonText": {
+      "content": "Заполнить бриф",
+      "type": "string"
+    },
+    "taxonsDescription": {
+      "content": "Рекомендуем указать демографические параметры и интересы потенциальных клиентов, их материальное положение и устройства, которыми они пользуются. Это сделает рекламу точнее, а стоимость привлечения — ниже.",
+      "type": "string"
+    },
+    "menuIcon": {
+      "content": "<svg width=\"19\" height=\"19\" viewBox=\"0 0 19 19\" fill=\"none\"><path d=\"M17.3326 12.8092C16.7918 14.0883 15.9458 15.2154 14.8687 16.092C13.7915 16.9686 12.5161 17.5681 11.1538 17.8379C9.79148 18.1077 8.38382 18.0397 7.05388 17.6398C5.72393 17.2399 4.51219 16.5203 3.5246 15.5439C2.537 14.5676 1.80362 13.3641 1.38857 12.0388C0.973524 10.7135 0.889444 9.30675 1.14368 7.94146C1.39792 6.57616 1.98274 5.29393 2.84701 4.20687C3.71128 3.11981 4.82868 2.26102 6.10153 1.70557\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M18.0042 9.50198C18.0042 8.38548 17.7843 7.27992 17.357 6.24841C16.9297 5.2169 16.3035 4.27965 15.514 3.49017C14.7245 2.70069 13.7873 2.07444 12.7558 1.64717C11.7243 1.21991 10.6187 1 9.5022 1V9.50198H18.0042Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>",
+      "type": "html"
+    }
+  },
+  "PhoneNumbersTaxon": {
+    "title": {
+      "content": "Телефонные номера",
+      "type": "string"
+    },
+    "boldSubtitle": {
+      "content": "Доступно только для каналов SMS и PUSH",
+      "type": "string"
+    },
+    "subtitle": {
+      "content": "Загрузите списки адресов, которыми могут интересоваться потенциальные клиенты – найдем подходящую аудиторию. При использовании этих параметров стоимость SMS или PUSH будет формироваться согласно ",
+      "type": "string"
+    },
+    "proTariffLinkText": {
+      "content": "третьей или четвертой группе таргетов (онлайн)",
+      "type": "string"
+    },
+    "proTariffLink": {
+      "content": "https://static.beeline.ru/upload/images/business/doc/price_target_sms_push.pdf",
+      "type": "string"
+    },
+    "callDirectionLabel": {
+      "content": "Направление звонков",
+      "type": "string"
+    },
+    "chooseDepthTitle": {
+      "content": "Период рассылки",
+      "type": "string"
+    },
+    "loadFilesTitle": {
+      "content": "Загрузите ваш список телефонных номеров",
+      "type": "string"
+    },
+    "loadFilesText": {
+      "content": "Перетащите файл сюда \n или",
+      "type": "string"
+    },
+    "loadFilesButton": {
+      "content": "выберите из папки",
+      "type": "string"
+    },
+    "loadFilesFormatLabel": {
+      "content": "Формат: .TXT, .CSV, .XLSX до 2 Мб.",
+      "type": "string"
+    },
+    "loadfilesDescription": {
+      "content": "Минимальное кол-во номеров - 5 шт,\n Максимальное кол-во номеров - 50 шт.",
+      "type": "string"
+    },
+    "templateLink": "https://static.beeline.ru/upload/images/business/doc/primer-dlya-zvonkov.xlsx",
+    "manuallyNumberslabel": {
+      "content": "Введите номера вручную",
+      "type": "string"
+    },
+    "manuallyNumbersButtonText": {
+      "content": "Добавить номер",
+      "type": "string"
+    },
+    "manuallyNumbersButtonIcon": {
+      "content": "https://static.beeline.ru/upload/images/marketing/icons/crossCirclePlus.svg",
+      "type": "string"
+    },
+    "manuallyNumbersPlaceholder": {
+      "content": "+7",
+      "type": "string"
+    },
+    "maxCount": {
+      "content": "50",
+      "type": "string"
+    },
+    "minCount": {
+      "content": "5",
+      "type": "string"
+    }
+  },
+  "WebSitesTaxon": {
+    "title": {
+      "content": "Веб-сайты",
+      "type": "string"
+    },
+    "boldSubtitle": {
+      "content": "Доступно только для каналов SMS и PUSH",
+      "type": "string"
+    },
+    "subtitle": {
+      "content": "Загрузите списки адресов, которыми могут интересоваться потенциальные клиенты – найдем подходящую аудиторию. При использовании этих параметров стоимость SMS или PUSH будет формироваться согласно ",
+      "type": "string"
+    },
+    "proTariffLinkText": {
+      "content": "третьей или четвертой группе таргетов (онлайн)",
+      "type": "string"
+    },
+    "proTariffLink": {
+      "content": "https://static.beeline.ru/upload/images/business/doc/price_target_sms_push.pdf",
+      "type": "string"
+    },
+    "chooseDepthTitle": {
+      "content": "Выберите период",
+      "type": "string"
+    },
+    "chooseDelayTitle": {
+      "content": "Период информирования аудитории",
+      "type": "string"
+    },
+    "chooseDelayDescription": {
+      "content": "Отсчет начинается сразу после действия \nпользователя (звонка или посещение сайта)",
+      "type": "string"
+    },
+    "loadFilesTitle": {
+      "content": "Загрузите ваш список сайтов",
+      "type": "string"
+    },
+    "loadFilesText": {
+      "content": "Перетащите файл сюда \n или",
+      "type": "string"
+    },
+    "loadFilesFormatLabel": {
+      "content": "Формат: .TXT, .CSV, .XLSX до 2 Мб.",
+      "type": "string"
+    },
+    "loadFilesButton": {
+      "content": "выберите из папки",
+      "type": "string"
+    },
+    "templateLink": "https://static.beeline.ru/upload/images/business/doc/primer-dlya-saitov.xlsx",
+    "loadfilesDescription": {
+      "content": "Сайты необходимо указывать в формате sport.ru; moscow.sport.ru\n Минимальное кол-во сайтов - 5 шт,\n Максимальное кол-во сайтов - 50 шт.\n\nНе используйте ссылки на отдельные страницы сайта:",
+      "type": "string"
+    },
+    "manuallySitesLabel": {
+      "content": "Введите адреса вручную",
+      "type": "string"
+    },
+    "manuallySitesButtonText": {
+      "content": "Добавить адрес",
+      "type": "string"
+    },
+    "manuallySitesButtonIcon": {
+      "content": "https://static.beeline.ru/upload/images/marketing/icons/crossCirclePlus.svg",
+      "type": "string"
+    },
+    "manuallySitesPlaceholder": {
+      "content": "введите адрес...",
+      "type": "string"
+    },
+    "maxCount": {
+      "content": "50",
+      "type": "string"
+    },
+    "minCount": {
+      "content": "5",
+      "type": "string"
+    }
+  },
+  "CampaignAudienceStep": {
+    "title": { "content": "Выбор канала коммуникации", "type": "string" },
+    "description": {
+      "content": "Для запуска рекламной кампании вам нужно заполнить бриф и определиться с целевой аудиторией. При выборе аудитории советуем уточнить географию для настройки более точного таргетинга, это поможет провести рекламную кампанию более эффективно.",
+      "type": "string"
+    },
+    "menuIcon": {
+      "content": "<svg width=\"22\" height=\"16\" viewBox=\"0 0 22 16\" fill=\"none\"><path d=\"M10 1.07007L5 5.07007H1V11.0701H5L10 15.0701V1.07007Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M18.07 1C19.9447 2.87528 20.9979 5.41836 20.9979 8.07C20.9979 10.7216 19.9447 13.2647 18.07 15.14M14.54 4.53C15.4774 5.46764 16.004 6.73918 16.004 8.065C16.004 9.39082 15.4774 10.6624 14.54 11.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>",
+      "type": "html"
+    }
+  },
+  "BriefOrderSms": {
+    "form_order": {
+      "budget": {
+        "label": "Планируемый бюджет",
+        "tooltip": {
+          "content": "<a href='https://static.beeline.ru/upload/images/marketing/price_sms.pdf' target='_blank'>Подробнее о тарификации</a>",
+          "type": "html"
+        }
+      }
+    },
+    "budgetDescription": {
+      "content": "Примерное количество сообщений",
+      "type": "string"
+    },
+    "budgetErrorDescription": {
+      "content": "Доступное количество номеров превышает\nвыбранную вами аудиторию.\nРекомендуем",
+      "type": "string"
+    },
+    "budgetFixButtonText": "скорректировать параметры аудитории",
+    "eventsNamesByCount": ["сообщение", "сообщения", "сообщений"],
+    "budgetEventsFromPrefix": {
+      "content": "от",
+      "type": "string"
+    },
+    "budgetEventsToPrefix": {
+      "content": "до",
+      "type": "string"
+    },
+    "geo": {
+      "mapAdvice": {
+        "content": "Или отметьте булавкой на карте",
+        "type": "string"
+      }
+    },
+    "form_order": {
+      "timeSending": {
+        "title": {
+          "content": "Настройка времени",
+          "type": "string"
+        }
+      },
+      "onlineGeo": {
+        "accessBlockedInfoText": {
+          "content": "Для аудитории по сайтам или звонкам онлайн гео недоступно",
+          "type": "string"
+        },
+        "title": {
+          "content": "Онлайн Гео",
+          "type": "string"
+        },
+        "tooltip": {
+          "content": "Онлайн Гео – SMS получат абоненты, которые находятся в выбранной вами зоне на карте или будут пересекать ее в указанный временной интервал.",
+          "type": "string"
+        },
+        "mapAdvice": {
+          "content": "Или отметьте булавкой на карте",
+          "type": "string"
+        },
+        "error": {
+          "content": "Укажите адрес для определения зоны действия Онлайн Гео или отключите его",
+          "type": "string"
+        },
+        "notification": {
+          "title": {
+            "content": "Аудитория для канала смс изменена",
+            "type": "string"
+          },
+          "description": {
+            "content": "Теперь для данного канала составляет:",
+            "type": "html"
+          }
+        }
+      },
+      "nameSender": {
+        "name": {
+          "content": "Имя отправителя",
+          "type": "string"
+        },
+        "field": {
+          "content": "Введите название компании или продукта",
+          "type": "string"
+        },
+        "infoText": {
+          "content": "Имя отправителя может содержать от 2 до 11 символов только латиница и цифры.\n Нельзя использовать пробелы и другие символы",
+          "type": "string"
+        }
+      },
+      "date": {
+        "title": {
+          "content": "Выберите желаемый период рассылки",
+          "type": "string"
+        },
+        "tooltip": {
+          "content": "Итоговая дата рассылки будет определена после оплаты счета",
+          "type": "string"
+        },
+        "date_start": {
+          "content": "Старт",
+          "type": "string"
+        },
+        "date_end": {
+          "content": "Завершение",
+          "type": "string"
+        }
+      },
+      "text": {
+        "title": {
+          "content": "Напишите текст сообщения",
+          "type": "string"
+        },
+        "field": {
+          "content": "Например: Сезон продаж открывается! Скидка 15% на любой товар...",
+          "type": "string"
+        }
+      },
+      "additionalInfo": {
+        "label": {
+          "content": "Дополнительная информация",
+          "type": "string"
+        },
+        "placeholder": {
+          "content": "Укажите дополнительную информацию по подбору вашей целевой аудитории",
+          "type": "string"
+        }
+      },
+      "files": {
+        "label": "Загрузите свидетельство о регистрации бренда",
+        "buttonNameWithoutFiles": "Прикрепить файл",
+        "buttonNameWithFiles": "Прикрепить ещё один",
+        "iconButton": {
+          "content": "<svg width=\"21\" height=\"21\" viewBox=\"0 0 21 21\" fill=\"none\"><path d=\"M12.25 1.75H5.25C4.78587 1.75 4.34075 1.93437 4.01256 2.26256C3.68437 2.59075 3.5 3.03587 3.5 3.5V17.5C3.5 17.9641 3.68437 18.4093 4.01256 18.7374C4.34075 19.0656 4.78587 19.25 5.25 19.25H15.75C16.2141 19.25 16.6592 19.0656 16.9874 18.7374C17.3156 18.4093 17.5 17.9641 17.5 17.5V7L12.25 1.75Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M12.25 1.75V7H17.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M10.5 15.75V10.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M7.875 13.125H13.125\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg>",
+          "type": "html"
+        },
+        "iconFile": {
+          "content": "<svg width=\"21\" height=\"21\" viewBox=\"0 0 21 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.375 1.75H5.25C4.78587 1.75 4.34075 1.93437 4.01256 2.26256C3.68437 2.59075 3.5 3.03587 3.5 3.5V17.5C3.5 17.9641 3.68437 18.4093 4.01256 18.7374C4.34075 19.0656 4.78587 19.25 5.25 19.25H15.75C16.2141 19.25 16.6592 19.0656 16.9874 18.7374C17.3156 18.4093 17.5 17.9641 17.5 17.5V7.875L11.375 1.75Z\" stroke=\"#282828\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M11.375 1.75V7.875H17.5\" stroke=\"#282828\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+          "type": "html"
+        },
+        "tooltip": {
+          "type": "html",
+          "content": "Загрузите скан-копию одного из следующих документов, который подтверждает ваше право на использование имени отправителя:\n\n&#9679; свидетельства о регистрации юр. лица;\n&#9679; свидетельство о регистрации товарного знака;\n&#9679; для ИП допускается фото вывески с адресом и документ об аренде (или владении) помещения по указанному адресу;\n&#9679; иной документ, подтверждающий права клиента на использование Имени отправителя.\n\nТребования к файлу:\n\n— Формат: PDF или JPG (JPG — только для одностраничных документов)\n— Объем: до 5 Мб\n— Разрешение: от 300 dpi\n— Отключите защиту паролем и запрет печати\n\nЕсли в документе несколько страниц — отсканируйте его в многостраничном режиме в формат PDF. Если есть цветные иллюстрации — отсканируйте в режиме RGB."
+        }
+      },
+      "testCtns": {
+        "label": "Тестовые номера",
+        "buttonText": "Добавить номер",
+        "buttonIcon": {
+          "content": "https://static.beeline.ru/upload/images/marketing/icons/crossCirclePlus.svg",
+          "type": "string"
+        },
+        "tooltip": {
+          "content": "Добавьте личные номера в качестве теста для проверки своих коммуникаций на клиентов.",
+          "type": "string"
+        }
+      },
+      "total": {
+        "title": {
+          "content": "Итого:",
+          "type": "string"
+        },
+        "budgetTitle": {
+          "content": "Бюджет рассылки",
+          "type": "string"
+        },
+        "budgetUnit": {
+          "content": "₽",
+          "type": "string"
+        },
+        "costTitle": {
+          "content": "Стоимость одного SMS<br/> для Билайн",
+          "type": "html"
+        },
+        "costUnit": {
+          "content": "₽",
+          "type": "string"
+        },
+        "countName": {
+          "content": "Количество сообщений<br/> для Билайна",
+          "type": "html"
+        },
+        "toPay": {
+          "content": "К оплате",
+          "type": "html"
+        },
+        "planningBudget": {
+          "content": "Планируемый бюджет",
+          "type": "html"
+        },
+        "saleText": {
+          "content": "Скидка",
+          "type": "string"
+        },
+        "unitName": {
+          "content": "SMS",
+          "type": "string"
+        },
+        "button": {
+          "content": "Отправить заказ",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "BriefOrderInternet": {
+    "budgetDescription": {
+      "content": "Примерное количество кликов на рекламу",
+      "type": "string"
+    },
+    "budgetFixButtonText": "скорректировать параметры аудитории",
+    "budgetErrorDescription": {
+      "content": "Количество кликов превышает\nвыбранную вами аудиторию.\nРекомендуем",
+      "type": "string"
+    },
+    "eventsNamesByCount": ["клик", "клика", "кликов"],
+    "budgetEventsFromPrefix": {
+      "content": "от",
+      "type": "string"
+    },
+    "budgetEventsToPrefix": {
+      "content": "до",
+      "type": "string"
+    },
+    "form_order": {
+      "budget": {
+        "label": "Планируемый бюджет",
+        "tooltip": {
+          "content": "<a href='https://static.beeline.ru/upload/images/marketing/price_internet.pdf' target='_blank'>Подробнее о тарификации</a>",
+          "type": "html"
+        }
+      },
+      "mobileVersion": {
+        "label": "Мобильная версия",
+        "tooltip": {
+          "content": "Это поможет определить источник трафика для вашего сайта",
+          "type": "string"
+        }
+      },
+      "mobileVersionYes": {
+        "label": "Есть",
+        "tooltip": { "content": null, "type": "string" }
+      },
+      "mobileVersionNo": {
+        "label": "Нет",
+        "tooltip": { "content": null, "type": "string" }
+      },
+      "date": {
+        "label": "Начало кампании",
+        "tooltip": { "content": null, "type": "string" }
+      },
+      "date_start": {
+        "label": "Начало кампании"
+      },
+      "industry": {
+        "label": "Отрасль",
+        "tooltip": { "content": null, "type": "string" }
+      },
+      "urlAdvertiser": {
+        "label": {
+          "content": "Адрес сайта",
+          "type": "string"
+        },
+        "field": {
+          "content": "Введите адрес сайта компании",
+          "type": "string"
+        },
+        "infoText": {
+          "content": "Например, https://b2blog.beeline.ru",
+          "type": "html"
+        }
+      },
+      "tools": {
+        "label": "Инструменты",
+        "tooltip": {
+          "content": "Выберите инструменты для запуска рекламы",
+          "type": "string"
+        }
+      },
+      "tariffChoose": {
+        "content": "Выберите один из предложенных тарифов, или измените настройки<br/> рекламной кампании",
+        "type": "html"
+      },
+      "tariffChanged": {
+        "content": "Бриф был изменён. Нажмите “Получить медиаплан”, <br/>чтобы посмотреть медиаплан, расчитанный по вашим новым вводным",
+        "type": "html"
+      },
+      "tariffChangedIcon": {
+        "content": "https://static.beeline.ru/upload/images/marketing/icons/attention.svg",
+        "type": "string"
+      },
+      "total": {
+        "title": {
+          "content": "Итого:",
+          "type": "string"
+        },
+        "budgetTitle": {
+          "content": "Бюджет рассылки",
+          "type": "string"
+        },
+        "budgetUnit": {
+          "content": "₽",
+          "type": "string"
+        },
+        "costTitle": {
+          "content": "Стоимость одного",
+          "type": "string"
+        },
+        "costUnit": {
+          "content": "₽",
+          "type": "string"
+        },
+        "countName": {
+          "content": "Общее количество",
+          "type": "string"
+        },
+        "unitName": {
+          "content": "клика",
+          "type": "string"
+        },
+        "button": {
+          "content": "Отправить заказ",
+          "type": "string"
+        }
+      }
+    },
+    "mainTipsDescription": {
+      "content": "Заполните бриф и получите медиаплан для продвижения\nбренда в интернет.",
+      "type": "string"
+    },
+    "QuestionModal": {
+      "title": {
+        "content": "Задайте вопрос специалисту",
+        "type": "string"
+      },
+      "description": {
+        "content": "Если у вас есть вопросы по выбранному маркетплану, задайте их в поле ниже.\nМы свяжемся с вами, чтобы ответить на них.",
+        "type": "string"
+      },
+      "declineButtonText": {
+        "content": "Отмена",
+        "type": "string"
+      },
+      "confirmButtonText": {
+        "content": "Отправить вопрос",
+        "type": "string"
+      },
+      "questionFieldPlaceholder": {
+        "content": "Ваш вопрос",
+        "type": "string"
+      },
+      "emptyValidationText": {
+        "content": "Не забудьте указать текст вашего вопроса",
+        "type": "string"
+      },
+      "errorImageSrc": "https://static.beeline.ru/upload/images/marketing/icons/sad.png",
+      "errorTitle": {
+        "content": "Что-то пошло не так...",
+        "type": "string"
+      },
+      "errorDescription": {
+        "content": "Попробуйте повторить чуть позднее.",
+        "type": "string"
+      },
+      "errorButtonText": {
+        "content": "Закрыть",
+        "type": "string"
+      },
+      "successImageSrc": "https://static.beeline.ru/upload/images/marketing/icons/thumpUp.svg",
+      "successTitle": {
+        "content": "Вопрос отправлен",
+        "type": "string"
+      },
+      "successDescription": {
+        "content": "Наш сотрудник свяжется с вами в ближайшее время.",
+        "type": "string"
+      },
+      "successButtonText": {
+        "content": "Закрыть",
+        "type": "string"
+      }
+    }
+  },
+  "CampaignSuccessPopup": {
+    "title": {
+      "content": "Спасибо за заявку",
+      "type": "string"
+    },
+    "description": {
+      "content": "Ваша рекламная кампания создана успешно\nНаш менеджер свяжется с вами для запуска рекламной кампании",
+      "type": "string"
+    },
+    "weekendDescription": {
+      "content": "Мы работаем до 18:00 в пн-чт, до 16:45 в пт.\nМы свяжемся с вами в первый рабочий день.",
+      "type": "string"
+    },
+    "buttonText": {
+      "content": "Хорошо",
+      "type": "string"
+    }
+  },
+  "CampaignFailPopup": {
+    "title": {
+      "content": "Произошла ошибка",
+      "type": "string"
+    },
+    "description": {
+      "content": "Что-то пошло не так, попробуйте повторить позднее.",
+      "type": "string"
+    },
+    "weekendDescription": {
+      "content": "Мы работаем до 18:00 в пн-чт, до 16:45 в пт.\nМы свяжемся с вами в первый рабочий день.",
+      "type": "string"
+    },
+    "buttonText": {
+      "content": "Понятно",
+      "type": "string"
+    }
+  },
+  "CampaignUpdatedPopup": {
+    "title": {
+      "content": "Изменения сохранены успешно",
+      "type": "string"
+    },
+    "description": {
+      "content": "Вами были внесены изменения в заявку на рекламную кампанию",
+      "type": "string"
+    },
+    "weekendDescription": {
+      "content": "Наш менеджер свяжется с вами в течение рабочего дня",
+      "type": "string"
+    },
+    "buttonText": {
+      "content": "Хорошо",
+      "type": "string"
+    }
+  },
+  "ConfirmTargetInternetModerationModal":{
+    "title": {
+      "content": "Заказ обновлен",
+      "type": "string"
+    },
+    "description": {
+      "content": "Кампания отправлена на повторную модерацию",
+      "type": "string"
+    },
+    "startButton": {
+      "content": "К моим кампаниям",
+      "type": "string"
+    },
+    "totalTitle": {
+      "content": "Итого:",
+      "type": "string"
+    }
+  },
+  "GeneralStartCampaignModal": {
+    "title": {
+      "content": "Запуск кампании",
+      "type": "string"
+    },
+    "descriptionFillingRequired": {
+      "content": "Заполните хотя бы один из выбранных каналов",
+      "type": "string"
+    },
+    "descriptionSomeFillingRequired": {
+      "content": "Вы можете запустить кампанию или выбрать дополнительные рекламные каналы",
+      "type": "string"
+    },
+    "descriptionAllChannelsSaved": {
+      "content": "Подтверждение запуска рекламной кампании",
+      "type": "string"
+    },
+    "descriptionNoSelectedChannels": {
+      "content": "Необходимо выбрать хотя бы один канал для запуска рекламной кампании",
+      "type": "string"
+    },
+    "editButton": {
+      "content": "Продолжить редактирование",
+      "type": "string"
+    },
+    "startButton": {
+      "content": "Запустить кампанию",
+      "type": "string"
+    },
+    "totalTitle": {
+      "content": "Итого:",
+      "type": "string"
+    }
+  },
+  "EmptySelectionPopup": {
+    "emojiIcon": {
+      "content": "https://static.beeline.ru/upload/images/emoji/pointingHandUp.svg",
+      "type": "string"
+    },
+    "title": {
+      "content": "Нет соответствий выбранным параметрам",
+      "type": "string"
+    },
+    "description": {
+      "content": "Измените настройки фильтров\n для новой выборки аудитории",
+      "type": "string"
+    },
+    "buttonText": {
+      "content": "Поменять настройки",
+      "type": "string"
+    }
+  },
+  "BriefOrderVoice": {
+    "form_order": {
+      "budget": {
+        "label": "Расчёт рекламной кампании",
+        "tooltip": {
+          "content": "<a href='https://static.beeline.ru/upload/images/marketing/price_voice_v2.pdf' target='_blank'>Подробнее о тарификации</a>",
+          "type": "html"
+        }
+      },
+      "date": {
+        "title": {
+          "content": "Период обзвона клиентов",
+          "type": "string"
+        },
+        "tooltip": {
+          "content": "Выберите дату старта и дату завершения",
+          "type": "string"
+        },
+        "date_start": {
+          "content": "Старт",
+          "type": "string"
+        },
+        "date_end": {
+          "content": "Завершение",
+          "type": "string"
+        },
+        "info_text": {
+          "content": "Кампанию можно запустить не раньше {date}. Это время необходимо для технических настроек.",
+          "type": "string"
+        }
+      },
+      "comment": {
+        "placeholder": {
+          "content": "Например, «Нужно помочь с телефонией», или «Хочу подобрать целевую аудиторию по ...»",
+          "type": "string"
+        },
+        "title": {
+          "content": "Коротко опишите ваши дополнительные запросы",
+          "type": "string"
+        }
+      },
+      "total": {
+        "title": {
+          "content": "Итого:",
+          "type": "string"
+        },
+        "budgetTitle": {
+          "content": "Бюджет обзвона",
+          "type": "string"
+        },
+        "budgetUnit": {
+          "content": "₽",
+          "type": "string"
+        },
+        "costTitle": {
+          "content": "Стоимость одного",
+          "type": "string"
+        },
+        "costUnit": {
+          "content": "₽",
+          "type": "string"
+        },
+        "countName": {
+          "content": "Общее количество",
+          "type": "string"
+        },
+        "unitName": {
+          "content": "контакта",
+          "type": "string"
+        },
+        "button": {
+          "content": "Отправить заказ",
+          "type": "string"
+        }
+      }
+    },
+    "budgetDescription": {
+      "content": "Примерное количество номеров для обзвона",
+      "type": "string"
+    },
+    "budgetFixButtonText": "скорректировать параметры аудитории",
+    "budgetErrorDescription": {
+      "content": "Количество номеров превышает \n выбранную вами аудиторию. \n Рекомендуем",
+      "type": "string"
+    },
+    "eventsNamesByCount": ["контакт", "контакта", "контактов"],
+    "budgetEventsFromPrefix": {
+      "content": "от",
+      "type": "string"
+    },
+    "budgetEventsToPrefix": {
+      "content": "до",
+      "type": "string"
+    },
+    "mainTipsDescription": {
+      "content": "На основании выбранной вами аудитории система сформирует и\nзашифрует номера, чтобы вы могли связаться с потенциальными\nклиентами. Для того, чтобы воспользоваться услугой, необходимо\nвыбрать тип подключения.",
+      "type": "string"
+    },
+    "connectionTypeBlock": {
+      "title": {
+        "content": "Тип подключения услуги «Таргетированные голосовые звонки»",
+        "type": "string"
+      },
+      "linkLabel": {
+        "content": "Тарифный-план.pdf",
+        "type": "string"
+      },
+      "url": {
+        "content": "https://static.beeline.ru/upload/images/marketing/price_voice_v2.pdf",
+        "type": "string"
+      },
+      "data": [
+        {
+          "title": {
+            "content": "Самостоятельный обзвон потенциальных абонентов",
+            "type": "string"
+          },
+          "description": {
+            "content": "Вы получаете базу абонентов и сами производите обзвон по ней.",
+            "type": "string"
+          },
+          "priceDescription": {
+            "content": "за контакт",
+            "type": "string"
+          },
+          "NDSLabel": {
+            "content": "С НДС.",
+            "type": "string"
+          }
+        },
+        {
+          "title": {
+            "content": "Соединение только с заинтересованными абонентами",
+            "type": "string"
+          },
+          "description": {
+            "content": "Контактный центр Билайн сам обзвонит таргетированную базу и переведет соединение уже с заинтересованными абонентами.",
+            "type": "string"
+          },
+          "priceDescription": {
+            "content": "за целевой контакт",
+            "type": "string"
+          },
+          "isFrom": {
+            "content": true
+          },
+          "NDSLabel": {
+            "content": "С НДС.",
+            "type": "string"
+          }
+        },
+        {
+          "title": {
+            "content": "Индивидуальные условия",
+            "type": "string"
+          },
+          "description": {
+            "content": "Наш менеджер готов предоставить еще более гибкие инструменты для поиска целевой аудитории, а также помочь с настройкой телефонии.",
+            "type": "string"
+          },
+          "isFrom": {
+            "content": true
+          },
+          "NDSLabel": {
+            "content": "С НДС.",
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "waysToMakeCalls": {
+      "title": {
+        "content": "Способ совершения звонков",
+        "type": "string"
+      },
+      "data": [
+        {
+          "title": {
+            "content": "Со своего мобильного номера",
+            "type": "string"
+          },
+          "description": {
+            "content": "Вы звоните на выделенный номер телефона со своего мобильного. Затем набираете зашифрованные номера в тоновом режиме, а система соединяет вас с потенциальными клиентами.",
+            "type": "string"
+          },
+          "priceDescription": {
+            "content": "Звонки оплачиваются согласно вашему тарифу. \nНе требуется забирать симкарту для обзвона в офисе",
+            "type": "string"
+          }
+        },
+        {
+          "title": {
+            "content": "С корпоративного номера Билайн",
+            "type": "string"
+          },
+          "description": {
+            "content": "Мы предоставляем мобильный номер со специальными настройками. Вы набираете зашифрованные номера, а система соединяет вас с потенциальными клиентами.",
+            "type": "string"
+          },
+          "priceDescription": {
+            "content": "Все вызовы на зашифрованные номера — бесплатные.\nНужно получить симкарту в офисе Билайн или дождаться курьера",
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "coastPerActionBlock": {
+      "title": {
+        "content": "Что вы хотите продавать",
+        "type": "string"
+      },
+      "description": {
+        "content": "Услуга «Соединение только с заинтересованными абонентами» доступна только для ограниченного списка товаров и услуг. Стоимость целевого контакта зависит от вашей отрасли, типа товара или услуги.",
+        "type": "string"
+      }
+    },
+    "selfCallBudget": {
+      "title": {
+        "content": "Планируемый бюджет",
+        "type": "string"
+      },
+      "successDescription": {
+        "content": "Ваш бюджет будет расходован максимально эффективно.",
+        "type": "string"
+      },
+      "invalidBudgetError": {
+        "content": "Минимальный бюджет для выбранной услуги — {minBudget} ₽ (с НДС)",
+        "type": "string"
+      }
+    },
+    "callCenterBudget": {
+      "title": {
+        "content": "Планируемый бюджет",
+        "type": "string"
+      },
+      "invalidBudgetError": {
+        "content": "Минимальный бюджет для выбранной услуги — {minBudget} ₽ (с НДС)",
+        "type": "string"
+      }
+    },
+    "individualBudget": {
+      "title": {
+        "content": "Планируемый бюджет",
+        "type": "string"
+      },
+      "successDescription": {
+        "content": "Наш менеджер поможет с расчетом стоимости и количества контактов.",
+        "type": "string"
+      },
+      "invalidBudgetError": {
+        "content": "Минимальный бюджет для выбранной услуги — {minBudget} ₽ (с НДС)",
+        "type": "string"
+      }
+    },
+    "channelCard": {
+      "newTitle": {
+        "content": "Новая услуга",
+        "type": "string"
+      },
+      "newDescription": {
+        "content": "Обзвон абонентов колл-центром «Билайн». Соединяем только с заинтересованными абонентами",
+        "type": "string"
+      }
+    }
+  },
+  "BriefOrderPush": {
+    "budgetDescription": {
+      "content": "Примерное количество PUSH-уведомлений",
+      "type": "string"
+    },
+    "budgetFixButtonText": "скорректировать параметры аудитории",
+    "budgetErrorDescription": {
+      "content": "Доступное количество уведомлений\nпревышает выбранную вами аудиторию.\nРекомендуем",
+      "type": "string"
+    },
+    "eventsNamesByCount": ["уведомление", "уведомления", "уведомлений"],
+    "budgetEventsFromPrefix": {
+      "content": "от",
+      "type": "string"
+    },
+    "budgetEventsToPrefix": {
+      "content": "до",
+      "type": "string"
+    },
+    "form_order": {
+      "budget": {
+        "label": "Планируемый бюджет",
+        "tooltip": {
+          "content": "<a href='https://static.beeline.ru/upload/images/business/beeline-prodvizhenie/price-push.pdf' target='_blank'>Подробнее о тарификации</a>",
+          "type": "html"
+        }
+      },
+      "timeSending": {
+        "title": {
+          "content": "Настройка времени",
+          "type": "string"
+        }
+      },
+      "date": {
+        "title": {
+          "content": "Выберите желаемый период рассылки",
+          "type": "string"
+        },
+        "tooltip": {
+          "content": "Итоговая дата рассылки будет определена после оплаты счета",
+          "type": "string"
+        },
+        "date_start": {
+          "content": "Старт",
+          "type": "string"
+        },
+        "date_end": {
+          "content": "Завершение",
+          "type": "string"
+        }
+      },
+      "targetAction": {
+        "label": "Выбор целевого действия",
+        "tooltip": { "content": null, "type": "string" }
+      },
+      "targetActionLink": {
+        "label": "Переход по ссылке",
+        "tooltip": { "content": null, "type": "string" }
+      },
+      "targetActionDownload": {
+        "label": "Скачивание приложения\n(только для Android)",
+        "tooltip": { "content": null, "type": "string" }
+      },
+      "urlAdvertiser": {
+        "name": {
+          "content": "Адрес сайта",
+          "type": "string"
+        },
+        "field": {
+          "content": "Введите адрес сайта компании или того продукта",
+          "type": "string"
+        },
+        "infoText": {
+          "content": "Например, https://b2blog.beeline.ru",
+          "type": "html"
+        }
+      },
+      "text": {
+        "title": {
+          "content": "Текст сообщения",
+          "type": "string"
+        },
+        "field": {
+          "content": "Введите название компании или рекламируемого продукта",
+          "type": "string"
+        }
+      },
+      "additionalInfo": {
+        "label": {
+          "content": "Дополнительная информация",
+          "type": "string"
+        },
+        "placeholder": {
+          "content": "Укажите дополнительную информацию по подбору вашей целевой аудитории",
+          "type": "string"
+        }
+      },
+      "total": {
+        "title": {
+          "content": "Итого:",
+          "type": "string"
+        },
+        "budgetTitle": {
+          "content": "Бюджет рассылки",
+          "type": "string"
+        },
+        "budgetUnit": {
+          "content": "₽",
+          "type": "string"
+        },
+        "costTitle": {
+          "content": "Стоимость одного",
+          "type": "string"
+        },
+        "costUnit": {
+          "content": "₽",
+          "type": "string"
+        },
+        "countName": {
+          "content": "Общее количество",
+          "type": "string"
+        },
+        "unitName": {
+          "content": "PUSH",
+          "type": "string"
+        },
+        "button": {
+          "content": "Отправить заказ",
+          "type": "string"
+        }
+      },
+      "testCtns": {
+        "label": "Тестовые номера",
+        "buttonText": "Добавить номер",
+        "buttonIcon": {
+          "content": "https://static.beeline.ru/upload/images/marketing/icons/crossCirclePlus.svg",
+          "type": "string"
+        },
+        "tooltip": {
+          "content": "Добавьте личные номера в качестве теста для проверки своих коммуникаций на клиентов.",
+          "type": "string"
+        }
+      }
+    },
+    "mainTipsDescription": {
+      "content": "Заполните поля ниже, чтобы запустить PUSH-уведомления.",
+      "type": "string"
+    }
+  },
+
+  "BriefOrderTargetInternet": {
+    "eventsNamesByCount": ["клик", "клика", "кликов"],
+    "stepDateAndTariffTitle": {
+      "content": "Дата старта и тариф",
+      "type": "string"
+    },
+    "companyInfoStep": {
+      "title": {
+        "content": "Данные о компании",
+        "type": "string"
+      },
+      "nextButtonText": {
+        "content": "Далее",
+        "type": "string"
+      },
+      "industryLabel": {
+        "content": "Отрасль вашей компании",
+        "type": "string"
+      },
+      "clientInfoLabel": {
+        "content": "Информация о юридическом лице",
+        "type": "string"
+      },
+      "clientInfoTooltip": {
+        "content": "Согласно ст. 8 Федерального Закона «О рекламе» необходимо соблюдать следующее требование: в рекламе товаров при дистанционном способе их продажи должны быть указаны сведения о продавце таких товаров: наименование, место нахождения и государственный регистрационный номер записи о создании юридического лица; фамилия, имя, отчество, основной государственный регистрационный номер записи о государственной регистрации физического лица в качестве индивидуального предпринимателя. Например: - ООО \"Моя Компания\" 123456, г. Соликамск, ул. Мейловская, д.39/79, ОГРН 1234432112344321 - ИП Баринов Евгений Александрович 143300, Московская обл, г Наро-Фоминск, рп Селятино, д.5, ОГРНИП 304503034500179.",
+        "type": "string"
+      }
+    },
+    "form_order": {
+      "autoStart": {
+        "label": "Начало показа объявлений",
+        "tooltip": {
+          "content": null,
+          "type": "string"
+        }
+      },
+      "autoStartInstant": {
+        "label": "Сразу после прохождения модерации",
+        "subLabel": "Примерно 1-2 дня после оплаты",
+        "tooltip": {
+          "content": null,
+          "type": "string"
+        }
+      },
+      "autoStartConcreteDate": {
+        "label": "В конкретную дату",
+        "subLabel": "Но не ранее чем через 7 дней с момента отправки заявки",
+        "tooltip": {
+          "content": null,
+          "type": "string"
+        }
+      },
+      "date": {
+        "label": "Дата старта кампании",
+        "tooltip": {
+          "content": null,
+          "type": "string"
+        }
+      },
+      "chosenTariff": {
+        "label": "Тариф",
+        "tooltip": {
+          "content": null,
+          "type": "string"
+        },
+        "duringAdvertisingInfo": "Продолжительность показа рекламы",
+        "forecastEventsInfo": "Прогнозируемое количество кликов",
+        "duringAdvertisingCases": ["день", "дня", "дней"]
+      }
+    },
+    "adTitle": {
+      "tooltip": {
+        "content": "<div><p>Заголовок и текст объявления составляются на грамотном русском языке без ошибок, опечаток и сокращений (исключая общепринятые сокращения).Исключение могут составлять слова (словосочетания) на иностранном языке, если эти слова (словосочетания) являются общеупотребимыми аббревиатурами (например, USB, ADSL), или товарными знаками / знаками обслуживания (например, Danone, iPhone). Если товарный знак (знак обслуживания) не носит общеупотребимого характера, то до размещения рекламы в администрацию проекта необходимо предоставить скан-копию свидетельства о регистрации товарного знака.</p><p>Заголовок объявления не должен завершаться точкой.</p>",
+        "type": "html"
+      }
+    },
+    "adDescription": {
+      "tooltip": {
+        "content": "<p>Текст объявления должен соответствовать тематике рекламируемого сайта и описывать суть рекламного предложения.</p><p>В тексте объявления не должно содержаться жаргонизмов, сленга, выражений оскорбительного характера, нецензурного содержания, нарушающих законодательство РФ, или предназначенных «только для взрослых», а также упоминание трагических событий (например: убийство, смерть, теракт).</p><p>Текст объявления не может быть продолжением заголовка.</p><p>Для использования в тексте объявления ФИО людей, необходимо предоставить заверенную скан-копию разрешения от них.</p><h3>Запрещается использовать:</h3><p>- специальные символы, написание в р а з р я д к у, набирать слова ЗАГЛАВНЫМИ буквами. Исключение составляют зарегистрированные товарные знаки, общепринятые аббревиатуры, состоящие из начальных букв сокращенных слов («КАСКО», «НИИ» и т.п.);</p><p>- слова-усилители, не несущие смысловой нагрузки, такие как: «Шок», «Сенсация», «Хит» и т.п.</p><p>- номера телефонов, e-mail адресов, почтовых адресов, номеров icq или других систем онлайн-пейджинга;</p><p>- восклицательный знак более 1 раза в одном объявлении;</p><p>- намеренные повторы слов и фраз в тексте объявления;</p><p>- обращение по фамилии, имени, отчеству;</p><p>- html-код;</p><p>- запрещается использовать формулировки от первого лица.</p><h3>Условия использования призывов к действию:</h3><p>Призыв может однозначно и корректно характеризовать, что необходимо сделать пользователю после перехода по объявлению (например, «Узнать подробности», «Купить сейчас»),запрещается использовать некорректные формулировки, принуждать пользователя к совершению действия (например, «Кликай сюда», «Убей их всех», «Я жду»).</p><h3>Условия использования слов в превосходной степени:</h3><p>для того, чтобы можно было использовать в тексте объявления слова в превосходной степени («лучший», «самый», «номер один», «единственный эффективный» и т. п.), пользователь должен прислать модераторам документ, составленный авторитетной сторонней организацией, подтверждающий заявленные свойства товара или услуги. Также этот документ должен быть опубликован на рекламируемом сайте</p>",
+        "type": "html"
+      }
+    },
+    "adLogo": {
+      "tooltip": {
+        "content": "<p>Изображение должно соответствовать тексту объявления и тематике рекламируемого сайта;</p><h3>Запрещаются к использованию изображения:</h3><p>- имитирующие фирменный стиль/логотип площадки, элементы интерфейса;</p><p>- раздражающие глаза;</p><p>- содержащие откровенные, пугающие или эстетически неприемлемые изображения (в т. ч. обнажённые или вызывающе одетых людей, болезней, увечий, катастроф и т. д.);</p><p>- изображения алкогольной (в т. ч. пива) или табачной продукции или процесса употребления такой продукции;</p><p>- защищенные авторским правом (без разрешения правообладателя);</p><p>- флаги, гербы, ордена, символы и знаки муниципальных образований, религиозные символы;</p><p>- фотографии или изображения публичных людей — известных музыкантов, писателей, спортсменов, ведущих и др. без их персонального письменного разрешения;</p><p>- материалы, оскорбляющие культурные или религиозные чувства;</p><p>- низкого качества;</p><p>- интернет-мемы.</p><p>При использовании текста в изображении запрещены нечитаемые и раздражающие надписи, в том числе на ярком фоне. Текст должен занимать не более 50% от общей площади изображения.</p><p>При рекламе мобильных приложений изображение должно являться графикой рекламируемого приложения. Логотип магазина мобильных приложений должен совпадать с выбранным таргетингом.</p><p>Изображение должно занимать всю отведенную площадь.</p>",
+        "type": "html"
+      }
+    },
+    "adMainImg": {
+      "tooltip": {
+        "content": "<p>Изображение должно соответствовать тексту объявления и тематике рекламируемого сайта;</p><h3>Запрещаются к использованию изображения:</h3><p>- имитирующие фирменный стиль/логотип площадки, элементы интерфейса;</p><p>- раздражающие глаза;</p><p>- содержащие откровенные, пугающие или эстетически неприемлемые изображения (в т. ч. обнажённые или вызывающе одетых людей, болезней, увечий, катастроф и т. д.);</p><p>- изображения алкогольной (в т. ч. пива) или табачной продукции или процесса употребления такой продукции;</p><p>- защищенные авторским правом (без разрешения правообладателя);</p><p>- флаги, гербы, ордена, символы и знаки муниципальных образований, религиозные символы;</p><p>- фотографии или изображения публичных людей — известных музыкантов, писателей, спортсменов, ведущих и др. без их персонального письменного разрешения;</p><p>- материалы, оскорбляющие культурные или религиозные чувства;</p><p>- низкого качества;</p><p>- интернет-мемы.</p><p>При использовании текста в изображении запрещены нечитаемые и раздражающие надписи, в том числе на ярком фоне. Текст должен занимать не более 50% от общей площади изображения.</p><p>При рекламе мобильных приложений изображение должно являться графикой рекламируемого приложения. Логотип магазина мобильных приложений должен совпадать с выбранным таргетингом.</p><p>Изображение должно занимать всю отведенную площадь.</p>",
+        "type": "html"
+      }
+    },
+    "adWebsite": {
+      "tooltip": {
+        "content": "<p>В ссылке должна быть указана собственная целевая страница рекламодателя (рекламируемый сайт). Редиректы (перенаправление) на другие страницы, в том числе мета-редиректы и трафикбэк, запрещены. Также запрещены не серверные редиректы.</p><h3>Ссылка не должна вести:</h3><p>- на стороннюю социальную сеть (исключая Одноклассники);</p><p>- на закрытое сообщество/группу;</p><p>- на адрес электронной почты, или файл (включая изображения, аудио- или видеозаписи и документы, которые можно запустить только с помощью дополнительных приложений)</p><p>В случае, если ссылка ведет на сайт, составленный на языке, отличном от языка на котором составлено объявление, в тексте объявления необходима информация об этом.</p><p>Для рекламы мобильных приложений в url допускаются только безопасные ссылки. Все редиректы и все лендинги должны быть https://</p>",
+        "type": "html"
+      }
+    },
+    "deniedSocials": [
+      "facebook.com",
+      "vk.com",
+      "twitter.com",
+      "linkedin.com",
+      "pinterest.ru",
+      "tumblr.com",
+      "instagram.com",
+      "change.org",
+      "flickr.com",
+      "myspace.com",
+      "meetup.com",
+      "tagged.com",
+      "ask.fm",
+      "meetme.com",
+      "tinder.com",
+      "foursquare.com",
+      "livejournal.com",
+      "reddit.com",
+      "youtube.com",
+      "my.mail.ru",
+      "drive2.ru",
+      "tiktok.com",
+      "coub.com",
+      "habr.com",
+      "nsportal.ru",
+      "rustoria.ru",
+      "gamer.ru",
+      "kroogi.com",
+      "sprashivai.ru",
+      "myband.info",
+      "velever.com",
+      "lastfm.ru",
+      "moveout.in",
+      "2ch.hk",
+      "bookmix.ru",
+      "esosedi.ru",
+      "netropolitan.info",
+      "xing.com",
+      "otzovik.com",
+      "zakon.ru",
+      "stranamam.ru",
+      "animal.ru",
+      "turmir.com",
+      "delovoymir.biz",
+      "bikepost.ru",
+      "investor.ru",
+      "russia.ru",
+      "povarenok.ru",
+      "moikrug.ru",
+      "love.mail.ru",
+      "klerk.ru",
+      "babyblog.ru",
+      "hh.ru",
+      "news2.ru"
+    ]
+  },
+  "StepAudienceContent": {
+    "geoAction": {
+      "label": "География",
+      "description": {
+        "content": "Укажите где находятся ваши клиенты. Если нужен всероссийский охват, оставьте поле пустым.",
+        "type": "string"
+      }
+    },
+    "geoActionRegionLabel": {
+      "content": "Города и регионы",
+      "type": "string"
+    },
+    "geoActionPointsLabel": {
+      "content": "Указать точный адрес",
+      "type": "string"
+    },
+    "geoExactAddress": {
+      "label": "Укажите точный адрес",
+      "inputPlaceholder": "Введите точный адрес",
+      "tooltip": {
+        "content": "Показывайте рекламу людям, находящимся рядом с точно указанным местом. Вы можете указать точное место, выбрав адрес или точку на карте. Обратите внимание, что на ограниченной территории клиентов может быть недостаточно.",
+        "type": "string"
+      },
+      "radiusLabel": "Радиус (км)",
+      "buttonText": "Добавить адрес"
+    },
+    "geoType": {
+      "title": {
+        "content": "Выберите местоположение клиента",
+        "type": "string"
+      },
+      "tooltip": {
+        "content": "Выберите «Работа», если хотите показать рекламу пользователям, которые находятся в выбранном месте в рабочее время.Выберите «Дом», если хотите показать рекламу пользователям, которые находятся в выбранном месте в вечернее и ночное время",
+        "type": "html"
+      }
+    },
+    "mapAdvice": {
+      "content": "Или отметьте булавкой на карте",
+      "type": "string"
+    }
+  },
+  "StepChannelsContent": {
+    "widgetsCards": {
+      "items": [
+        {
+          "channel_uid": "target-sms",
+          "title": {
+            "content": "Таргетированная\n SMS-рассылка",
+            "type": "string"
+          },
+          "tariffInfo": {
+            "content": "из расчета длины сообщения в 210 символов",
+            "type": "string"
+          },
+          "tariffLinkText": {
+            "content": "Тарифы",
+            "type": "string"
+          },
+          "tariffLinkUrl": {
+            "content": "https://static.beeline.ru/upload/images/marketing/price_sms.pdf",
+            "type": "string"
+          },
+          "editBriefButton": {
+            "content": "Редактировать бриф",
+            "type": "string"
+          },
+          "eventsTextIcon": {
+            "content": "message",
+            "type": "string"
+          },
+          "buttonText": {
+            "content": "Заполнить бриф",
+            "type": "string"
+          }
+        }, {
+          "channel_uid": "push",
+          "title": {
+            "content": "PUSH-уведомления",
+            "type": "string"
+          },
+          "tariffInfo": {
+            "content": "из расчета длины сообщения в 210 символов",
+            "type": "string"
+          },
+          "tariffLinkText": {
+            "content": "Тарифы",
+            "type": "string"
+          },
+          "tariffLinkUrl": {
+            "content": "https://static.beeline.ru/upload/images/business/beeline-prodvizhenie/price-push.pdf",
+            "type": "string"
+          },
+          "editBriefButton": {
+            "content": "Редактировать бриф",
+            "type": "string"
+          },
+          "buttonText": {
+            "content": "Заполнить бриф",
+            "type": "string"
+          },
+          "eventsTextIcon": {
+            "content": "message",
+            "type": "string"
+          }
+        },
+        {
+          "channel_uid": "target-internet",
+          "title": {
+            "content": "Таргетированная реклама",
+            "type": "string"
+          },
+          "editBriefButton": {
+            "content": "Редактировать бриф",
+            "type": "string"
+          },
+          "buttonText": {
+            "content": "Заполнить бриф",
+            "type": "string"
+          },
+          "eventsTextIcon": {
+            "content": "monitor",
+            "type": "string"
+          }
+        },{
+          "channel_uid": "internet",
+          "defaultEvents": 133,
+          "title": {
+            "content": "Интернет-реклама",
+            "type": "string"
+          },
+          "tariffLinkText": {
+            "content": "Тарифы",
+            "type": "string"
+          },
+          "tariffLinkUrl": {
+            "content": "https://static.beeline.ru/upload/images/marketing/price_internet.pdf",
+            "type": "string"
+          },
+          "editBriefButton": {
+            "content": "Редактировать бриф",
+            "type": "string"
+          },
+          "buttonText": {
+            "content": "Заполнить бриф",
+            "type": "string"
+          },
+          "eventsTextIcon": {
+            "content": "monitor",
+            "type": "string"
+          }
+        },{
+          "channel_uid": "voice-target",
+          "title": {
+            "content": "Таргетированные голосовые звонки",
+            "type": "string"
+          },
+          "tariffLinkText": {
+            "content": "Тарифы",
+            "type": "string"
+          },
+          "tariffLinkUrl": {
+            "content": "https://static.beeline.ru/upload/images/business/doc/23939_PL_Targetirovannye_golosovye_zvonki.pdf",
+            "type": "string"
+          },
+          "editBriefButton": {
+            "content": "Редактировать бриф",
+            "type": "string"
+          },
+          "buttonText": {
+            "content": "Заполнить бриф",
+            "type": "string"
+          },
+          "eventsTextIcon": {
+            "content": "phone",
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "startButtonText": {
+      "content": "Запустить кампанию",
+      "type": "string"
+    }
+  },
+  "CampaignTotalBlock": {
+    "title": {
+      "content": "Итого:",
+      "type": "string"
+    },
+    "description": {
+      "content": "Выборка вашей кампании настроена, осталось только заполнить брифы по выбранным каналам.",
+      "type": "string"
+    }
+  },
+  "EmptyChannelsList": {
+    "discountInfo": {
+      "content": "Скидка по промокоду",
+      "type": "string"
+    },
+    "buttonLink": {
+      "content": "Заполнить бриф",
+      "type": "string"
+    }
+  }
+}

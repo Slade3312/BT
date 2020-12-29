@@ -1,0 +1,11 @@
+{
+    "UserInfo": {
+      "form_userInfo": {
+        "company.industry": {
+          "placeholder": "123",
+          "label": "Кастомное название поля",
+          "name": "name_field"
+        }
+      }
+    }
+}

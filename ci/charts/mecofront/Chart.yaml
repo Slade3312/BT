@@ -1,0 +1,12 @@
+name: mecofront
+description: Frontend of market eco
+version: 0.0.1
+appVersion: 0.0.1
+keywords:
+  - market
+  - eco
+  - static
+  - frontend
+sources: 
+  - http://gitlab.kube.vimpelcom.ru/market-eco/frontend.git
+home:    http://gitlab.kube.vimpelcom.ru/market-eco/frontend

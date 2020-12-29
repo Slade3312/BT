@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Light",
+    "tariff_uid": "light",
+    "question_count": 20,
+    "polled_count": 100,
+    "description": "Аналитический отчёт Excel",
+    "budget": 10000,
+    "price_url": "https://vk.com/me005"
+  },
+  {
+    "id": 2,
+    "name": "PRO",
+    "tariff_uid": "pro",
+    "question_count": 30,
+    "polled_count": 500,
+    "description": "Аналитический отчёт Excel и PDF",
+    "budget": 100000,
+    "price_url": "https://vk.com/me005"
+  }
+]

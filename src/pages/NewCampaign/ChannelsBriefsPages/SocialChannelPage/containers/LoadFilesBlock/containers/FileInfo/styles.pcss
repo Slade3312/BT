@@ -1,0 +1,87 @@
+@import "styles/constants.pcss";
+
+.fileInfoContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 502px;
+
+  &.haveFiles {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.loadFileInput {
+  opacity: 0;
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+}
+
+.loadFileButton {
+  position: relative;
+  display: block;
+  width: 470px;
+  height: 40px;
+  margin-right: auto;
+  font-size: 17px;
+  line-height: 40px;
+  font-family: var(--mainFontFamily);
+  text-align: center;
+  background-color: #e6e6e6;
+  cursor: pointer;
+  transition: 0.3s background-color;
+
+  &:hover {
+    background-color: #cccccc;
+  }
+}
+
+.buttonPreloader {
+  margin-top: 5px;
+}
+
+.fileSize {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.fileInfoRow {
+  display: flex;
+  align-items: center;
+}
+
+.closeButton {
+  padding: 5px;
+
+  svg {
+    width: 11px;
+    height: 11px;
+    vertical-align: middle;
+  }
+}
+
+.tooltip {
+  margin-right: 0;
+  margin-left: 14px;
+}
+
+.error {
+  color: rgba(220, 0, 0, 0.8);
+  padding: 5px 0;
+  font-family: var(--baseFontFamily);
+  font-style: italic;
+  font-size: 13px;
+  line-height: 15px;
+  min-height: 25px;
+  max-width: 470px;
+  margin-right: 34px;
+  margin-top: 5px;
+}
+
+.fileIcon {
+  width: 14px;
+  height: 19px;
+  margin-right: 5px;
+}

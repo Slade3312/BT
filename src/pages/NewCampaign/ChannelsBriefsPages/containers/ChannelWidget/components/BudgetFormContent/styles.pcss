@@ -1,0 +1,41 @@
+@import "styles/constants.pcss";
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  font-size: 21px;
+  min-height: 55px;
+}
+
+.wrapper {
+  max-height: 90px;
+  min-height: 60px;
+}
+
+.textFrom {
+  padding-right: 10px;
+
+  .disabled & {
+    color: var(--disabledTextColor);
+  }
+}
+
+.priceLabel {
+  font-size: 21px;
+  margin: 0;
+  padding: 0;
+
+  &::after {
+    content: ' ₽';
+  }
+
+  .disabled & {
+    color: var(--disabledTextColor);
+  }
+}
+
+.priceText {
+  .disabled & {
+    color: var(--disabledTextColor);
+  }
+}

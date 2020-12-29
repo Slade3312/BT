@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreInput Enter and clear value Should clean value ' qw' after entering ' e ' 1`] = `
+Array [
+  "qw e",
+]
+`;
+
+exports[`CoreInput Enter and clear value Should clean value ' sq' after entering ' we ' 1`] = `
+Array [
+  "sq w",
+  "sq we",
+]
+`;
+
+exports[`CoreInput Enter and clear value Should clean value '' after entering 'q ' 1`] = `
+Array [
+  "q",
+]
+`;
+
+exports[`CoreInput Enter and clear value Should clean value '' after entering 'q' 1`] = `
+Array [
+  "q",
+]
+`;
+
+exports[`CoreInput Enter and clear value Should clean value '' after entering 'qw ' 1`] = `
+Array [
+  "q",
+  "qw",
+]
+`;
+
+exports[`CoreInput Enter and clear value Should clean value '1' after entering '' 1`] = `Array []`;
+
+exports[`CoreInput Enter and clear value Should clean value 'q ' after entering '' 1`] = `Array []`;
+
+exports[`CoreInput Enter and clear value Should clean value 'q' after entering ' w' 1`] = `
+Array [
+  "q w",
+]
+`;
+
+exports[`CoreInput Enter and clear value Should clean value 'qw ' after entering '' 1`] = `Array []`;
+
+exports[`CoreInput Enter and clear value Should clean value 'qw' after entering ' e ' 1`] = `
+Array [
+  "qw e",
+]
+`;

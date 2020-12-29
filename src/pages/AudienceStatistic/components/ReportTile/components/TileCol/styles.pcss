@@ -1,0 +1,59 @@
+@import "styles/constants.pcss";
+
+.col {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  align-items: center;
+  white-space: nowrap;
+  flex-grow: 0;
+  font-family: var(--mainFontFamily);
+  font-size: 17px;
+  padding-right: 21px;
+  width: 140px;
+
+  &.column {
+    flex-flow: column;
+    align-items: flex-start;
+  }
+
+  &.statusBodyCol {
+    flex-basis: 20%;
+  }
+
+  &.dateCol {
+    font-size: 15px;
+  }
+
+  &.dateBodyCol {
+    position: relative;
+    margin-left: -20px;
+    flex-basis: 23%;
+  }
+
+  &.searchCol {
+    display: flex;
+    flex-basis: 27%;
+  }
+
+  &.lastCol {
+    flex-basis: 30%;
+    padding-right: 0;
+    justify-content: flex-end;
+    min-width: 270px;
+    margin-left: auto;
+  }
+
+  &.lastBody {
+    flex-basis: 30%;
+    padding-right: 0;
+    justify-content: flex-end;
+    min-width: 300px;
+  }
+
+  &.limited {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}

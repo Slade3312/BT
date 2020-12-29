@@ -1,0 +1,84 @@
+@import "styles/constants.pcss";
+
+@keyframes horizontal {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  6% {
+    transform: translate(5px, 0) scale(1.04);
+  }
+
+  12% {
+    transform: translate(-5px, 0) scale(1.04);
+  }
+
+  18% {
+    transform: translate(5px, 0) scale(1.04);
+  }
+
+  24% {
+    transform: translate(-5px, 0) scale(1.04);
+  }
+
+  30% {
+    transform: translate(5px, 0) scale(1.04);
+  }
+
+  36% {
+    transform: translate(-5px, 0) scale(1.04);
+  }
+
+  42% {
+    transform: translate(5px, 0) scale(1.04);
+  }
+
+  48% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+.icon {
+  display: block;
+  flex-shrink: 0;
+  width: 43px;
+  height: 43px;
+  background: rgba(255, 220, 125, 0.8);
+  border-radius: 50%;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.container {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 900;
+  display: inline-block;
+  height: 55px;
+  width: 150px;
+  padding: 5px 10px;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-family: var(--mainFontFamily);
+  line-height: 1;
+  background-color: white;
+  border: 2px solid #ffb612;
+  border-radius: 10px;
+  background-color: white;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  /*
+  &.animated:not(.opened) {
+    animation: slideLeft 1.5s 2s both ease, horizontal 1.5s ease;
+  }
+  */
+}
+
+

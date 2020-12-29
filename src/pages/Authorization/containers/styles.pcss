@@ -1,0 +1,300 @@
+@import "styles/constants.pcss";
+
+@keyframes showTooltip {
+    0% {
+       opacity:0;
+       top: 70px;
+    }
+    100% {
+        opacity:1;
+        top: 50px;
+    }
+}
+
+@keyframes showTooltipTop {
+    0% {
+       opacity:0;
+       bottom: 70px;
+    }
+    100% {
+        opacity:1;
+        bottom: 50px;
+    }
+}
+
+
+.row {
+    text-align: center;
+}
+
+.logo {
+    width: 220px;
+    margin-bottom: 50px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.logoSms {
+    width: 220px;
+    margin-bottom: 15px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.field {
+    width: 64px;
+    height: 68px;
+    font-size: 41px;
+    border: none;
+    margin-right: 30px;
+    font-family: var(--mainFontFamily);
+    padding-left: 20px;
+    border-radius: 7px;
+    border: 1px solid rgba(40, 40, 40, 0.2);
+    &:focus {
+        border: 2px solid #FFCF23;
+    }
+}
+
+.button {
+    width: 100%;
+    margin-top: 20px;
+    height: 55px;
+    font-size: 21px;
+}
+
+.phoneInput {
+    width: 100%;
+    height: 68px;
+    font-size: 21px;
+    padding: 12px 24px;
+    font-family: var(--mainFontFamily);
+    color: rgba(40, 40, 40, 0.5);
+    border: 1px solid rgba(40, 40, 40, 0.2);
+    border-radius: 7px;
+    &:focus {
+        border: 2px solid #FFCF23;
+    }
+}
+
+.pnoneInputed {
+    color: #282828;
+    font-size: 29px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    align-self: center;
+    justify-self: center;
+}
+
+.phoneScreen {
+    width: 348px;
+    margin-top: 176px;
+}
+
+.smsScreen {
+    width: 390px;
+    margin-top: 176px;
+}
+
+.privacyScreen {
+    width: 960px;
+    margin-top: 63px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 51px 123px 64px;
+    position: relative
+}
+
+.terms {
+    color: #787878;;
+    margin-bottom: 0;
+    text-align: center;
+    border-bottom: 1px dashed;
+    border-color: #c3c3c3;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.termMargin {
+    margin-top: 25px;
+    position: relative;
+}
+
+.inputHolder {
+    position: relative;
+    width: 100%;
+}
+
+.close {
+    position: absolute;
+    top: 26px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+}
+
+.formWrapper {
+    width: 100%;
+}
+
+.title {
+    color: #282828;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.smsContainer {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.numberChange {
+    margin-left: 15px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgba(120, 120, 120, 0.5);
+    cursor: pointer;
+}
+
+.text {
+    font-size: 15px;
+    color: #787878;;
+}
+
+.sendCode {
+    color: #1E1E22;
+    padding-bottom: 2px;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(120, 120, 120, 0.5);
+    cursor: pointer;
+}
+
+.cantGetText {
+    display: inline-block;
+}
+
+.cantGetText {
+    color: #1E1E22;
+    padding-bottom: 2px;
+    font-size: 15px;
+    border-bottom: 1px dashed rgba(120, 120, 120, 0.5);
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+    height: 85px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.errorText {
+    color: #F65936;
+    font-size: 29px;
+}
+
+.errorInput {
+    border: 2px solid #F75936!important;
+}
+
+.errorTextMsg {
+    font-size: 15px;
+    color: #F65936;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.smsCodeError {
+    color: #F65936;
+    border: 2px solid #F75936!important;
+}
+
+.termsHolder {
+    width: 343px;
+}
+
+.bubble {
+    background: #ffffff;
+    padding: 20px 24px;
+    display: none;
+    font-size: 13px;
+    text-align: left;
+    box-shadow: 0px 14px 21px #E7E6E6;
+    border-radius: 4px;
+    position: absolute;
+    width: 368px;
+    color: #282828;
+    &:before {
+        content: '';
+        display: block;
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        background: #fff;
+        transform: rotate(52deg) skewX(12deg);
+        border-radius: 4px;
+    }
+}
+
+@media (min-height: 775px) {
+    .bubble {
+        top: 50px;
+        left: -7px;
+        &:before {
+            top: -8px;
+            left: calc(50% - 13px);
+        }
+    }
+    .terms:hover + .bubble,
+    .cantGetText:hover + .bubble {
+        animation: showTooltip 0.5s;
+        display: block;
+    }
+}
+
+@media (max-height: 774px) {
+    .bubble {
+        bottom: 50px;
+        left: -7px;
+        &:before {
+            bottom: -8px;
+            left: calc(50% - 13px);
+        }
+    }
+    .terms:hover + .bubble,
+    .cantGetText:hover + .bubble {
+        animation: showTooltipTop 0.5s;
+        display: block;
+    }
+}
+
+.smsRow {
+    position: relative;
+    margin-top: 15px;
+}
+
+.cantGetSmsRow:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.cantGetSmsNumber {
+    display: inline-block;
+    margin-right: 10px;
+}

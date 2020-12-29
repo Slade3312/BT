@@ -1,0 +1,151 @@
+@import "styles/constants.pcss";
+
+.tagParent {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  height: 30px;
+}
+
+.tagStyled {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 10px);
+  margin-left: 5px;
+  height: 26px;
+  background: var(--contentLinerBgColor);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.cross {
+  position: absolute;
+  right: 8px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 17px;
+  height: 100%;
+  background: transparent;
+  pointer-events: all;
+
+  &::after {
+    content: '';
+    display: inline-block;
+    height: 0;
+    border: solid var(--secondColor);
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    margin-left: 5px;
+    vertical-align: super;
+    transform: rotate(45deg);
+  }
+}
+
+.label {
+  padding: 0 15px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 130px;
+  height: 35px;
+  color: var(--baseColor);
+}
+
+.menuWrapper {
+  position: relative;
+  top: 21px;
+  left: -55px;
+  transition: 0.3s ease opacity;
+}
+
+.menu {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  border-top: 20px solid rgba(0, 0, 0, 0);
+  font: var(--mainFont);
+  box-sizing: content-box;
+  z-index: 2;
+  opacity: 0;
+  transition: 0.3s ease opacity;
+
+  &.active {
+    opacity: 1;
+  }
+}
+
+.menuContent {
+  padding: 3px 16px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 19px rgba(52, 54, 60, 0.15);
+  border-radius: 2px;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: calc(100% - 1px);
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 11px;
+    bottom: calc(100% - 1px);
+    width: 0;
+    height: 0;
+    border: 9px solid transparent;
+    border-bottom-color: #fff;
+  }
+}
+
+.menuButton {
+  position: relative;
+  width: 100%;
+  padding: 10px 5px;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid rgba(40, 40, 40, 0.2);
+  background-color: transparent;
+  cursor: pointer;
+  transition: color 0.3s;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  svg {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    color: var(--secondColor);
+    transition: color 0.3s;
+  }
+
+  &:hover {
+    color: var(--activeColor);
+
+    svg {
+      color: var(--activeColor);
+    }
+  }
+
+  &:disabled {
+    &:hover {
+      color: var(--secondColor);
+      cursor: default;
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+    "ErrorNotification": {
+        "403": {
+            "title": {
+                "content": "Доступ в кабинет заблокирован",
+                "type": "string"
+            },
+            "description": {
+                "content": "По всем вопросам обращайтесь к вашему менеджеру",
+                "type": "html"
+            },
+            "button": {
+                "content": "Сменить аккаунт",
+                "type": "string"
+            },
+            "icon": {
+                "content": "https://static.beeline.ru/upload/images/emoji/statusFail.svg",
+                "type": "string"
+            }
+        },
+        "404": {
+            "title": {
+                "content": "Страница не найдена",
+                "type": "string"
+            },
+            "button": {
+                "content": "На главную",
+                "type": "string"
+            },
+            "icon": {
+                "content": "https://static.beeline.ru/upload/images/emoji/statusFail.svg",
+                "type": "string"
+            }
+        },
+        "423": {
+            "title": {
+                "content": "Отсутствует доступ в кабинет",
+                "type": "string"
+            },
+            "description": {
+                "content": "Получить логин и пароль для доступа вы можете <a href=\"https://moskva.beeline.ru/business/services/beeline-prodvizhenie/#quickrequest\">по ссылке</a>",
+                "type": "html"
+            },
+            "icon": {
+                "content": "https://static.beeline.ru/upload/images/emoji/statusFail.svg",
+                "type": "string"
+            }
+        },
+        "500": {
+            "title": {
+                "content": "Что-то пошло не так :(",
+                "type": "string"
+            },
+            "description": {
+                "content": "Мы уже работаем над устранением ошибки, обновите страницу и попробуйте еще раз",
+                "type": "html"
+            },
+            "button": {
+                "content": "Обновить страницу",
+                "type": "string"
+            },
+            "icon": {
+                "content": "https://static.beeline.ru/upload/images/emoji/statusFail.svg",
+                "type": "string"
+            }
+        },
+        "500release": {
+            "title": {
+                "content": "Что-то пошло не так :(",
+                "type": "string"
+            },
+            "description": {
+                "content": "Попробуйте повторить позднее",
+                "type": "html"
+            },
+            "button": {
+                "content": "Обновить страницу",
+                "type": "string"
+            },
+            "icon": {
+                "content": "https://static.beeline.ru/upload/images/emoji/statusFail.svg",
+                "type": "string"
+            }
+        }
+
+    }
+}

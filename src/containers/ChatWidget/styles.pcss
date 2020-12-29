@@ -1,0 +1,80 @@
+@import "styles/constants.pcss";
+
+.chatWidget {
+  position: fixed;
+  bottom: 115px;
+  right: 25px;
+  max-height: 750px;
+  min-height: 400px;
+  height: calc(100% - 135px);
+  z-index: 20;
+}
+
+.botTooltip {
+  position: fixed;
+  bottom: 120px;
+  right: 25px;
+  height: auto;
+  z-index: 20;
+}
+
+.chatButtonWrapper {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 20;
+
+  &.loading {
+    pointer-events: none;
+  }
+}
+
+.chatButton {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  transform-origin: center;
+  border-radius: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 24px -6px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease transform;
+
+  &:hover {
+    transform: scale(0.92);
+  }
+
+  .loading & {
+    pointer-events: none;
+
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      background: rgba(255,255,255,0.5);
+      z-index: 21;
+    }
+  }
+}
+
+.chatIcon {
+  transition: transform 0.2s;
+  transform: scale(1.05) translateY(-1px);
+}
+
+.notReadMessagesInfo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  color: white;
+  font-size: 12px;
+  background: var(--warningLabelColor);
+  border-radius: 50%;
+}

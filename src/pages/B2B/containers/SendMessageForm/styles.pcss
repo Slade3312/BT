@@ -1,0 +1,53 @@
+@import "styles/constants.pcss";
+
+.form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+}
+
+.fileButton {
+  height: 35px;
+  padding: 6px 5px 5px;
+  margin-left: auto;
+  margin-right: 20px;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--activeColor);
+  }
+
+  svg {
+    vertical-align: middle;
+  }
+}
+
+.fileInput {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  z-index: -1;
+}
+
+.textarea {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 700px;
+  padding: 20px;
+  border: none;
+  resize: none;
+}
+
+.sendButton {
+  &:disabled {
+    opacity: 0.4;
+  }
+}

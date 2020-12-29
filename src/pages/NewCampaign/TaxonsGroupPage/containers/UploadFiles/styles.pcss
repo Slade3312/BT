@@ -1,0 +1,48 @@
+@import "styles/constants.pcss";
+
+.container {
+  position: relative;
+  width: 845px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(238, 232, 223, 0.3);
+  border: 2px dashed #C4C4C4;
+  border-radius: 10px;
+  transition: 0.3s background-color;
+
+  &.active,
+  &:hover {
+    background-color: #FFEDBF;
+    cursor: pointer;
+  }
+}
+
+.insideText {
+  font-size: 21px;
+  line-height: 36px;
+  color: var(--baseColor);
+  font-family: var(--mainFontFamily);
+  white-space: pre-line;
+  cursor: pointer;
+}
+
+.buttonText {
+  border-bottom: 1px solid var(--baseColor);
+}
+
+.labelContent {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 7px;
+}
+
+.formatLabel {
+  margin: 0 15px 0 0;
+}
+
+.dark {
+  font-size: 16px;
+}

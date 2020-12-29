@@ -1,0 +1,37 @@
+@import "styles/constants.pcss";
+@import "components/BaseTooltip/styles.pcss";
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 17px;
+  width: 17px;
+  padding-top: 1px;
+  font-size: 12px;
+  font-family: var(--commonFontFamily);
+  background: #888;
+}
+
+.component:hover {
+  z-index: 9;
+
+  & .icon {
+    background: #888;
+  }
+}
+
+.container {
+  padding-top: 18px;
+  margin-top: 16px;
+}
+
+.arrow,
+.text {
+  background: #383838;
+  color: var(--lightGreyColor);
+}
+
+.text {
+  box-shadow: 0 2px 4px -2px color(#000 a(30%));
+}

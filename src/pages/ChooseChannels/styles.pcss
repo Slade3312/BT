@@ -1,0 +1,84 @@
+@import "styles/constants.pcss";
+
+.section {
+  margin-bottom: 25px;
+}
+
+.text {
+  margin-bottom: 25px;
+}
+
+.infoWrapper {
+  max-width: 515px;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  flex-grow: 1;
+  border: 3px solid #fff;
+  color: var(--baseColor);
+  background: #fff;
+  font-family: var(--mainFontFamily);
+  cursor: pointer;
+  transition: 0.3s ease border-color;
+  width: calc(100% / 3);
+  min-height: 450px;
+  padding: 30px;
+  margin: 3px 6px 3px 0;
+  max-width: 300px;
+  &:hover {
+    transition: none;
+    border-color: #f7c441;
+  }
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: -3px;
+  position: relative;
+  left: 4px;
+}
+
+.link {
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.title {
+  font-size: 21px;
+  white-space: pre-line;
+  font-family: var(--mainFontFamily);
+  max-width: 187px;
+}
+
+.price {
+  font-size: 21px;
+  font-family: var(--mainFontFamily);
+  margin-top: 15px;
+}
+
+.priceNumber {
+  font-size: 27px;
+}
+
+.description {
+  opacity: 0.7;
+  font-family: var(--mainFontFamily);
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.btn {
+  width: 100%;
+  font-size: 21px;
+  height: 50px;
+  margin-top: auto;
+}
+
+.banner {
+  width: 100%;
+  margin-top: 15px;
+}

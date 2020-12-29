@@ -1,0 +1,21 @@
+.floatSidebar {
+    width: 348px;
+    background: #ffffff;
+    position: absolute;
+    max-height: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+    overflow: auto;
+}
+
+.closed {
+    left: -348px;
+}
+
+.opened {
+    left: 0;
+    z-index: 0;
+}

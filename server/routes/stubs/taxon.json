@@ -1,0 +1,780 @@
+[
+  {
+    "id": 1,
+    "name": "gender_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Пол",
+    "group": "demography"
+  }, {
+    "id": 2,
+    "name": "age_cat",
+    "type": "category_taxon",
+    "parent_id": null,
+    "description": "Возрастная категория",
+    "group": "demography"
+  }, {
+    "id": 3,
+    "name": "income_debit_card_cat",
+    "type": "category_taxon",
+    "parent_id": null,
+    "description": "Ежемесячный доход",
+    "group": "demography"
+  }, {
+    "id": 4,
+    "name": "sum_retail_cat",
+    "type": "category_taxon",
+    "parent_id": null,
+    "description": "Ежемесячныe расходы",
+    "group": "demography"
+  }, {
+    "id": 5,
+    "name": "family_status",
+    "type": "array_taxon",
+    "parent_id": null,
+    "description": "Семейный статус",
+    "group": "demography"
+  }, {
+    "id": 6,
+    "name": "employment_type",
+    "type": "category_taxon",
+    "parent_id": null,
+    "description": "Тип занятости",
+    "group": "demography"
+  }, {
+    "id": 7,
+    "name": "children_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Наличие детей",
+    "group": "demography"
+  }, {
+    "id": 8,
+    "name": "child_0_3_ind",
+    "type": "boolean_taxon",
+    "parent_id": 7,
+    "description": "Семьи с детьми 0-3 года",
+    "group": "demography"
+  }, {
+    "id": 9,
+    "name": "child_3_6_ind",
+    "type": "boolean_taxon",
+    "parent_id": 7,
+    "description": "Семьи с детьми 3-6 лет",
+    "group": "demography"
+  }, {
+    "id": 10,
+    "name": "school_child_ind",
+    "type": "boolean_taxon",
+    "parent_id": 7,
+    "description": "Семьи с детьми-школьниками",
+    "group": "demography"
+  }, {
+    "id": 11,
+    "name": "active_credit_ind_m",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Факт наличия активного кредита",
+    "group": "owners"
+  }, {
+    "id": 12,
+    "name": "credit_card_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Владелец кредитной банковской карты",
+    "group": "owners"
+  }, {
+    "id": 13,
+    "name": "debit_card_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Владелец дебетовой банковской карты",
+    "group": "owners"
+  }, {
+    "id": 14,
+    "name": "past_due_amount_ind_m",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Наличие просрочек по кредиту за месяц",
+    "group": "owners"
+  }, {
+    "id": 15,
+    "name": "dacha_owners_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Наличие дачи",
+    "group": "owners"
+  }, {
+    "id": 16,
+    "name": "business_owners_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Владельцы бизнеса",
+    "group": "owners"
+  }, {
+    "id": 17,
+    "name": "dog_owners_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Владельцы собак",
+    "group": "owners"
+  }, {
+    "id": 18,
+    "name": "cat_owners_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Владельцы кошек",
+    "group": "owners"
+  }, {
+    "id": 19,
+    "name": "interest_in_buying_new_car_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интерес к покупке нового автомобиля",
+    "group": "interests"
+  }, {
+    "id": 20,
+    "name": "interest_in_buying_old_car_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интерес к покупке старого автомобиля",
+    "group": "interests"
+  }, {
+    "id": 21,
+    "name": "car_owner_brand",
+    "type": "map_taxon",
+    "parent_id": 13,
+    "description": "Владение автомобилем. Марка",
+    "group": "owners"
+  }, {
+    "id": 22,
+    "name": "car_interest_brand",
+    "type": "map_taxon",
+    "parent_id": null,
+    "description": "Интерес к покупке автомобиля. Марка",
+    "group": "interests"
+  }, {
+    "id": 23,
+    "name": "job_search_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интерес к поиску работы",
+    "group": "interests"
+  }, {
+    "id": 24,
+    "name": "buy_property",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся покупкой недвижимости",
+    "group": "interests"
+  }, {
+    "id": 25,
+    "name": "buy_commercial_property",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся покупкой коммерческой недвижимости",
+    "group": "interests"
+  }, {
+    "id": 26,
+    "name": "buy_country_property",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся покупкой загородной недвижимости",
+    "group": "interests"
+  }, {
+    "id": 27,
+    "name": "buy_foreign_property",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся покупкой зарубежной недвижимости",
+    "group": "interests"
+  }, {
+    "id": 28,
+    "name": "buy_land",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся покупкой земельного участка",
+    "group": "interests"
+  }, {
+    "id": 29,
+    "name": "buy_new_flat",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся покупкой квартиры в новостройке",
+    "group": "interests"
+  }, {
+    "id": 30,
+    "name": "buy_used_flat",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся покупкой вторички",
+    "group": "interests"
+  }, {
+    "id": 31,
+    "name": "search_flat",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся поиском квартиры",
+    "group": "interests"
+  }, {
+    "id": 32,
+    "name": "rent_commercial_property",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся арендой коммерческой недвижимости",
+    "group": "interests"
+  }, {
+    "id": 33,
+    "name": "rent_flat",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся арендой квартиры",
+    "group": "interests"
+  }, {
+    "id": 34,
+    "name": "rent_country_property",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся арендой загородной недвижимости",
+    "group": "interests"
+  }, {
+    "id": 35,
+    "name": "rent_land",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся арендой земельного участка",
+    "group": "interests"
+  }, {
+    "id": 36,
+    "name": "rent_foreign_property",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся арендой зарубежной недвижимости",
+    "group": "interests"
+  }, {
+    "id": 37,
+    "name": "interest_in_property_rent_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся арендой недвижимости",
+    "group": "interests"
+  }, {
+    "id": 38,
+    "name": "interest_in_buying_elite_property_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся покупкой элитной недвижимости",
+    "group": "interests"
+  }, {
+    "id": 39,
+    "name": "bee_journal_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интерес к журналам",
+    "group": "interests"
+  }, {
+    "id": 40,
+    "name": "entertainment",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся развлечениями",
+    "group": "interests"
+  }, {
+    "id": 41,
+    "name": "clubs",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся клубами",
+    "group": "interests"
+  }, {
+    "id": 42,
+    "name": "exhibitions_museums ",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся выставками и музеями",
+    "group": "interests"
+  }, {
+    "id": 43,
+    "name": "festivals",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся фестивалями",
+    "group": "interests"
+  }, {
+    "id": 44,
+    "name": "theaters",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся театрами",
+    "group": "interests"
+  }, {
+    "id": 45,
+    "name": "accessories",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся аксессуарами",
+    "group": "interests"
+  }, {
+    "id": 46,
+    "name": "children_products",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся товарами для детей",
+    "group": "interests"
+  }, {
+    "id": 47,
+    "name": "care_products",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся косметикой и средствами ухода",
+    "group": "interests"
+  }, {
+    "id": 48,
+    "name": "personal_hygiene",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся личной гигиеной и средствами ухода",
+    "group": "interests"
+  }, {
+    "id": 49,
+    "name": "dishes",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся посудой",
+    "group": "interests"
+  }, {
+    "id": 50,
+    "name": "household_chemicals",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся бытовой химией",
+    "group": "interests"
+  }, {
+    "id": 51,
+    "name": "children_clothes",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся детской одеждой и обувью",
+    "group": "interests"
+  }, {
+    "id": 52,
+    "name": "underwear",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся нижним бельем",
+    "group": "interests"
+  }, {
+    "id": 53,
+    "name": "footwear",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся обувью",
+    "group": "interests"
+  }, {
+    "id": 54,
+    "name": "clothing",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся одеждой",
+    "group": "interests"
+  }, {
+    "id": 55,
+    "name": "interest_in_clothes_shoes_internet_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся одеждой и обувью через интернет",
+    "group": "interests"
+  }, {
+    "id": 56,
+    "name": "sports_clothes",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся спортивной одеждой и обувью",
+    "group": "interests"
+  }, {
+    "id": 57,
+    "name": "electronics",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся техникой и электроникой",
+    "group": "interests"
+  }, {
+    "id": 58,
+    "name": "tv",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся телевизорами",
+    "group": "interests"
+  }, {
+    "id": 59,
+    "name": "computers",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся стационарными компьютерами.",
+    "group": "interests"
+  }, {
+    "id": 60,
+    "name": "mob_phones",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся мобильными телефонами",
+    "group": "interests"
+  }, {
+    "id": 61,
+    "name": "tablets",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся планшетами",
+    "group": "interests"
+  }, {
+    "id": 62,
+    "name": "photo_equipment",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся фото и видеокамерами",
+    "group": "interests"
+  }, {
+    "id": 63,
+    "name": "kitchen_appliances",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся техникой для кухни",
+    "group": "interests"
+  }, {
+    "id": 64,
+    "name": "health_technology",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся техникой для здоровья",
+    "group": "interests"
+  }, {
+    "id": 65,
+    "name": "sports_technology",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся техникой для спорта",
+    "group": "interests"
+  }, {
+    "id": 66,
+    "name": "gaming_consoles",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся игровыми приставками",
+    "group": "interests"
+  }, {
+    "id": 67,
+    "name": "laptops",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся ноутбуками",
+    "group": "interests"
+  }, {
+    "id": 68,
+    "name": "printers_scanners",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся принтерами и сканерами",
+    "group": "interests"
+  }, {
+    "id": 69,
+    "name": "smart_watches",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся умные часами и браслетами",
+    "group": "interests"
+  }, {
+    "id": 70,
+    "name": "electronic_books",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся электронными книгами",
+    "group": "interests"
+  }, {
+    "id": 71,
+    "name": "navigators",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся навигаторами",
+    "group": "interests"
+  }, {
+    "id": 72,
+    "name": "interest_in_sport_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интерес к спорту",
+    "group": "interests"
+  }, {
+    "id": 73,
+    "name": "interest_in_autoinsur_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интерес к автостраховке (каско/осаго)",
+    "group": "interests"
+  }, {
+    "id": 74,
+    "name": "interest_in_vzr_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся страхованием ВЗР",
+    "group": "interests"
+  }, {
+    "id": 75,
+    "name": "interest_in_property_insur_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся страхованием недвижимости",
+    "group": "interests"
+  }, {
+    "id": 76,
+    "name": "interest_in_life_helth_insur_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся страхованием жизни и здоровья",
+    "group": "interests"
+  }, {
+    "id": 77,
+    "name": "travel",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся путешествиями",
+    "group": "interests"
+  }, {
+    "id": 78,
+    "name": "rest_in_sanatoria",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся отдыхом в санаториях",
+    "group": "interests"
+  }, {
+    "id": 79,
+    "name": "rest_in_hostels",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся отдыхом в хостелах",
+    "group": "interests"
+  }, {
+    "id": 80,
+    "name": "rest_in_hotels",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся отдыхом в отелях",
+    "group": "interests"
+  }, {
+    "id": 81,
+    "name": "air_travel",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся путешествиями на самолёте",
+    "group": "interests"
+  }, {
+    "id": 82,
+    "name": "bus_travel",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся путешествиями на автобусе",
+    "group": "interests"
+  }, {
+    "id": 83,
+    "name": "car_rental",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся арендой автомобилей",
+    "group": "interests"
+  }, {
+    "id": 84,
+    "name": "railway_tickets_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся Ж/д билетами",
+    "group": "interests"
+  }, {
+    "id": 85,
+    "name": "visa_documents",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся визой и документами",
+    "group": "interests"
+  }, {
+    "id": 86,
+    "name": "independent_travel",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся самостоятельными путешествиями",
+    "group": "interests"
+  }, {
+    "id": 87,
+    "name": "personal_care",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся персональным уходом",
+    "group": "interests"
+  }, {
+    "id": 88,
+    "name": "personal_care_technics",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся техникой для персонального ухода",
+    "group": "interests"
+  }, {
+    "id": 89,
+    "name": "interest_in_beauty_salon_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интерес к салонам красоты",
+    "group": "interests"
+  }, {
+    "id": 90,
+    "name": "interest_in_auto_service_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся обслуживанием авто",
+    "group": "interests"
+  }, {
+    "id": 91,
+    "name": "cafes_restaurants",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся кафе и ресторанами",
+    "group": "interests"
+  }, {
+    "id": 92,
+    "name": "interest_in_delivery_food_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Доставка еды",
+    "group": "interests"
+  }, {
+    "id": 93,
+    "name": "interest_in_restaurants_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интерес к посещению ресторанов",
+    "group": "interests"
+  }, {
+    "id": 94,
+    "name": "financial_products",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся финансовыми продуктами",
+    "group": "interests"
+  }, {
+    "id": 95,
+    "name": "credit_cards",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся кредитными картами",
+    "group": "interests"
+  }, {
+    "id": 96,
+    "name": "debit_cards",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся дебетовыми картами",
+    "group": "interests"
+  }, {
+    "id": 97,
+    "name": "remittances",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся денежными переводами",
+    "group": "interests"
+  }, {
+    "id": 98,
+    "name": "interest_in_investicii_cat",
+    "type": "category_taxon",
+    "parent_id": null,
+    "description": "Интерес к инвестициям",
+    "group": "interests"
+  }, {
+    "id": 99,
+    "name": "interest_in_microcredit_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интерес к микрокредитам",
+    "group": "interests"
+  }, {
+    "id": 100,
+    "name": "interest_in_consumer_credits_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся потребительскими кредитами",
+    "group": "interests"
+  }, {
+    "id": 101,
+    "name": "interest_in_deposits_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся вкладами",
+    "group": "interests"
+  }, {
+    "id": 102,
+    "name": "interest_in_cashback_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интерес к картам с кэшбек",
+    "group": "interests"
+  }, {
+    "id": 103,
+    "name": "interest_in_autocredits_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интерес к автокредитам",
+    "group": "interests"
+  }, {
+    "id": 104,
+    "name": "interest_in_mortgages_ind",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интересующиеся ипотекой",
+    "group": "interests"
+  }, {
+    "id": 105,
+    "name": "typedevice",
+    "type": "category_taxon",
+    "parent_id": null,
+    "description": "Тип устройства",
+    "group": "devices"
+  }, {
+    "id": 106,
+    "name": "auto_owners_prob",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Вероятность владения автомобилем",
+    "group": "owners"
+  }, {
+    "id": 107,
+    "name": "interest_in_buying_car_cat",
+    "type": "boolean_taxon",
+    "parent_id": null,
+    "description": "Интерес к покупке автомобиля",
+    "group": "interests"
+  }, {
+    "id": 108,
+    "name": "os",
+    "type": "category_taxon",
+    "parent_id": null,
+    "description": "Операционная система",
+    "group": "devices"
+  }, {
+    "id": 109,
+    "name": "job_geo",
+    "type": "geo_taxon",
+    "parent_id": null,
+    "description": "Вышка работы",
+    "group": "geo"
+  }, {
+    "id": 110,
+    "name": "home_geo",
+    "type": "geo_taxon",
+    "parent_id": null,
+    "description": "Вышка дома",
+    "group": "geo"
+  }, {
+    "id": 111,
+    "name": "weekend_geo",
+    "type": "geo_taxon",
+    "parent_id": null,
+    "description": "Вышка выходного дня",
+    "group": "geo"
+  }
+]

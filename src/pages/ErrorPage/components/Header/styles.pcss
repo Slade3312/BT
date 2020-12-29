@@ -1,0 +1,24 @@
+@import "styles/constants.pcss";
+
+.container {
+  padding: 0 20px;
+}
+
+.component {
+  max-width: var(--contentLength);
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  height: 85px;
+  align-items: center;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.mobile {
+  &.container { padding: 0; }
+
+  & .component {
+    height: 56px;
+    padding: 0 20px;
+  }
+}

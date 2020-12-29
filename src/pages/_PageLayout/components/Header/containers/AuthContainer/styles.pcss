@@ -1,0 +1,35 @@
+.component {
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  top: 100%;
+  right: 0;
+}
+
+.component,
+.popup {
+  min-width: 180px;
+}
+
+.mobile {
+  &.component {
+    position: static;
+  }
+
+  & .popup {
+    left: 0;
+    margin: 0 auto;
+    border-top: 1px solid #aaa;
+  }
+
+  &.component,
+  & .popup {
+    min-width: auto;
+  }
+}
+
+.loader {
+  top: 0;
+}

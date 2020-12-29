@@ -1,0 +1,32 @@
+.component {
+  display: none;
+  flex-direction: column;
+  transform-origin: 50% 0;
+  position: absolute;
+  max-height: calc(100vh - 100px);
+  max-width: 440px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  background: #fff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 20px;
+  text-align: left;
+  box-shadow: 0 3px 4px 0 rgba(40, 40, 40, 0.2);
+  z-index: 3;
+
+  &.opened {
+    display: flex;
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+
+  &.exit {
+    display: flex;
+    opacity: 0;
+    transform: scale(1, 0);
+    transition: all 0.2s ease-in-out;
+  }
+}

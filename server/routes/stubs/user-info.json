@@ -1,0 +1,32 @@
+{
+  "id": 50,
+  "email": "test@test.com",
+  "username": "+79333333333",
+  "first_name": "",
+  "last_name": "",
+  "middle_name": "",
+  "phone": "+79333333333",
+  "company": {
+      "id": 42,
+      "order_file": [],
+      "demo_mode": true,
+      "active": false,
+      "name": "",
+      "status": 1,
+      "business_id": null,
+      "city": null,
+      "website": null,
+      "self_employed": false,
+      "social_facebook": null,
+      "social_vkontakte": null,
+      "social_instagram": null,
+      "inn": "",
+      "ban": null,
+      "ctn": null,
+      "voice_target_client_id": null,
+      "post_pay": false,
+      "industry": null
+  },
+  "type": "client",
+  "offer_accepted_date": null
+}

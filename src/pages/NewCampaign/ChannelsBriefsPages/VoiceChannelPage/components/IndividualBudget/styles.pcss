@@ -1,0 +1,122 @@
+@import "styles/constants.pcss";
+
+.container {
+  margin-bottom: 50px;
+  font-family: var(--mainFontFamily);
+  font-size: 17px;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  min-height: 185px;
+  max-width: 1160px;
+  padding: 19px 0 19px 19px;
+
+  &.isValid {
+    background-color: #c7e58f;
+  }
+
+  &.isInvalid {
+    background-color: #ffa5a5;
+  }
+
+  &.isWarn {
+    background-color: #ffd56f;
+  }
+
+  &.isNoActivity {
+    background-color: #d8d8d8;
+  }
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.input {
+  width: 290px;
+}
+
+.ruble {
+  position: absolute;
+  top: 11px;
+  left: 260px;
+  color: #939393;
+}
+
+.inputError {
+  margin-top: 11px;
+  width: 411px;
+  font-family: "Officina Serif", serif;
+  font-size: 21px;
+  line-height: 27px;
+  font-style: normal;
+  color: #000;
+}
+
+.infoBlock {
+  margin-left: 132px;
+}
+
+.topInfoBlock {
+  margin-left: 60px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.priceInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.infoNumber {
+  font-size: 50px;
+  line-height: 56px;
+}
+
+.countInfo {
+  margin-left: 105px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bottomInfoBlock {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.infoIcon {
+  width: 45px;
+  height: 45px;
+}
+
+.infoText {
+  margin-left: 15px;
+  width: 455px;
+  font-size: 21px;
+  line-height: 27px;
+}
+
+.audienceLink {
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(40, 40, 40, 0.5);
+  transition: color 0.3s ease-out;
+}
+
+.audienceLink:hover {
+  border-bottom: 1px dashed #ffb612;
+}
+
+.activityError {
+  margin-top: 11px;
+  width: 501px;
+  font-family: "Officina Serif", serif;
+  font-size: 21px;
+  line-height: 27px;
+  font-style: normal;
+  color: #000;
+}

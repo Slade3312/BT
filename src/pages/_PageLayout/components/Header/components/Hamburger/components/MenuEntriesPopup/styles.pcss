@@ -1,0 +1,39 @@
+.popup {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: #fff;
+  padding: 75px 20px;
+  overflow-y: auto;
+  transform: translateX(100%);
+  visibility: hidden;
+  z-index: 9999;
+
+  &.active {
+    visibility: visible;
+    transform: translateX(0%);
+    transition: transform 0.5s;
+  }
+}
+
+.content {
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.crossIcon {
+  position: absolute;
+  right: 0;
+
+  & svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  & g {
+    stroke-width: 1px;
+  }
+}

@@ -1,0 +1,49 @@
+.custom-base .rc-slider {
+  &-handle {
+    position: absolute;
+    margin-top: -5px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffdc7d;
+    border-radius: 50%;
+    touch-action: pan-x;
+
+    &:active {
+      border-color: #ffdc7d;
+      box-shadow: 0 0 5px #ffdc7d;
+      cursor: grabbing;
+    }
+  }
+
+  &-track {
+    position: absolute;
+    left: 0;
+    right: 13px;
+    top: 6px;
+    height: 3px;
+    background: #ffdc7d;
+    border-radius: 10px;
+  }
+
+  &-rail {
+    position: absolute;
+    top: 7px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 1px;
+    border-radius: 10px;
+  }
+}
+
+.custom-base.rc-slider-disabled .rc-slider {
+  &-handle {
+    background: #c8c8c8;
+    cursor: default;
+  }
+
+  &-track {
+    background: #c8c8c8;
+  }
+}

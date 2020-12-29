@@ -1,0 +1,23 @@
+@import "styles/constants.pcss";
+
+.container {
+    position: relative;
+    &::after {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: 'Доступна только для юридических лиц и ИП';
+        background: rgb(255 255 255 / 56%);
+        align-items: flex-end;
+        justify-content: center;
+        padding: 20px;
+        box-sizing: border-box;
+        font-family: var(--mainFontFamily);
+        font-size: 17px;
+        line-height: 20px;
+        color: #E33333;
+        bottom: 72px;
+        padding-left: 31px;
+    }
+}

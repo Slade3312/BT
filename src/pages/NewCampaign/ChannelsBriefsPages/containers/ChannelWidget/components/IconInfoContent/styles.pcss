@@ -1,0 +1,26 @@
+@import "styles/constants.pcss";
+
+.component {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.content {
+  font-size: 21px;
+
+  .disabled & {
+    color: var(--disabledTextColor);
+  }
+}
+
+.icon {
+  margin-top: 5px;
+  margin-right: 8px;
+  height: 15px;
+  flex-shrink: 0;
+
+  .disabled & {
+    opacity: 0.5;
+  }
+}

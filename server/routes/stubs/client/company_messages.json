@@ -1,0 +1,107 @@
+{
+  "count": 32,
+  "next": "http://localhost:8000/api/v1/client/company_messages/?dialog=4&limit=10&offset=10",
+  "previous": null,
+  "results": [
+      {
+          "id": 2,
+          "files": [],
+          "date_time_message": "2020-09-18T17:11:49.242694",
+          "message": "Здрпасте здрасте здрасте добырырые ыаывдалоат денкк рыфатвыад ашывадылваоыдвлаоыт ымдылтывгпывз го",
+          "is_read": true,
+          "dialog": 4,
+          "sender": 42,
+          "sender_user": 1017
+      },
+      {
+          "id": 3,
+          "files": [],
+          "date_time_message": "2020-09-18T17:11:59.795999",
+          "message": "Гого ывалываг иывалоывалывоарыва ывалоывралыовралыовар ывалыоварлывоарыловарылва ьытваиыьтукицуьк",
+          "is_read": true,
+          "dialog": 4,
+          "sender": 71,
+          "sender_user": 1017
+      },
+      {
+          "id": 4,
+          "files": [],
+          "date_time_message": "2020-09-21T17:13:35.370860",
+          "message": "лол",
+          "is_read": true,
+          "dialog": 4,
+          "sender": 42,
+          "sender_user": 1017
+      },
+      {
+          "id": 5,
+          "files": [],
+          "date_time_message": "2020-09-21T17:15:17.423866",
+          "message": "кек",
+          "is_read": true,
+          "dialog": 4,
+          "sender": 71,
+          "sender_user": 1017
+      },
+      {
+          "id": 6,
+          "files": [],
+          "date_time_message": "2020-09-21T17:16:47.467813",
+          "message": "чебурек",
+          "is_read": true,
+          "dialog": 4,
+          "sender": 71,
+          "sender_user": 1017
+      },
+      {
+          "id": 7,
+          "files": [],
+          "date_time_message": "2020-09-21T17:20:03.334524",
+          "message": "полкан",
+          "is_read": true,
+          "dialog": 4,
+          "sender": 42,
+          "sender_user": 1017
+      },
+      {
+          "id": 8,
+          "files": [],
+          "date_time_message": "2020-09-23T17:21:56.545913",
+          "message": "любит гулять и спать",
+          "is_read": true,
+          "dialog": 4,
+          "sender": 42,
+          "sender_user": 1017
+      },
+      {
+          "id": 9,
+          "files": [],
+          "date_time_message": "2020-09-23T17:24:19.167456",
+          "message": "ахаха вот такой вот приокль",
+          "is_read": true,
+          "dialog": 4,
+          "sender": 42,
+          "sender_user": 1017
+      },
+      {
+          "id": 10,
+          "files": [],
+          "date_time_message": "2020-09-23T17:24:45.781232",
+          "message": "89asdasd",
+          "is_read": true,
+          "dialog": 4,
+          "sender": 71,
+          "sender_user": 1017
+      },
+      {
+          "id": 11,
+          "files": [],
+          "date_time_message": "2020-09-23T17:26:37.436240",
+          "message": "89asdasd",
+          "is_read": true,
+          "dialog": 4,
+          "sender": 71,
+          "sender_user": 1017
+      }
+  ]
+}

@@ -1,0 +1,49 @@
+@import "styles/constants.pcss";
+
+.counterRow {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  max-width: 230px;
+}
+
+.counterLine {
+  display: flex;
+  align-items: flex-start;
+  height: 30px;
+  white-space: nowrap;
+}
+
+.rangeRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+}
+
+.rangeText {
+  font-size: 21px;
+  padding: 0 5px;
+
+  &.second {
+    padding-right: 3px;
+  }
+
+  &.first {
+    padding-left: 0;
+  }
+}
+
+.price {
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 31px;
+
+  &.big {
+    font-size: 47px;
+  }
+}
+
+.disabled {
+  color: var(--disabledTextColor);
+}

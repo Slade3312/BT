@@ -1,0 +1,61 @@
+{
+  "UserInfo": {
+    "form_userInfo": {
+      "company.industry": {
+        "placeholder": "",
+        "label": "Специфика компании",
+        "name": "company.industry"
+      },
+      "first_name": {
+        "placeholder": "",
+        "label": "Имя",
+        "name": "first_name"
+      },
+      "username": {
+        "placeholder": "",
+        "label": "Логин",
+        "name": "username"
+      },
+      "company.website": {
+        "placeholder": "введите адрес сайта",
+        "label": "Сайт",
+        "name": "company.website"
+      },
+      "company.social_instagram": {
+        "placeholder": "введите адрес сайта",
+        "label": "Instagram",
+        "name": "company.social_instagram"
+      },
+      "company.social_facebook": {
+        "placeholder": "введите адрес сайта",
+        "label": "Facebook",
+        "name": "company.social_facebook"
+      },
+      "company.social_vkontakte": {
+        "placeholder": "введите адрес сайта",
+        "label": "Вконтакте",
+        "name": "company.social_vkontakte"
+      },
+      "email": {
+        "placeholder": "",
+        "label": "Электронная почта",
+        "name": "email"
+      },
+      "last_name": {
+        "placeholder": "",
+        "label": "Фамилия",
+        "name": "last_name"
+      },
+      "middle_name": {
+        "placeholder": "",
+        "label": "Отчество",
+        "name": "middle_name"
+      },
+      "phone": {
+        "placeholder": "",
+        "label": "Телефон для связи",
+        "name": "phone"
+      }
+    }
+  }
+}

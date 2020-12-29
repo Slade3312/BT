@@ -1,0 +1,15 @@
+<svg width="11px" height="15px" viewBox="0 0 11 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Analitics-new" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="n_segm_07-copy-20" transform="translate(-431.000000, -368.000000)">
+      <g id="icon-/-doc-/-doc" transform="translate(431.000000, 368.000000)">
+        <g id="icon-/-doc-/-xls">
+          <path d="M2,-9.09494702e-13 L5.90179913,-9.09494702e-13 L5.90179913,-9.09494702e-13 L11,5.31899845 L11,13 C11,14.1045695 10.1045695,15 9,15 L2,15 C0.8954305,15 1.3527075e-16,14.1045695 0,13 L0,2 C-1.3527075e-16,0.8954305 0.8954305,-9.09291796e-13 2,-9.09494702e-13 Z" id="Rectangle-2" fill="#197342"></path>
+          <text id="CSV" font-family="OfficinaSerifC-Book, ITC Officina Serif" font-size="5" font-weight="300" letter-spacing="0.625" fill="#FFFFFF">
+            <tspan x="0.755" y="13.7058824">CSV</tspan>
+          </text>
+          <path d="M5.9229606,0.00533160041 L10.15342,0.00533160041 C10.4442056,0.0138281018 10.6588428,0.0876447379 10.7973315,0.226781509 C10.9358201,0.365918279 11.0034064,0.575645847 11.0000903,0.855964212 L11.0000903,5.29944925 L5.9229606,0.00533160041 Z" id="Path-2" fill-opacity="0.4" fill="#FFFFFF" transform="translate(8.461584, 2.652390) scale(-1, -1) translate(-8.461584, -2.652390) "></path>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,148 @@
+@import "styles/constants.pcss";
+
+.title {
+  padding-right: 30px;
+  white-space: pre-line;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  font-family: var(--mainFontFamily);
+  line-height: normal;
+  background: #FFDC7D;
+  &:not(.mobile) {
+    padding: 30px;
+    padding-bottom: 40px;
+  }
+
+  &.light {
+    color: #fff;
+  }
+
+  &.mobile {
+    padding: 15px;
+  }
+
+  &:hover {
+    color: inherit;
+
+    &.light {
+      color: #fff;
+    }
+  }
+}
+
+.background {
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 100%;
+  z-index: 1;
+}
+
+.description {
+  max-width: 430px;
+  margin: 0;
+  font-size: 17px;
+  line-height: 25px;
+  margin-top: 30px;
+
+  &.wide {
+    max-width: 510px;
+    margin-top: 20px;
+  }
+}
+
+.buttonContent {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.phone {
+  margin-top: 15px;
+}
+
+.button {
+  min-width: 200px;
+  display: inline-flex;
+
+  &.light:not(:hover) {
+    background: #fff;
+  }
+}
+
+.tooltip {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  white-space: pre-line;
+}
+
+.price {
+  margin-top: 5px;
+}
+
+.filler {
+  flex-grow: 1;
+}
+
+.personal {
+  & .title {
+    max-width: 100%;
+    font-size: 35px;
+    font-family: var(--exoticFontFamily);
+  }
+
+  & .description {
+    max-width: 100%;
+    font-size: 21px;
+    margin-top: 20px;
+  }
+
+  & .filler {
+    flex-grow: 0;
+  }
+
+  & .button {
+    text-align: center;
+    min-width: 285px;
+    height: 50px;
+    font-size: 21px;
+  }
+}
+
+.mobile {
+  & .title { /* stylelint-disable-line */
+    font-size: 21px;
+  }
+
+  & .content {
+    padding: 0 10px;
+  }
+
+  & .tip {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  & .description {
+    font: var(--baseFont);
+    margin-bottom: 20px;
+  }
+
+  & .button {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 21px;
+  }
+}

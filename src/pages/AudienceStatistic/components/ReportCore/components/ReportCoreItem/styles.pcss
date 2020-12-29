@@ -1,0 +1,21 @@
+@import "styles/constants.pcss";
+
+.title {
+  font-size: 17px;
+  font-family: var(--mainFontFamily);
+}
+
+.descriptions {
+  display: flex;
+  flex-flow: column;
+  font-family: var(--exoticFontFamily);
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.tag {
+  &:not(:last-child)::after {
+    content: ',';
+    padding-left: 1px;
+  }
+}

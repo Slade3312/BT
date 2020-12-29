@@ -1,0 +1,47 @@
+@import "styles/constants.pcss";
+
+.component {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 65px;
+  padding: 0 20px;
+  background-color: #fff;
+
+  &.draftStatus {
+    height: 65px;
+    background-color: rgba(255, 209, 65, 0.2);
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.campaignName {
+  max-width: 240px;
+  height: 100%;
+  flex-basis: 20%;
+  margin-right: auto;
+  font-size: 21px;
+  font-family: var(--mainFontFamily);
+}
+
+.topPosition {
+  margin-top: 22px;
+  margin-bottom: auto;
+}
+
+.editButton {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.ordersContainer {
+  width: 80%;
+  margin-left: auto;
+}
+
+.iconLink {
+  display: block;
+}

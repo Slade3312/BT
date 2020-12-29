@@ -1,0 +1,98 @@
+@import "styles/constants.pcss";
+
+.backContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 30px;
+    cursor: pointer;
+}
+
+.backText {
+    color: #939393;
+    padding-left: 8px;
+}
+
+.backIcon {
+    cursor: pointer;
+}
+
+.container {
+    padding: 30px;
+}
+
+.infoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.itemName {
+    font-family: var(--mainFontFamily);
+    font-size: 21px;
+    margin-left: 20px;
+}
+
+.listIcon {
+    min-width: 40px;
+    height: 40px;
+    background: #cfcfcf;
+    border-radius: 50%;
+}
+
+.address {
+    color: #939393;
+    font-size: 17px;
+    font-family: var(--mainFontFamily);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.business {
+    background: linear-gradient(to left, #D4D4D4 65%, #FAC12B 25%)
+}
+
+.partnership {
+    background: linear-gradient(to left, #FAC12B 48%, #D4D4D4 52%)
+}
+
+.container {
+    position: relative;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    max-width: 348px;
+    width: 100%;
+}
+
+.navPanel {
+    display: flex;
+    justify-content: space-around;
+    padding: 37px 0 10px;
+}
+
+.navItem {
+    font-size: 13px;
+    cursor: pointer;
+    color: rgba(40, 40, 40, 0.5);
+    text-align: center;
+}
+
+.active {
+    color: #282828;
+    position: relative;
+    &:after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid #FAC12B;
+        width: 100%;
+        position: absolute;
+        top: 48px;
+    }
+}
+
+.navLine {
+    height: 2px;
+    width: 100%;
+    margin: 0 auto;
+    background: #D4D4D4;
+}

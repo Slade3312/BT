@@ -1,0 +1,65 @@
+@import 'styles/constants.pcss';
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 35px;
+}
+
+.component {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  background: rgba(40, 40, 40, 0.1);
+  border: 2px solid rgba(40, 40, 40, 0.2);
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  height: 9px;
+  width: 9px;
+  background: var(--baseColor);
+  border-radius: 50%;
+
+  .selected & {
+    display: block;
+  }
+}
+
+.input:focus + .focusController {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  background: none;
+  overflow: hidden;
+  border-radius: inherit;
+  box-shadow: 0 0 0 2px var(--focusColor);
+}
+
+.label {
+  font: var(--mainFont);
+  margin-left: 13px;
+  white-space: pre-line;
+}
+
+.disabledLabel {
+  color: #888;
+}

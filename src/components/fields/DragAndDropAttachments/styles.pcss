@@ -1,0 +1,37 @@
+@import "styles/constants.pcss";
+
+.component {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 20;
+
+  &.active {
+    pointer-events: auto;
+    opacity: 1;
+  }
+}
+
+.overlayWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  border: 3px dashed var(--mainLightColor);
+  font: var(--mainFont);
+  font-size: 15px;
+  white-space: pre-wrap;
+  border-radius: 12px;
+  pointer-events: none;
+}

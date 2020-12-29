@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Тариф 1",
+    "tariff_uid": "adv-tariff",
+    "period": "12",
+    "budget": 2000,
+    "count": 1000
+  },
+  {
+    "id": 2,
+    "name": "Тариф 2",
+    "tariff_uid": "tariff2",
+    "period": "100",
+    "budget": 20000,
+    "count": 23232
+  },
+  {
+    "id": 3,
+    "name": "Тариф 3",
+    "tariff_uid": "tariff3",
+    "period": "23",
+    "budget": 312312,
+    "count": 2312123
+  }
+]

@@ -1,0 +1,107 @@
+@import "styles/constants.pcss";
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 700px;
+  min-height: 70px;
+  margin-left: 20px;
+  padding-right: 17px;
+  font-family: var(--mainFontFamily);
+  border: none;
+
+  &.hasPadding {
+    padding-top: 11px;
+    border-top: 1px solid var(--borderColor);
+
+    &:first-child {
+      border: none;
+    }
+  }
+}
+
+.marker {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 25px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
+  color: rgba(74, 74, 74, 1);
+  background-color: transparent;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.editableInput input[type="text"] {
+  width: 465px;
+  padding-left: 40px;
+}
+
+.chosenItemContent {
+  width: 465px;
+  padding-left: 40px;
+  margin-right: auto;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 25px;
+  color: var(--baseColor);
+  font-family: var(--mainFontFamily);
+  text-decoration-line: underline;
+}
+
+.radiusInput {
+  width: 58px;
+  margin-left: 10px;
+  margin-right: 31px;
+  flex-shrink: 0;
+  text-align: center;
+
+  &.noMargin {
+    margin-top: 0;
+  }
+}
+
+.radiusText {
+  margin-right: 55px;
+  font-size: 14px;
+  color: var(--baseColor);
+  font-family: var(--mainFontFamily);
+}
+
+.button {
+  width: 18px;
+  height: 20px;
+  padding: 0;
+  margin-left: 20px;
+  flex-shrink: 0;
+  color: var(--baseColor);
+
+  &.deleteButton {
+    transform: translateY(-2px);
+  }
+
+  &.hasMargin {
+    margin-top: 10px;
+  }
+}
+
+.button:hover {
+  opacity: 1;
+  color: var(--activeColor);
+}
+
+.blackSquare {
+  width: 17px;
+  height: 17px;
+  margin-top: 2px;
+  background: #000;
+  border-radius: 2px;
+}

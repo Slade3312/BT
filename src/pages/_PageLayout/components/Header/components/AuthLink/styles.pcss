@@ -1,0 +1,14 @@
+@import "styles/constants.pcss";
+
+.component {
+  display: block;
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--mainColor);
+  }
+
+  & + & {
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,87 @@
+@custom-media --mobile (width < 768px);
+@custom-media --tablet (width >= 768px);
+
+:root {
+  --disabledTextColor: #8c8c8c;
+  --errorTextColor: #e62727;
+  --contentLength: 1160px;
+  --activeBorderColor: #fdb530;
+  --activeColor: #f6a000;
+  --borderColor: #d9d9d9;
+  --mainColor: #ffb612;
+  --discountColor: #219653;
+  --mainLightColor: #fbce5d;
+  --lightGreyColor: #f5f5f3;
+  --baseColor: #282828;
+  --focusColorBright: #96c8ff;
+  --focusColor: #67b3ff;
+  --sunBannerBgColor: #ffdc7d;
+  --baseFontFamily: Arial, 'Helvetica CY', 'Nimbus Sans L', sans-serif !important;
+  --mainFontFamily: 'Officina Serif';
+  --baseFontSize: 13px/1.462;
+  --smallFontSize: 15px;
+  --normalFormSize: 17px/1.4705;
+  --bigFontSize: 21px;
+  --baseFont: var(--baseFontSize) var(--baseFontFamily);
+  --commonFontFamily: Arial, sans-serif;
+  --exoticFontFamily: FiraSans, var(--mainFontFamily), serif;
+
+  /* form */
+  --bigFieldFont: var(--bigFontSize) var(--mainFontFamily);
+  --baseFieldFont: var(--normalFormSize) var(--mainFontFamily);
+
+  /* project specific commonStyles */
+  --contentLinerBgColor: #eee8df;
+  --inProgressGraphicColor: #f7c441;
+  --plateBgColor: #fff;
+  --lightGrayBgColor: #e6e6e6;
+  --lightGrayLabelColor: #a2a2a2;
+  --ligthSepiaColor: #eee8df;
+  --warningLabelColor: #fc6f7f;
+  --successLabelColor: #74a120;
+
+  /* beeline ui-toolkit */
+  --max-width: 1004px;
+  --padding-tablet: 44px;
+  --padding-mobile: 6px;
+  --padding-mobile-full: 20px;
+
+  /* color */
+  --secondColor: #787878;
+  --borderColor: rgba(0, 0, 0, 0.13);
+
+  /* font */
+  --mainFont: var(--normalFormSize) var(--mainFontFamily);
+
+  /* link */
+  --linkBorderOpacity: 33%;
+  --linkBaseColor: #282828;
+  --linkHoverColor: #f49f27;
+  --linkVisitedColor: #ab2d88;
+  --linkLightColor: #fff;
+  --link: {
+    text-decoration: none;
+    color: var(--linkBaseColor);
+    cursor: pointer;
+  };
+  --linkHover: {
+    transition: none;
+    color: var(--linkHoverColor);
+  };
+  --linkVisited: {
+    transition: none;
+    color: var(--linkHoverColor);
+  };
+  --linkText: {
+    transition: border-color 0.15s;
+    border-bottom: solid 1px color(var(--linkBaseColor) alpha(var(--linkBorderOpacity)));
+  };
+  --linkTextHover: {
+    transition: none;
+    border-bottom-color: color(var(--linkHoverColor) alpha(var(--linkBorderOpacity)));
+  };
+  --linkTextVisited: {
+    transition: none;
+    border-bottom-color: color(var(--linkHoverColor) alpha(var(--linkBorderOpacity)));
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 37,
+    "name": "Ценные бумаги",
+    "industry_docs": [{
+      "id": 2,
+      "name": "Сертификат качества"
+    }, {
+      "id": 56,
+      "name": "Лицензия на деятельность"
+    }],
+    "restriction": true
+  },
+  {
+    "id": 38,
+    "name": "Знакомства",
+    "industry_docs": [],
+    "restriction": true
+  },
+  {
+    "id": 39,
+    "name": "Ювелирные изделия",
+    "industry_docs": [{
+      "id": 89,
+      "name": "Отчет производства"
+    }, {
+      "id": 21,
+      "name": "Фотография лица директора"
+    }],
+    "restriction": false
+  },
+  {
+    "id": 41,
+    "name": "Еда",
+    "industry_docs": [],
+    "restriction": false
+  }
+]

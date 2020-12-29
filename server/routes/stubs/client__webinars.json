@@ -1,0 +1,50 @@
+[
+    {
+      "access_token": "cc0591115bd2ce02079684d75bd2ce0207951376",
+      "finish_time": null,
+      "id": 235425,
+      "start_time": "2020-06-24 09:00:00",
+      "timezone": "Europe/Moscow",
+      "title": "\"Билайн.ПРОдвижение\" - инструмент для эффективного и экономного продвижения ваших товаров и услуг для клиентов «Билайн» Бизнес",
+      "webinar_mode": "OPEN",
+      "price_amount": null,
+      "archive_available_from": null,
+      "status_stoped": 0,
+      "participantsCount": 0,
+      "registrantsCount": 1,
+      "recordLifetime": 111,
+      "recordDueDate": "22.09.2020",
+      "maxRecordDate": "22.09.2020",
+      "presenters": [
+        {
+          "first_name": "Мария",
+          "last_name": "Попова"
+        }
+      ],
+      "started": false
+    },
+    {
+        "access_token": "cc0591115bd2ce02079684d75bd2ce0207951376",
+        "finish_time": null,
+        "id": 235678,
+        "start_time": "2020-06-27 09:00:00",
+        "timezone": "Europe/Moscow",
+        "title": "\"Билайн.ПРОдвижение\" - инструмент для эффективного и экономного продвижения ваших товаров и услуг для клиентов «Билайн» Бизнес",
+        "webinar_mode": "OPEN",
+        "price_amount": null,
+        "archive_available_from": null,
+        "status_stoped": 0,
+        "participantsCount": 0,
+        "registrantsCount": 1,
+        "recordLifetime": 111,
+        "recordDueDate": "22.09.2020",
+        "maxRecordDate": "22.09.2020",
+        "presenters": [
+          {
+            "first_name": "Олег",
+            "last_name": "Назаров"
+          }
+        ],
+        "started": false
+      }
+  ]

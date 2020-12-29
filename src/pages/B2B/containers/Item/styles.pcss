@@ -1,0 +1,124 @@
+@import "styles/constants.pcss";
+.search {
+  margin-bottom: 30px;
+}
+
+.container {
+  margin: 30px;
+}
+
+.listElement {
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background: url(../../assets/handshake.png);
+  background-repeat: no-repeat;
+  background-position: right 35px center;
+  &:hover {
+    background: url(../../assets/handshake_active.png);
+    background-repeat: no-repeat;
+    background-position: right 35px center;
+    background-color: rgba(255, 220, 125, 0.4);
+  }
+}
+
+.active {
+  background: url(../../assets/handshake_active.png);
+  background-repeat: no-repeat;
+  background-position: right 35px center;
+  background-color: rgba(255, 220, 125, 0.4);
+}
+
+.listElementSkeleton {
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  width: calc(100% -60px);
+  border-bottom: 1px solid #eaeaea;
+  margin: 0 auto;
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.itemName {
+  font-family: var(--mainFontFamily);
+  font-size: 21px;
+  margin-left: 20px;
+}
+
+.itemSale {
+  font-family: var(--mainFontFamily);
+  font-size: 17px;
+}
+
+.backContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 30px;
+  cursor: pointer;
+}
+
+.backText {
+  color: #939393;
+  padding-left: 8px;
+}
+
+.backIcon {
+  cursor: pointer;
+}
+
+.listIcon {
+  min-width: 40px;
+  height: 40px;
+  background: #cfcfcf;
+  border-radius: 50%;
+}
+
+.address {
+  color: #939393;
+  font-size: 17px;
+  font-family: var(--mainFontFamily);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.salesText {
+  font-size: 13px;
+  color: #282828;
+}
+
+.saleDescription {
+  font-size: 17px;
+  font-family: var(--mainFontFamily);
+  max-width: 100%;
+}
+
+.saleDates {
+  margin-top: 5px;
+  color: #939393;
+  font-size: 13px;
+}
+
+.buttonsHolder {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  background: rgba(40, 40, 40, 0.1);
+}
+
+.info span {
+  display: flex;
+}

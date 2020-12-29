@@ -1,0 +1,99 @@
+@import "styles/constants.pcss";
+
+@keyframes horizontal {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  6% {
+    transform: translate(5px, 0) scale(1.04);
+  }
+
+  12% {
+    transform: translate(-5px, 0) scale(1.04);
+  }
+
+  18% {
+    transform: translate(5px, 0) scale(1.04);
+  }
+
+  24% {
+    transform: translate(-5px, 0) scale(1.04);
+  }
+
+  30% {
+    transform: translate(5px, 0) scale(1.04);
+  }
+
+  36% {
+    transform: translate(-5px, 0) scale(1.04);
+  }
+
+  42% {
+    transform: translate(5px, 0) scale(1.04);
+  }
+
+  48% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+.icon {
+  display: block;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 220, 125, 0.8);
+  border-radius: 50%;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.text {
+  max-width: 135px;
+  margin-right: 5px;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-family: var(--mainFontFamily);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.container {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  z-index: 900;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 60px;
+  height: 60px;
+  padding: 3px 0 3px 8px;
+  border: 2px solid #ffb612;
+  border-radius: 50%;
+  background-color: white;
+  transition: width 0.15s, border-radius 0.15s;
+  overflow: hidden;
+  transform-origin: center;
+
+  &:hover, &.opened {
+    width: 200px;
+    padding: 3px 5px;
+    border-radius: 20px;
+    transition: width 0.3s, border-radius 0.3s;
+
+    .icon {
+      margin-right: auto;
+    }
+  }
+
+  &.animated:not(.opened) {
+    animation: slideLeft 1.5s 2s both ease, horizontal 1.5s ease;
+  }
+}

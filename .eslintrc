@@ -1,0 +1,84 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier/react"],
+  "plugins": ["react-hooks", "import"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "settings": {
+    "import/resolver": "webpack"
+  },
+  "rules": {
+    "camelcase": 0,
+    "no-restricted-syntax": 0,
+    "global-require": 0,
+    "import/extensions": 0,
+    "import/prefer-default-export": 0,
+    "import/no-unresolved": 2,
+    "no-new": 0,
+    "no-multi-assign": 0,
+    "no-plusplus": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-duplicates": "error",
+    "prefer-destructuring": 0,
+    "import/order": ["error", {"groups": ["builtin", "external", "internal", "parent", "index", "sibling" ]}],
+    "arrow-parens": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/mouse-events-have-key-events": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "no-restricted-globals": 0,
+    "linebreak-style": ["error", "unix"],
+    "no-prototype-builtins": 0,
+    "max-len": ["error", { "code": 500, "tabWidth": 2 }],
+    "no-console": 0,
+    "no-confusing-arrow": 0,
+    "no-mixed-operators": 0,
+    "no-irregular-whitespace": 0,
+    "no-unused-vars": 1,
+    "no-unused-expressions": 0,
+    "no-param-reassign": 0,
+    "no-underscore-dangle": 0,
+    "no-use-before-define": 0,
+    "object-curly-newline": 0,
+    "arrow-body-style": 0,
+    "react/forbid-prop-types": 0,
+    "react/no-danger": 0,
+    "react/jsx-indent-props": [1, 2],
+    "react/jsx-indent": [2, 2, {"checkAttributes": true}],
+    "react/jsx-filename-extension" : [ 1 ,  {  "extensions" : [ ".js" ,  ".jsx", ".ts", ".tsx" ]  } ],
+    "react/jsx-one-expression-per-line": 0,
+    "react/require-default-props": 0,
+    "react/display-name": 0,
+    "react/jsx-wrap-multilines": [1, {
+      "declaration": "parens-new-line",
+      "assignment": "parens-new-line",
+      "return": "parens-new-line",
+      "arrow": "parens-new-line",
+      "condition": "ignore",
+      "logical": "ignore",
+      "prop": "ignore"
+    }],
+    "react-hooks/rules-of-hooks": "error",
+    "react/no-unescaped-entities": 0,
+    "react/sort-comp": [
+      1,
+      {
+        "order": [
+          "state",
+          "instance-properties",
+          "properties",
+          "static-methods",
+          "lifecycle",
+          "everything-else",
+          "render"
+        ]
+      }
+    ],
+    "react/no-multi-comp": 0,
+    "class-methods-use-this": 0
+  }
+}

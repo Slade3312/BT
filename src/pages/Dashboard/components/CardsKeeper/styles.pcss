@@ -1,0 +1,21 @@
+@import "styles/constants.pcss";
+
+.cardsKeeper {
+  display: flex;
+  height: 450px;
+  overflow: visible;
+}
+
+.cardWrapper {
+  min-width: 200px;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+
+  & > a,
+  & > div {
+    flex-basis: 100%;
+  }
+}
+
+.scrollContainer { user-select: text; }

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 228,
+    "file": "https://marketing.kube.vimpelcom.ru/media/order_files/IMG_8668.jpg",
+    "company": 18,
+    "name": "1572512433437.JPEG",
+    "type": "брэнд файл",
+    "type_id": 0
+  },
+  {
+    "id": 2229,
+    "file": "https://marketing.kube.vimpelcom.ru/media/order_files/157sadfasdf.jpg",
+    "company": 18,
+    "name": "157sadfasdf.JPEG",
+    "type": "брэнд файл",
+    "type_id": 0
+  },
+  {
+    "id": 2293,
+    "file": "https://marketing.kube.vimpelcom.ru/media/order_files/157sadfasdf.jpg",
+    "company": 18,
+    "name": "очень длинное название файла, очень длинное название файла очень длинное название файла очень длинное название файла очень длинное название файла очень длинное название файла test.jpeg",
+    "type": "брэнд файл",
+    "type_id": 0
+  }
+]

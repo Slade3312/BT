@@ -1,0 +1,1 @@
+export { mapChartIcon } from './mapChartIcon';

@@ -1,0 +1,36 @@
+@import "styles/constants.pcss";
+
+.component {
+  min-width: 70px;
+  margin-right: 20px;
+  flex-shrink: 0;
+  font-size: 17px;
+  line-height: 1;
+  font-family: var(--mainFontFamily);
+
+  &.nameCol {
+    width: 250px;
+  }
+
+  &.statusCol {
+    width: 176px;
+  }
+
+  &.channelCol {
+    width: 161px;
+  }
+
+  &.dateCol {
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+
+  &.rightCol {
+    margin-left: auto;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

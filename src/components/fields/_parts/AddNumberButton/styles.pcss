@@ -1,0 +1,41 @@
+@import 'styles/constants.pcss';
+
+.link {
+  transition: color 0.15s;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+
+  &:hover {
+    transition: none;
+    color: var(--linkHoverColor);
+  }
+}
+
+.addButton {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.icon {
+  max-width: 19px;
+  max-height: 19px;
+}
+
+.text {
+  margin: 0 0 0 5px;
+  border-bottom: solid 1px rgba(40, 40, 40, 0.33);
+  font-family: var(--mainFontFamily);
+}
+
+.addButton:hover .icon {
+  fill: var(--linkHoverColor);
+}
+
+.addButton:hover .text {
+  border-bottom-color: var(--linkHoverColor);
+}

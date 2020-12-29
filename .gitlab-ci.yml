@@ -1,0 +1,231 @@
+variables:
+  NEXUS_REGISTRY: "meco-docker.kube.vimpelcom.ru"
+  NEXUS_REGISTRY_PUBLIC: "dockerhub.kube.vimpelcom.ru"
+  NEXUS_REGISTRY_PUBLIC_LOCAL: "public-docker.kube.vimpelcom.ru"
+  PROXY: "http://ms-proxy.vimpelcom.ru:8080"
+  NOPROXY: "127.0.0.1,localhost,.vimpelcom.ru,.svc.cluster.local"
+  PROJECT_PREFIX: "mecofront"
+  IMAGE: $NEXUS_REGISTRY/$PROJECT_PREFIX-$CI_COMMIT_REF_SLUG
+  VERSION_PREFIX: "1.0.$CI_PIPELINE_IID"
+  NPMREPO: "http://nexus.kube.vimpelcom.ru/repository/npm-proxy/"
+  NODEIMAGE: $NEXUS_REGISTRY_PUBLIC/node:13-alpine
+  HELMNAMESPACE: marketeco
+  HELMRELEASE: $PROJECT_PREFIX
+  HELM_IMAGE: $NEXUS_REGISTRY_PUBLIC_LOCAL/helm:3.0.0
+  APKREPO: "http://nexus.kube.vimpelcom.ru/repository/alpine/v3.10/main/\nhttp://nexus.kube.vimpelcom.ru/repository/alpine/v3.10/community/"
+  DOCKER_HOST: "tcp://localhost:2375"
+  DOCKER_DRIVER: "overlay2"
+  DOCKER_TLS_CERTDIR: ""
+
+stages:
+  - test
+  - build
+  - buildimage
+  - deploy
+
+
+# Aliases
+.only_build: &only_build
+  tags:
+    - kube
+  only:
+    - develop
+    - master
+    - experimental
+    - test
+    - develop_stage_2
+
+
+.only_deploy_dev: &only_deploy_dev
+  tags:
+    - kube
+  only:
+    - experimental
+    - develop
+
+
+.only_deploy_dev_iteration: &only_deploy_dev_iteration
+  tags:
+    - kube
+  only:
+    - develop_stage_2
+
+.only_deploy_test: &only_deploy_test
+  tags:
+    - kube
+  only:
+    - experimental
+    - test
+
+
+.only_deploy_prod: &only_deploy_prod
+  tags:
+    - kube
+  only:
+    - master
+    - experimental
+
+# cache:
+#   key: ${CI_PROJECT_NAMESPACE}-${CI_PROJECT_NAME}
+#   paths:
+#     # - .npm/
+#     - node_modules/
+
+test:frontend:
+  stage: test
+  image: $NODEIMAGE
+  # variables:
+  #   http_proxy: "$PROXY"
+  #   https_proxy: "$PROXY"
+  #   no_proxy: "$NOPROXY"
+  before_script:
+    - echo -e "$APKREPO" >  /etc/apk/repositories
+    - rm -rf .dockerignore
+    - apk add --no-cache git
+    - npm config set proxy http://ms-proxy.vimpelcom.ru:8080
+  script:
+    - npm -v
+    - node -v
+    - npm i
+    #- npm ls
+    - npm run test
+  cache:
+    key: ${CI_PROJECT_NAMESPACE}-${CI_PROJECT_NAME}
+    paths:
+    - node_modules/
+  tags:
+    - kube
+
+
+build:frontend:
+  <<: *only_build
+  stage: build
+  image: $NODEIMAGE
+#  variables:
+#    http_proxy: "$PROXY"
+#    https_proxy: "$PROXY"
+#    no_proxy: "$NOPROXY"
+  before_script:
+    - echo -e "$APKREPO" >  /etc/apk/repositories
+    - apk add --no-cache git
+    - npm config set proxy http://ms-proxy.vimpelcom.ru:8080
+    - npm --maxsockets=30 ci
+  script:
+    - CI_BRANCH=$CI_COMMIT_REF_SLUG npm run build
+  cache:
+    key: ${CI_PROJECT_NAMESPACE}-${CI_PROJECT_NAME}
+    paths:
+      - node_modules/
+    policy: pull
+  artifacts:
+    name: static_build
+    paths:
+      - build
+    expire_in: 1 week
+
+
+buildimage:frontend:
+  <<: *only_build
+  stage: buildimage
+  image: $NEXUS_REGISTRY_PUBLIC/docker:19.03.8
+  services:
+    - name: $NEXUS_REGISTRY_PUBLIC/docker:19.03.8-dind
+      command: [ "--insecure-registry=172.21.232.244/24" ]
+  script:
+    - docker login -u $NEXUS_AUTH_LOGIN -p $NEXUS_AUTH_PASSWORD $NEXUS_REGISTRY
+    - |
+      docker build \
+      --network=host \
+      -f ci/Dockerfile \
+      -t $IMAGE:$VERSION_PREFIX.${CI_COMMIT_SHA:0:7} .
+    - docker push $IMAGE:$VERSION_PREFIX.${CI_COMMIT_SHA:0:7}
+    - docker rmi $IMAGE:$VERSION_PREFIX.${CI_COMMIT_SHA:0:7}
+  dependencies:
+    - build:frontend
+
+
+.deploy:template: &deployapp
+  stage: deploy
+  image: $HELM_IMAGE
+  script:
+    - echo $KUBE_NAMESPACE
+    - SEMVER="$VERSION_PREFIX-branch.$CI_COMMIT_REF_SLUG.Sha.${CI_COMMIT_SHA:0:7}.$(date +%Y%m%d.%H%M%S)"
+    - echo version $SEMVER
+    - helm version
+    - helm list  --namespace=$HELMNAMESPACE
+    - echo $HELM_VALUES > ./ci/charts/$PROJECT_PREFIX/values.yaml
+    - helm upgrade -i $HELMRELEASE
+      --namespace=$HELMNAMESPACE
+      --set image.repository=$IMAGE
+      --set image.tag=$VERSION_PREFIX.${CI_COMMIT_SHA:0:7}
+      --set env.SEMVER=$SEMVER
+      ./ci/charts/$PROJECT_PREFIX
+
+
+deploy:kube:
+  <<: *only_deploy_dev
+  <<: *deployapp
+  variables:
+    HELM_VALUES: $HELM_VALUES_DEV
+    KUBECFG: $KUBECONFIG_DEV
+  environment:
+    name: develop
+    url: http://meco.kube.vimpelcom.ru
+  before_script:
+    - mkdir -p ~/.kube/
+    - echo $KUBECFG | base64 -d > ~/.kube/config
+
+deploy:kube-iteeration:
+  <<: *only_deploy_dev_iteration
+  <<: *deployapp
+  variables:
+    HELM_VALUES: $HELM_VALUES_DEV_ITERATION
+    KUBECFG: $KUBECONFIG_DEV
+    HELMNAMESPACE: marketeco-iteration
+  environment:
+    name: develop
+    url: http://meco.kube.vimpelcom.ru
+  before_script:
+    - mkdir -p ~/.kube/
+    - echo $KUBECFG | base64 -d > ~/.kube/config
+
+deploy:kube-test:
+  <<: *only_deploy_test
+  <<: *deployapp
+  variables:
+    HELMNAMESPACE: marketeco-uat
+    HELM_VALUES: $HELM_VALUES_TEST
+    KUBECFG: $KUBECONFIG_DEV
+  environment:
+    name: develop
+    url: http://meco-test.kube.vimpelcom.ru
+  before_script:
+    - mkdir -p ~/.kube/
+    - echo $KUBECFG | base64 -d > ~/.kube/config
+
+deploy:prod:
+  <<: *only_deploy_prod
+  <<: *deployapp
+  variables:
+    HELM_VALUES: $HELM_VALUES_PROD
+    KUBECFG: $KUBECFG_PROD
+  environment:
+    name: production
+    url: https://marketing.beeline.ru
+  before_script:
+    - mkdir -p ~/.kube/
+    - echo $KUBECFG | base64 -d > ~/.kube/config
+
+
+# deploy:pube:
+#   <<: *only_deploy_prod
+#   <<: *deployapp
+#   variables:
+#     HELM_VALUES: $HELM_VALUES_PROD
+#     KUBECFG: $KUBECONFIG_PROD
+#   environment:
+#     name: production
+#     url: https://marketing.beeline.ru
+#   before_script:
+#     - mkdir -p ~/.kube/
+#     - echo $KUBECFG | base64 -d > ~/.kube/config

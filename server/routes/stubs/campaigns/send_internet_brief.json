@@ -1,0 +1,174 @@
+[
+  {
+    "id": 961,
+    "mediaplan_id": 408,
+    "name": "Минимум",
+    "clicks": 285,
+    "leads": 7,
+    "cpc": 70,
+    "price": 20000,
+    "fee": 0,
+    "tools": [
+      {
+        "id": 1,
+        "type_id": 1,
+        "alias": "google",
+        "name": "Google Ads",
+        "description": "<div>В Google Ads поиске, как и в Я.Директе оплата производится за клики и таргетинг настраивается на заранее подобранные ключевые слова. Аудитория Google<br>отличается большей мобильностью - около 57% используют поиск Google со смартфона. Поэтому этот инструмент больше подходит для тематик, где удобно сразу же позвонить. Поисковая аудитория Google в России более 22 млн. человек.</div>",
+        "position": 0
+      },
+      {
+        "id": 3,
+        "type_id": 2,
+        "alias": "google",
+        "name": "Google Ads",
+        "description": "<div>Google Сеть (КМС) — это система размещения контекстной рекламы, учитывающая тематические и поведенческие факторы при показе объявлений на<br>тематических площадках, которые входят в&nbsp; контекстно- медийную сеть Google (КМС), включая Google, Gmail и YouTube.</div>",
+        "position": 0
+      }
+    ],
+    "options": [
+      { "id": 1, "alias": "email", "name": "Поддержка по E-Mail 10/5", "position": 0 },
+      { "id": 2, "alias": "phone", "name": "Поддержка по телефону 10/5", "position": 0 }
+    ],
+    "additional_services": []
+  },
+  {
+    "id": 962,
+    "mediaplan_id": 408,
+    "name": "Оптимум",
+    "clicks": 678,
+    "leads": 17,
+    "cpc": 73.65,
+    "price": 50000,
+    "fee": 0,
+    "tools": [
+      {
+        "id": 1,
+        "type_id": 1,
+        "alias": "google",
+        "name": "Google Ads",
+        "description": "<div>В Google Ads поиске, как и в Я.Директе оплата производится за клики и таргетинг настраивается на заранее подобранные ключевые слова. Аудитория Google<br>отличается большей мобильностью - около 57% используют поиск Google со смартфона. Поэтому этот инструмент больше подходит для тематик, где удобно сразу же позвонить. Поисковая аудитория Google в России более 22 млн. человек.</div>",
+        "position": 0
+      },
+      {
+        "id": 3,
+        "type_id": 2,
+        "alias": "google",
+        "name": "Google Ads",
+        "description": "<div>Google Сеть (КМС) — это система размещения контекстной рекламы, учитывающая тематические и поведенческие факторы при показе объявлений на<br>тематических площадках, которые входят в&nbsp; контекстно- медийную сеть Google (КМС), включая Google, Gmail и YouTube.</div>",
+        "position": 0
+      },
+      {
+        "id": 2,
+        "type_id": 1,
+        "alias": "yandex",
+        "name": "Яндекс.Директ",
+        "description": "<div>Яндекс.Директ поиск универсальный формат рекламы,&nbsp; позволяющий обращаться к пользователю сразу же при возникновении у него потребности. Поисковая аудитория Яндекса более 27 млн. человек. Оплата осуществляется только за клик по вашему объявлению, т.е. переход на сайт.</div>",
+        "position": 0
+      },
+      {
+        "id": 4,
+        "type_id": 2,
+        "alias": "yandex",
+        "name": "Яндекс.Директ",
+        "description": "<div>Яндекс сеть (РСЯ) — это система размещения контекстной рекламы, учитывающая тематические и поведенческие факторы при показе объявлений на тематических площадках, которые входят в рекламную сеть Яндекса.</div>",
+        "position": 0
+      },
+      {
+        "id": 5,
+        "type_id": 3,
+        "alias": "vk",
+        "name": "ВКонтакте",
+        "description": "<div>Вконтакте – самая популярная социальная сеть в Рунете.&nbsp;<br>У этой площадки есть&nbsp; несколько преимуществ для настройки рекламы:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div><ul><li>Много больших сообществ</li><li>Характерные только для ВКонтакте субкультуры</li><li>Аккумулирует практически всю аудиторию соцсетей России</li><li>Охват на уровне федеральных каналов</li><li>Постоянно предлагает пользователям новые форматы контента</li></ul><div><br></div>",
+        "position": 0
+      }
+    ],
+    "options": [
+      { "id": 1, "alias": "email", "name": "Поддержка по E-Mail 10/5", "position": 0 },
+      { "id": 2, "alias": "phone", "name": "Поддержка по телефону 10/5", "position": 0 }
+    ],
+    "additional_services": []
+  },
+  {
+    "id": 963,
+    "mediaplan_id": 408,
+    "name": "Премиум",
+    "clicks": 1091,
+    "leads": 25,
+    "cpc": 73.31,
+    "price": 80000,
+    "fee": 0,
+    "tools": [
+      {
+        "id": 1,
+        "type_id": 1,
+        "alias": "google",
+        "name": "Google Ads",
+        "description": "<div>В Google Ads поиске, как и в Я.Директе оплата производится за клики и таргетинг настраивается на заранее подобранные ключевые слова. Аудитория Google<br>отличается большей мобильностью - около 57% используют поиск Google со смартфона. Поэтому этот инструмент больше подходит для тематик, где удобно сразу же позвонить. Поисковая аудитория Google в России более 22 млн. человек.</div>",
+        "position": 0
+      },
+      {
+        "id": 3,
+        "type_id": 2,
+        "alias": "google",
+        "name": "Google Ads",
+        "description": "<div>Google Сеть (КМС) — это система размещения контекстной рекламы, учитывающая тематические и поведенческие факторы при показе объявлений на<br>тематических площадках, которые входят в&nbsp; контекстно- медийную сеть Google (КМС), включая Google, Gmail и YouTube.</div>",
+        "position": 0
+      },
+      {
+        "id": 2,
+        "type_id": 1,
+        "alias": "yandex",
+        "name": "Яндекс.Директ",
+        "description": "<div>Яндекс.Директ поиск универсальный формат рекламы,&nbsp; позволяющий обращаться к пользователю сразу же при возникновении у него потребности. Поисковая аудитория Яндекса более 27 млн. человек. Оплата осуществляется только за клик по вашему объявлению, т.е. переход на сайт.</div>",
+        "position": 0
+      },
+      {
+        "id": 4,
+        "type_id": 2,
+        "alias": "yandex",
+        "name": "Яндекс.Директ",
+        "description": "<div>Яндекс сеть (РСЯ) — это система размещения контекстной рекламы, учитывающая тематические и поведенческие факторы при показе объявлений на тематических площадках, которые входят в рекламную сеть Яндекса.</div>",
+        "position": 0
+      },
+      {
+        "id": 5,
+        "type_id": 3,
+        "alias": "vk",
+        "name": "ВКонтакте",
+        "description": "<div>Вконтакте – самая популярная социальная сеть в Рунете.&nbsp;<br>У этой площадки есть&nbsp; несколько преимуществ для настройки рекламы:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div><ul><li>Много больших сообществ</li><li>Характерные только для ВКонтакте субкультуры</li><li>Аккумулирует практически всю аудиторию соцсетей России</li><li>Охват на уровне федеральных каналов</li><li>Постоянно предлагает пользователям новые форматы контента</li></ul><div><br></div>",
+        "position": 0
+      },
+      {
+        "id": 8,
+        "type_id": 3,
+        "alias": "mytarget",
+        "name": "myTarget",
+        "description": "<div>myTarget объединяет в себе продукты Mail.ru Group: Одноклассники, Мой мир и ВКонтакте.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>Преимущества работы с myTarget:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><ul><li>Много очень активных мам</li><li>Аудитория легко вовлекается в контент, хорошее вирусное распространение</li><li>Ядро аудитории – регионы</li><li>Мало брендовых сообществ</li><li>Хорошо развиты инструменты для e-commerce</li><li>Сильный ориентир на прямых клиентов</li></ul><div><br></div><div><br></div>",
+        "position": 0
+      },
+      {
+        "id": 6,
+        "type_id": 3,
+        "alias": "facebook",
+        "name": "Facebook",
+        "description": "<div>Facebook – технологический лидер среди социальных сетей, новшества в сфере интернет-рекламы создаются в нём, а потом уже переходят к другим площадкам.&nbsp;</div><ul><li>Ядро аудитории – города-миллионники</li><li>Аудитория, лояльная международным брендам</li><li>Разнообразие рекламных форматов</li><li>Пользователи активно создают контент сами и читают всё то, что написали друзья</li></ul><div><br></div><div><br></div><div><br></div>",
+        "position": 0
+      },
+      {
+        "id": 7,
+        "type_id": 3,
+        "alias": "instagram",
+        "name": "Instagram",
+        "description": "<div>Instagram сегодня – это ведущая платформа визуального контента. Более 80 миллионов постов публикуется здесь ежедневно.&nbsp;</div><div>Задачи рекламы в Instagram:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><ul><li>Поднять вовлечённость для публикации</li><li>Перенаправлять людей на веб-сайт</li><li>Увеличить количество конверсий на веб-сайте</li><li>Получать установки вашего приложения</li><li>Получать просмотры видео</li></ul><div><br></div><div><br></div><div><br></div>",
+        "position": 0
+      }
+    ],
+    "options": [
+      { "id": 1, "alias": "email", "name": "Поддержка по E-Mail 10/5", "position": 0 },
+      { "id": 2, "alias": "phone", "name": "Поддержка по телефону 10/5", "position": 0 },
+      { "id": 3, "alias": "recommendation", "name": "Рекомендации по улучшению сайта", "position": 0 }
+    ],
+    "additional_services": []
+  }
+]

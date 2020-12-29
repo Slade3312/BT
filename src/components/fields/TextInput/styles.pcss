@@ -1,0 +1,88 @@
+@import "styles/constants.pcss";
+
+.component {
+  width: 100%;
+  height: 44px;
+  padding: 10px 15px;
+  font-size: 17px;
+  resize: vertical;
+  border: 1px solid rgba(170, 170, 170, 0.45);
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: inset 0 2px 1px 0 rgba(0, 0, 0, 0.13);
+  font-family: var(--mainFontFamily);
+  transition: border-color 0.3s, box-shadow 0.3s;
+
+  &::placeholder {
+    color: color(#282828 alpha(45%));
+  }
+
+  &::-ms-clear {
+    display: none;
+  }
+
+  &:focus {
+    border-color: rgba(249, 195, 91, 0.9);
+    box-shadow: inset 0 0 0 1px rgba(249, 195, 91, 0.9);
+  }
+
+  &:disabled {
+    border-color: rgba(170, 170, 170, 0.45) !important;
+    cursor: not-allowed;
+    opacity: 0.45;
+  }
+
+  &.withIcon {
+    padding-right: 44px;
+  }
+}
+
+.textarea { height: auto; }
+
+.input::-webkit-search-cancel-button {
+  display: none;
+}
+
+/** status prop value */
+.fail {
+  border-color: rgba(220, 0, 0, 0.45);
+  box-shadow: inset 0 0 0 1px rgba(220, 0, 0, 0.45);
+}
+
+/** size prop value */
+.big {
+  height: 51px;
+  padding: 0 18px;
+  font-size: 21px;
+}
+
+.long {
+  width: 340px;
+}
+
+/** FIXME: need to remove media query style in favor of scripted class */
+@media (max-width: 768px) {
+  .component::-webkit-calendar-picker-indicator {
+    position: absolute;
+    right: 0;
+    opacity: 0;
+  }
+}
+
+/**
+ * FIXME: component media query adaptivity was part of the component
+ */
+
+/*
+.component {
+  height: 44px;
+  padding: 0 35px 0 15px;
+  font-size: 17px;
+}
+*/
+
+.combinedRight {
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}

@@ -1,0 +1,692 @@
+{
+  "FeedbackBanner": {
+    "title": {
+      "content": "Или просто посоветуйтесь со\n специалистом Билайн",
+      "type": "string"
+    },
+    "description": {
+      "content": "Если возникли сложности — напишите или позвоните нам. На вопросы, отправленные с этой страницы, ответим в течение суток. На ваши звонки отвечаем сразу.",
+      "type": "string"
+    },
+    "phone": {
+      "content": "88006006262",
+      "type": "string"
+    },
+    "button": {
+      "content": "Обратиться к специалисту",
+      "type": "string"
+    },
+    "backgroundImage": {
+      "content": "https://static.beeline.ru/upload/images/marketing/banner_03.png",
+      "type": "string"
+    }
+  },
+  "FeedbackSuccessPopup": {
+    "title": { "content": "Спасибо!" },
+    "description": {
+      "content": "Наш менеджер свяжется с вами в течение одного рабочего дня.\nТелефон для связи: 8 800 600 62 62",
+      "type": "string"
+    },
+    "buttonText": {
+      "content": "Вернуться на страницу",
+      "type": "string"
+    }
+  },
+  "FeedbackErrorPopup": {
+    "title": { "content": "Ой нет!", "type": "string" },
+    "description": { "content": "Кажется, что-то пошло не так! Попробуйте еще раз.", "type": "string" },
+    "buttonText": { "content": "Вернуться на страницу", "type": "string" }
+  },
+  "Footer": {
+    "socials": {
+      "items": [
+        {
+          "name": "facebook",
+          "icon": "https://static.beeline.ru/upload/images/socials/facebook.svg",
+          "url": "https://www.facebook.com/Beelinerus"
+        },
+        {
+          "name": "twitter",
+          "icon": "https://static.beeline.ru/upload/images/socials/twitter.svg",
+          "url": "https://twitter.com/Beeline_RUS"
+        },
+        {
+          "name": "vk",
+          "icon": "https://static.beeline.ru/upload/images/socials/vk.svg",
+          "url": "https://vk.com/beeline"
+        },
+        {
+          "name": "youtube",
+          "icon": "https://static.beeline.ru/upload/images/socials/youtube.svg",
+          "url": "https://www.youtube.com/user/beelineru"
+        },
+        {
+          "name": "odnoklassniki",
+          "icon": "https://static.beeline.ru/upload/images/socials/odnoklassniki.svg",
+          "url": "https://ok.ru/beeline"
+        },
+        {
+          "name": "instagram",
+          "icon": "https://static.beeline.ru/upload/images/socials/instagram.svg",
+          "url": "https://www.instagram.com/beelinerus/"
+        }
+      ]
+    },
+    "linksGroups": {
+      "items": [
+        {
+          "title": {
+            "content": "Частным лицам",
+            "type": "string"
+          },
+          "links": [
+            {
+              "name": {
+                "content": "Новости",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/customers/press/news/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Стать клиентом Билайн",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/customers/products/mobile/services/details/mnp/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Мобильная связь",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/customers/products/mobile/tariffs/cellphone/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Домашний Билайн",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/customers/products/home/internet/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Для тебя, семьи и дома",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/customers/domashnij-internet-i-tv-besplatno/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Финансы и оплата",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/customers/how-to-pay/popolnenie-scheta/promopayment/overview/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Помощь",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/customers/pomosh/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Офисы на карте",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/customers/beeline-map/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Личный кабинет",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/login/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Интернет-магазин",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/shop/",
+                "type": "string"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "content": "Бизнесу",
+            "type": "string"
+          },
+          "links": [
+            {
+              "name": {
+                "content": "Мобильный интернет",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/business/mobile-and-internet/mobile-internet/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Телефония",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/business/fixcon/telephony/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Интернет в офис",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/business/fixcon/office-internet/",
+                "type": "string"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "content": "Прессе",
+            "type": "string"
+          },
+          "links": [
+            {
+              "name": {
+                "content": "Пресс-центр",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/about/press-center-new/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Контакты для СМИ",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/about/press-center/contact-press/",
+                "type": "string"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "content": "Партнерам",
+            "type": "string"
+          },
+          "links": [
+            {
+              "name": {
+                "content": "Аренда позиций",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/business/partners/rent-office/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Поставщикам",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/business/partners/to-suppliers/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Владельцам недвижимости",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/business/partners/property/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Агентам",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/business/partners/agents/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Операторам связи",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/business/b2o/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Оптовые продажи",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/business/partners/wholesale/",
+                "type": "string"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "content": "О компании",
+            "type": "string"
+          },
+          "links": [
+            {
+              "name": {
+                "content": "Общая информация",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/about/about-beeline/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Контакты",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/customers/contact-page/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Работа в Билайн",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://job.beeline.ru/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Инвесторам",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://www.veon.com/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Стратегия",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/about/about-beeline/strategy/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Социальная ответственность",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/about/about-beeline/social/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Комплаенс и деловая этика",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/about/compliance/about-compliance/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Раскрытие информации",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/about/about-beeline/disclosure/documents/",
+                "type": "string"
+              }
+            },
+            {
+              "name": {
+                "content": "Юридическая информация",
+                "type": "string"
+              },
+              "value": {
+                "content": "https://beeline.ru/customers/legal/",
+                "type": "string"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "description": {
+      "content": "<p>Посещая сайт www.beeline.ru, Вы предоставляете согласие на обработку данных о посещении Вами сайта www.beeline.ru (данные cookies и иные пользовательские данные), сбор которых автоматически осуществляется ПАО «ВымпелКом» (Российская Федерация, 127083, г. Москва, ул. Восьмого марта, дом 10, строение 14) на условиях Политики обработки персональных данных (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://static.beeline.ru/upload/images/politica27122017.pdf\">гиперссылка</a>). Компания также может использовать указанные данные для их последующей обработки системами Google Analytics, Яндекс.Метрика и др., которая осуществляется с целью функционирования сайта www.beeline.ru.</p><p>ПАО «ВымпелКом» раскрывает информацию, раскрытие которой предусмотрено законодательством РФ о ценных бумагах также на странице в сети Интернет ООО «Интерфакс-ЦРКИ» – информационного агентства, аккредитованного ЦБ РФ на раскрытие информации. Информация доступна по  <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.e-disclosure.ru/portal/company.aspx?id=4464\">ссылке</a></p>",
+      "type": "html"
+    }
+  },
+  "AskCreateCampaign": {
+    "title": {
+      "content": "Параметры вашей кампании",
+      "type": "string"
+    },
+    "description": {
+      "content": "Напишите в нескольких словах о вашей предстоящей кампании, а наш сотрудник настроит за вас все необходимые параметры.",
+      "type": "string"
+    },
+    "confirmButtonText": {
+      "content": "Отправить заявку",
+      "type": "string"
+    },
+    "questionFieldPlaceholder": {
+      "content": "Опишите цели вашей кампании и примерную аудиторию",
+      "type": "string"
+    },
+    "errorImageSrc": "https://static.beeline.ru/upload/images/marketing/icons/sad.png",
+    "errorTitle": {
+      "content": "Что-то пошло не так...",
+      "type": "string"
+    },
+    "errorDescription": {
+      "content": "Попробуйте повторить чуть позднее.",
+      "type": "string"
+    },
+    "errorButtonText": {
+      "content": "Закрыть",
+      "type": "string"
+    },
+    "successImageSrc": "https://static.beeline.ru/upload/images/marketing/icons/thumpUp.svg",
+    "successTitle": {
+      "content": "Ваша заявка отправлена",
+      "type": "string"
+    },
+    "successDescription": {
+      "content": "Наш сотрудник свяжется с вами для уточнения параметров вашей кампании.",
+      "type": "string"
+    },
+    "successButtonText": {
+      "content": "Закрыть",
+      "type": "string"
+    },
+    "tooltip": {
+      "content": "",
+      "type": "html"
+    }
+  },
+  "QuestionWidget": {
+    "text": {
+      "content": "Возник вопрос?\n Оставь заявку и мы поможем!",
+      "type": "string"
+    }
+  },
+  "GeneralConstants": {
+    "withoutNds": {
+      "content": "с НДС",
+      "type": "string"
+    },
+    "withoutNdsAll": {
+      "content": "Все цены указаны с НДС",
+      "type": "string"
+    }
+  },
+  "PromocodeField": {
+    "notAllowedChannelError": {
+      "content": "Скидка промокода не распространяется на данный канал",
+      "type": "string"
+    },
+    "promocodeFailError": {
+      "content": "Данный промокод не существует или срок действия истёк",
+      "type": "string"
+    },
+    "emptyFieldError": {
+      "content": "Введите промокод и нажмите \"Применить\"",
+      "type": "string"
+    },
+    "submitRequiredError": {
+      "content": "Нажмите \"Применить\" для проверки промокода",
+      "type": "string"
+    },
+    "notAllowedCampaignError": {
+      "content": "Скидка промокода не распространяется ни на один из каналов кампании",
+      "type": "string"
+    },
+    "submitButtonText": {
+      "content": "Применить",
+      "type": "string"
+    },
+    "successPromocodeMessage": {
+      "content": "Промокод {promocode} применён",
+      "type": "string"
+    },
+    "tooltipWithLink": {
+      "content": "Примените промокод для получения скидок. <a target='_blank' href='https://static.beeline.ru/upload/images/business/doc/ua_targetirovannye_sms_rassylki.pdf'>Полные условия акции</a>",
+      "type": "html"
+    },
+    "tooltip": {
+      "content": "Примените промокод для получения скидок",
+      "type": "html"
+    },
+    "label": {
+      "content": "Промокод",
+      "type": "string"
+    },
+    "placeholder": {
+      "content": "Введите промокод",
+      "type": "string"
+    },
+    "channelHasChangedMessage": {
+      "content": "Бриф был изменён, обновите промокод",
+      "type": "string"
+    },
+    "campaignHasChangedMessage": {
+      "content": "Кампания была отредактирована, обновите промокод",
+      "type": "string"
+    }
+  },
+  "ConfirmInn": {
+    "title": {
+      "content": "Оформление заявки",
+      "type": "string"
+    },
+    "description": {
+      "content": "Для запуска вашей первой кампании укажите следующее:",
+      "type": "string"
+    },
+    "company": {
+      "content": "Название компании",
+      "type": "string"
+    },
+    "inn": {
+      "content": "ИНН:",
+      "type": "string"
+    },
+    "lastName": {
+      "content": "Фамилия:",
+      "type": "string"
+    },
+    "name": {
+      "content": "Имя:",
+      "type": "string"
+    },
+    "middleName": {
+      "content": "Отчество:",
+      "type": "string"
+    },
+    "email": {
+      "content": "Email:",
+      "type": "string"
+    },
+    "checkInnText": {
+      "content": "Мы не можем проверить ваш ИНН. Пожалуйста, загрузите скан паспорта (2 и 3 страница + последняя прописка) в формате .png или .jpg (максимум 5 файлов)",
+      "type": "string"
+    },
+    "privacyPolicy": {
+      "content": "Я согласен на обработку моих персональных данных",
+      "type": "string"
+    },
+    "button": {
+      "content": "Подтверждение",
+      "type": "string"
+    },
+    "errorImg": {
+      "content": "https://static.beeline.ru/upload/images/marketing/icons/sad.png",
+      "type": "string"
+    },
+    "errorTitle": {
+      "content": "Ошибка",
+      "type": "string"
+    },
+    "errorDescription": {
+      "content": "При выполнении запроса возникла ошибка, повторите попытку позже",
+      "type": "string"
+    },
+    "errorButton": {
+      "content": "Ok",
+      "type": "string"
+    }
+  },
+  "ConfirmInnPrivate": {
+    "title": {
+      "content": "Заполните данные для физ. лица",
+      "type": "string"
+    },
+    "description": {
+      "content": "Для запуска рекламной кампании вам нужно оформить договор",
+      "type": "string"
+    },
+    "errorImg": {
+      "content": "https://static.beeline.ru/upload/images/marketing/icons/sad.png",
+      "type": "string"
+    },
+    "errorTitle": {
+      "content": "Ошибка",
+      "type": "string"
+    },
+    "errorDescription": {
+      "content": "При выполнении запроса возникла ошибка, повторите попытку позже",
+      "type": "string"
+    },
+    "errorButton": {
+      "content": "Ok",
+      "type": "string"
+    },
+    "button": {
+      "content": "Подтверждение",
+      "type": "string"
+    },
+    "docType": {
+      "content": "Тип документа:",
+      "type": "string"
+    },
+    "email": {
+      "content": "Email:",
+      "type": "string"
+    },
+    "inn": {
+      "content": "ИНН:",
+      "type": "string"
+    },
+    "issuedBy": {
+      "content": "Кем выдан:",
+      "type": "string"
+    },
+    "lastName": {
+      "content": "Фамилия:",
+      "type": "string"
+    },
+    "middleName": {
+      "content": "Отчество:",
+      "type": "string"
+    },
+    "name": {
+      "content": "Имя:",
+      "type": "string"
+    },
+    "privacyLink": {
+      "content": "https://static.beeline.ru/upload/images/business/2019-10-15_Soglasie.pdf",
+      "type": "string"
+    },
+    "privacyTitle": {
+      "content": "Я согласен на обработку моих персональных данных",
+      "type": "string"
+    },
+    "serialNumber": {
+      "content": "Серия и номер:",
+      "type": "string"
+    },
+    "pasportScan": {
+      "content": "Скан паспорта:",
+      "type": "string"
+    }
+  },
+  "CheckNumberModal": {
+    "title": {
+      "content": "Новый способ авторизации",
+      "type": "string"
+    },
+    "description": {
+      "content": "Хорошие новости для вас: с 13 июля для вашего удобства мы изменили способ авторизации – вы сможете быстро войти в личный кабинет по номеру телефона.\n\nПроверьте номер телефона в «Профиле» и самостоятельно отредактируйте поле «Телефон для связи».\n\nПосле 13 июля телефон можно будет скорректировать через экспертов по номеру 8-800-600-62-62.",
+      "type": "string"
+    },
+    "buttonText": {
+      "content": "Редактировать телефон",
+      "type": "string"
+    }
+  }
+}

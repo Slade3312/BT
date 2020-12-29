@@ -1,0 +1,106 @@
+@import "styles/constants.pcss";
+
+@keyframes showingUp {
+    0% {
+      bottom: 20px;
+      opacity: 0;
+    }
+
+    100% {
+      bottom: 0px;
+      opacity: 1;
+    }
+}
+
+@keyframes showingDown {
+    0% {
+      top: 20px;
+      opacity: 0;
+    }
+
+    100% {
+      top: 0px;
+      opacity: 1;
+    }
+}
+
+.stepLabel {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    color: #ffffff;
+}
+
+.active {
+    background: linear-gradient(0deg, #F7C441, #F7C441), #A1CE59;
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    font-family: var(--mainFontFamily);
+    font-size: 17px;
+    margin-bottom: 33px;
+    cursor: pointer
+}
+
+.inactive {
+    background: rgba(40, 40, 40, 0.2);
+}
+
+.completed {
+    background: #549A3B;
+    color: #ffffff;
+}
+
+.inactiveText {
+    color: rgba(40, 40, 40, 0.5);
+}
+
+.openedContainer {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.openUp {
+    animation: showingUp 1s ease;
+}
+
+.openDown {
+    animation: showingDown 1s ease;
+}
+
+.completedComponent {
+    width: 100%;
+}
+
+.completedMenuItem {
+    border-bottom: 3px solid #f2f2f2;;
+    margin-bottom: 50px;
+    align-items: baseline;
+}
+
+.completedContainer {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 50px;
+}
+
+.holder {
+    display: flex;
+    align-items: baseline;
+}
+
+.topLine {
+    border-top: 3px solid #f2f2f2;
+    padding-top: 50px;
+}
+
+.bottomLine {
+    border-bottom: 3px solid #f2f2f2;
+    padding-top: 50px;
+}

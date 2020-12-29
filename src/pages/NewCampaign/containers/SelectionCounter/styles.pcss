@@ -1,0 +1,56 @@
+@import "styles/constants.pcss";
+
+.link {
+  display: inline-block;
+  white-space: nowrap;
+  border-bottom: 1px solid currentColor;
+  transition: color 0.3s ease-out;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--activeColor);
+    transition: none;
+  }
+}
+
+.count {
+  font-weight: bold;
+  line-height: 32px;
+  font-size: 27px;
+}
+
+.countLabel {
+  font-size: 21px;
+  font-weight: normal;
+  line-height: 1.4285;
+}
+
+.error {
+  color: rgba(220, 0, 0, 0.8);
+  font-weight: bold;
+  line-height: 18px;
+  font-size: 18px;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loaderIcon {
+  display: block;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  animation: rotating 1.5s linear infinite;
+}
+
+.flexSpan span {
+  display: flex;
+}
